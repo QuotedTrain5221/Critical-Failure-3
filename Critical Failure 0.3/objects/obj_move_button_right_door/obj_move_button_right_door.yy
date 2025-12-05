@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_move_button_right_door",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_move_button_right_door",
   "overriddenProperties":[],

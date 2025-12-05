@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exit_camera",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_cam_zone_5",
+  "eventList":[],
   "managed":true,
-  "name":"obj_exit_camera",
+  "name":"obj_cam_zone_5",
   "overriddenProperties":[],
   "parent":{
-    "name":"Camera Buttons",
-    "path":"folders/Objects/obj Buttons/Camera Buttons.yy",
+    "name":"obj Zones",
+    "path":"folders/Objects/obj Zones.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_exit_camera",
-    "path":"sprites/spr_exit_camera/spr_exit_camera.yy",
+    "name":"spr_zone_5",
+    "path":"sprites/spr_zone_5/spr_zone_5.yy",
   },
   "spriteMaskId":null,
   "visible":true,

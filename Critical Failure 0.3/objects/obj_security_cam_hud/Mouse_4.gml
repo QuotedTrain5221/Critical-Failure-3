@@ -1,0 +1,1 @@
+global.current_cam = 9;
