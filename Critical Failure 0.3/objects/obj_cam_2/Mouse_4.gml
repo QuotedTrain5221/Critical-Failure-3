@@ -1,5 +1,5 @@
 // Camera 1 button Left Pressed Event
 with (obj_camera_controller)
 {
-    change_camera("cam2");
+    scr_change_camera("cam2");
 }

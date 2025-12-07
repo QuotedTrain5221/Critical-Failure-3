@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_cam_4_zone_4",
-    "path":"sprites/spr_cam_4_zone_4/spr_cam_4_zone_4.yy",
+    "name":"spr_cam_4",
+    "path":"sprites/spr_cam_4/spr_cam_4.yy",
   },
   "spriteMaskId":null,
   "visible":true,

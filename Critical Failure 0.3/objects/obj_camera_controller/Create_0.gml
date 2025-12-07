@@ -1,3 +1,4 @@
+show_debug_message("CREATED instance: " + object_get_name(object_index) + " id:" + string(id) + " time:" + string(current_time));
 // -------------------------
 // CAMERA TARGET POSITIONS
 // -------------------------

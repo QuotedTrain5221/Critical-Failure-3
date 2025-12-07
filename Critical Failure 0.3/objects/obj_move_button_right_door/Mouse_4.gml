@@ -1,5 +1,5 @@
 // rightdoor button move Left Pressed Event
 with (obj_camera_controller)
 {
-    change_camera("rightdoor");
+    scr_change_camera("rightdoor");
 }

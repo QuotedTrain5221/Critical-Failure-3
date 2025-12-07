@@ -6,8 +6,8 @@
   "name":"obj_cam_zone_7",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj Zones",
-    "path":"folders/Objects/obj Zones.yy",
+    "name":"Cam Zones",
+    "path":"folders/Objects/Cam Zones.yy",
   },
   "parentObjectId":null,
   "persistent":false,
