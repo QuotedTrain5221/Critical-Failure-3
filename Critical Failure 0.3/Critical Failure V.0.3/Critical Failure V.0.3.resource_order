@@ -68,6 +68,7 @@
     {"name":"obj_cam_zone_7","order":6,"path":"objects/obj_cam_zone_7/obj_cam_zone_7.yy",},
     {"name":"obj_cam_zone_8","order":7,"path":"objects/obj_cam_zone_8/obj_cam_zone_8.yy",},
     {"name":"obj_door_closed_left","order":1,"path":"objects/obj_door_closed_left/obj_door_closed_left.yy",},
+    {"name":"obj_door_controller","order":2,"path":"objects/obj_door_controller/obj_door_controller.yy",},
     {"name":"obj_door_controls_off_left","order":3,"path":"objects/obj_door_controls_off_left/obj_door_controls_off_left.yy",},
     {"name":"obj_door_controls_off_right","order":5,"path":"objects/obj_door_controls_off_right/obj_door_controls_off_right.yy",},
     {"name":"obj_door_controls_on_left","order":2,"path":"objects/obj_door_controls_on_left/obj_door_controls_on_left.yy",},
