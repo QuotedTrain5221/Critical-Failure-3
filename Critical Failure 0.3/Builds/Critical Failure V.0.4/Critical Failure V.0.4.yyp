@@ -69,6 +69,7 @@
   },
   "name":"Critical Failure V.0.4",
   "resources":[
+    {"id":{"name":"fnt_oxygen_large","path":"fonts/fnt_oxygen_large/fnt_oxygen_large.yy",},},
     {"id":{"name":"obj_amcd_00_prototype","path":"objects/obj_amcd_00_prototype/obj_amcd_00_prototype.yy",},},
     {"id":{"name":"obj_amcd_01_k9","path":"objects/obj_amcd_01_k9/obj_amcd_01_k9.yy",},},
     {"id":{"name":"obj_amcd_02_gwiber","path":"objects/obj_amcd_02_gwiber/obj_amcd_02_gwiber.yy",},},
@@ -117,7 +118,7 @@
     {"id":{"name":"obj_office","path":"objects/obj_office/obj_office.yy",},},
     {"id":{"name":"obj_open_camera","path":"objects/obj_open_camera/obj_open_camera.yy",},},
     {"id":{"name":"obj_options","path":"objects/obj_options/obj_options.yy",},},
-    {"id":{"name":"obj_oxygen_control_parent","path":"objects/obj_oxygen_control_parent/obj_oxygen_control_parent.yy",},},
+    {"id":{"name":"obj_oxygen_door_controller","path":"objects/obj_oxygen_door_controller/obj_oxygen_door_controller.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_quit","path":"objects/obj_quit/obj_quit.yy",},},
     {"id":{"name":"obj_right_door_button","path":"objects/obj_right_door_button/obj_right_door_button.yy",},},

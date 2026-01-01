@@ -85,7 +85,7 @@
     {"name":"obj_move_button_right_door","order":1,"path":"objects/obj_move_button_right_door/obj_move_button_right_door.yy",},
     {"name":"obj_open_camera","order":9,"path":"objects/obj_open_camera/obj_open_camera.yy",},
     {"name":"obj_options","order":1,"path":"objects/obj_options/obj_options.yy",},
-    {"name":"obj_oxygen_control_parent","order":2,"path":"objects/obj_oxygen_control_parent/obj_oxygen_control_parent.yy",},
+    {"name":"obj_oxygen_door_controller","order":2,"path":"objects/obj_oxygen_door_controller/obj_oxygen_door_controller.yy",},
     {"name":"obj_quit","order":3,"path":"objects/obj_quit/obj_quit.yy",},
     {"name":"obj_right_door_button","order":4,"path":"objects/obj_right_door_button/obj_right_door_button.yy",},
     {"name":"obj_right_door_closed_up_close","order":2,"path":"objects/obj_right_door_closed_up_close/obj_right_door_closed_up_close.yy",},
