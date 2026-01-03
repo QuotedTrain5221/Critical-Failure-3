@@ -71,11 +71,6 @@
   "name":"Critical Failure V.0.4.5",
   "resources":[
     {"id":{"name":"fnt_oxygen_large","path":"fonts/fnt_oxygen_large/fnt_oxygen_large.yy",},},
-    {"id":{"name":"obj_amcd_00_prototype","path":"objects/obj_amcd_00_prototype/obj_amcd_00_prototype.yy",},},
-    {"id":{"name":"obj_amcd_01_k9","path":"objects/obj_amcd_01_k9/obj_amcd_01_k9.yy",},},
-    {"id":{"name":"obj_amcd_02_gwiber","path":"objects/obj_amcd_02_gwiber/obj_amcd_02_gwiber.yy",},},
-    {"id":{"name":"obj_amcd_03_bulker","path":"objects/obj_amcd_03_bulker/obj_amcd_03_bulker.yy",},},
-    {"id":{"name":"obj_amcd_04_arach","path":"objects/obj_amcd_04_arach/obj_amcd_04_arach.yy",},},
     {"id":{"name":"obj_back_vent_button","path":"objects/obj_back_vent_button/obj_back_vent_button.yy",},},
     {"id":{"name":"obj_back_vent_closed_up_close","path":"objects/obj_back_vent_closed_up_close/obj_back_vent_closed_up_close.yy",},},
     {"id":{"name":"obj_back_vent_front_view","path":"objects/obj_back_vent_front_view/obj_back_vent_front_view.yy",},},
