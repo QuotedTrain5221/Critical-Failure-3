@@ -1,0 +1,1 @@
+//if vent 2 door is open then attack else ready attack is false
