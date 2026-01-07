@@ -28,3 +28,10 @@ if !watched{alarm[2] = 5;}
 //while enemy is in attack zone and door is open, alarm = (time taken to attack)
 
 //while enemy is in attack zone and door is closed, alarm 2 = (time taken to attack)
+
+//if door is closed, enemy has a high chance of moving backwards.
+
+if global.door_left_open = false, enemy_zone =
+}
+
+if global.door_right_open = false
