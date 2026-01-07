@@ -4,20 +4,31 @@
 
    // enemy_zone = choose(forwards/back positition); // interior zones
 
-direc = choose(1,2,3,4,5,6,7,8,9,10)
-
-if direc >= 7
-{
+if global.enemy_zone_gwiber = 3{
+	if !forward{choose( global.enemy_zone_gwiber = 2, global.enemy_zone_gwiber = 5);} //If BACKWARDS
+	
+	if forward{
+		if global.door_left_open{
+			global.enemy_zone_gwiber = 0;
+		}
+		if !global.door_left_open{
+			choose( global.enemy_zone_gwiber = 2, global.enemy_zone_gwiber = 5);
+		}
 	}
-if direc <= 6 
-{
-	}
-
-if  global.current_zone = 2
-{ choose( global.current_zone = 3, global.current_zone = 6);}
 
 
 
+}
 
- //if on camera 1 (if forwards selected, move to camera 2, if backwards selected move to camera 3)
-	//if on camera 2 (if forwards selected, move to camera 4, if backwards selected move to camera 5)
+if global.enemy_zone_gwiber = 2{
+	choose(global.enemy_zone_gwibere = 6, global.enemy_zone_gwiber = 3);
+}
+
+
+if global.enemy_zone_gwiber = 4{
+	global.enemy_zone_gwiber = 5;
+}
+
+if global.enemy_zone_gwiber = 5{
+	global.enemy_zone_gwiber = 3;
+}

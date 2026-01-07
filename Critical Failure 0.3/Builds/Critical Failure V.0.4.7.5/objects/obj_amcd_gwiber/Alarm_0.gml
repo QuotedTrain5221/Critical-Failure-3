@@ -2,14 +2,17 @@
 //while loop keeps repeating in which the spped of their attack until they go else where.
 
 direce = choose (1,2,3,4,5,6,7,8,9,10)
+decided = false;
 
 if direce >= 7
-{
+{forward = false
+	decided = true;
 	}
-if direce <= 8
-{
+if direce <= 6
+{forward = true
+	decided = true
 	}
 
-if  global.current_zone = 2
-{ choose( global.current_zone = 3, global.current_zone = 6);}
-
+if decided = true{
+alarm[2] = 1;
+}
