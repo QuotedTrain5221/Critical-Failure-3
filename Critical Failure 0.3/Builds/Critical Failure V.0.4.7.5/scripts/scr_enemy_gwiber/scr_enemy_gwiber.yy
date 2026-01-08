@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"spr_enemy_gwiber",
+  "%Name":"scr_enemy_gwiber",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"spr_enemy_gwiber",
+  "name":"scr_enemy_gwiber",
   "parent":{
     "name":"Scripts",
     "path":"folders/Scripts.yy",

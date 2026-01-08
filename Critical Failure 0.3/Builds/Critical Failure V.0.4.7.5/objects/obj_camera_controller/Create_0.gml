@@ -12,13 +12,10 @@ show_debug_message("CREATED instance: " + object_get_name(object_index) + " id:"
 cam_x = [];
 cam_y = [];
 
-// --- Main Office ---
+//Main Office
 cam_x[0] = 5215;  cam_y[0] = 2910;
 
-// --- Tablet UI ---
-cam_x[1] = 7890;  cam_y[1] = 875;
-
-// --- Cameras 1–8 ---
+//gwiber zones 1–8
 cam_x[2] = 1025;    cam_y[2] = 735;
 cam_x[3] = 1023;    cam_y[3] = 2908;
 cam_x[4] = 5220;  cam_y[4] = 1758;
