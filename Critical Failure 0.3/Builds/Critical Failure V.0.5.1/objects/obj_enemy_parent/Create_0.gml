@@ -1,6 +1,6 @@
 global.current_zone = 0
 
-enemy_name = "TEST ENEMY";
+enemy_name = "ENEMY";
 
 enemy_zone = 2;
 move_timer = irandom_range(120, 240);

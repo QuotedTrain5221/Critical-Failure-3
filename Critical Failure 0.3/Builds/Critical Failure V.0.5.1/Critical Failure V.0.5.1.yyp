@@ -132,6 +132,7 @@
     {"id":{"name":"rm_office","path":"rooms/rm_office/rm_office.yy",},},
     {"id":{"name":"scr_change_camera","path":"scripts/scr_change_camera/scr_change_camera.yy",},},
     {"id":{"name":"scr_enemy_movement","path":"scripts/scr_enemy_movement/scr_enemy_movement.yy",},},
+    {"id":{"name":"scr_enemy_zone_pos","path":"scripts/scr_enemy_zone_pos/scr_enemy_zone_pos.yy",},},
     {"id":{"name":"snd_start_up_screen","path":"sounds/snd_start_up_screen/snd_start_up_screen.yy",},},
     {"id":{"name":"spr_amcd_00_prototype","path":"sprites/spr_amcd_00_prototype/spr_amcd_00_prototype.yy",},},
     {"id":{"name":"spr_amcd_01_k9","path":"sprites/spr_amcd_01_k9/spr_amcd_01_k9.yy",},},

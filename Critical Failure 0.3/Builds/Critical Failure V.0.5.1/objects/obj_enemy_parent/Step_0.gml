@@ -1,33 +1,33 @@
-show_debug_message("ENEMY STEP RUNNING");
+show_debug_message("enemy event is running");
 
 
-// WATCHED CHECK
+// check if watched
 is_watched = (enemy_zone == global.current_zone)
 
 
-// TIMED MOVEMENT
+// timed movement
 if (!is_watched && !at_office)
 {
     move_timer--;
 
     if (move_timer <= 0)
     {
-        // Example random camera move (2–9)
+        //camera move (2–9)
         var enemy_pos = irandom_range(1, 9);
 
-        // Prevent same-zone move
+        // no copied movement
         if (enemy_zone != enemy_zone)
         {
             enemy_zone = enemy_pos
         }
 
-        // Reset timer
+        //Reset timer
         move_timer = irandom_range(move_delay_min, move_delay_max);
     }
 }
 else
 {
-    // Enemy is being watched and enemy being delayed
+    // Enemy is being watched and then the enemies movement is delayed
     move_timer = max(move_timer, 30);
 }
 
