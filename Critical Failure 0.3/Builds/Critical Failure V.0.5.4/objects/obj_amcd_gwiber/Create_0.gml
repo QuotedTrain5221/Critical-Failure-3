@@ -13,4 +13,3 @@ global.gwiberpos = global.current_zone;
 
 global.gwiberpos = true;
 
-gwiberpos = global.gwiberpos;
