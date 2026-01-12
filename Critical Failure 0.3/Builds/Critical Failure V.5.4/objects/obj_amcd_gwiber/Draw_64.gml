@@ -1,0 +1,1 @@
+//aw_text(y:32,x:100 string (global.gwiberpos)
