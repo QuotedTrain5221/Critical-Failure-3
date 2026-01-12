@@ -1,17 +1,16 @@
 amcd_id = 2;
 amcd_name = "Gwiber|"
 
-move_timer = 200
-move_timer_max = 220; //optional code irandom_range(3000, 6000)
-move_delay_timer = 400;//Delay Gwiber's movement when changing zones when watched
+move_time_seconds = 600; //time until alarm trigger(seconds)
+move_time_mill = 600; //time until alarm trigger(milliseconds)
 
-
+alarm[0] = 100;
 
 
 //amcd state
-global.gwiberwatched = global.current_zone
+global.gwiberwatched = global.gwiberpos
+global.gwiberpos = global.current_zone;
 
+global.gwiberpos = true;
 
-global.gwiberpos = true
-
-gwiberpos = global.gwiberpos
+gwiberpos = global.gwiberpos;

@@ -1,45 +1,35 @@
-// Set forwards and backwards
-
-if global.gwiberpos = 1
-if forward = global.gwiberpos = 2
-if !forward = global.gwiberpos = 5
-
-
-if global.gwiberpos = 3
-if forward = global.gwiberpos = 2
-if !forward = global.gwiberpos = 4
-
-if global.gwiberpos = 4
-if forward = global.gwiberpos = 3
-
-if global.gwiberpos = 5
-if forward = global.gwiberpos = 1
-
-
-
-//Countdown
-move_timer--;
-
 show_debug_message("amcd gwiber alarm event functioning");
 
-// Delay movement if amcd is being watched
-if (global.gwiberwatched = true)
-{
-    move_timer = move_delay_timer
-}
+//Gwiber Movement /watched
 
 
 
-//GWiber Zone check and Movement
+//Gwiber Zone check and Movement
+if (global.gwiberpos = 1)
+if (forward = global.gwiberpos = 2)
+if (!forward = global.gwiberpos = 5)
+
+
+if (global.gwiberpos = 3)
+if (forward = global.gwiberpos = 2)
+if (!forward = global.gwiberpos = 4)
+
+if (global.gwiberpos = 4)
+if (forward = global.gwiberpos = 3)
+
+if (global.gwiberpos = 5)
+if (forward = global.gwiberpos = 1)
+
+
 
 
 // Zone 1 move options
-if (move_timer = 0){
+if (move_time_seconds = 0){
 	
-   if global.gwiberpos = 1{
+   if (global.gwiberpos) = 1{
 	   if forward {global.gwiberpos = 2}
    }
-	  else global.gwiberpos = 5
+	  if !forward {global.gwiberpos = 5}
 	  
    }
 	   
@@ -48,38 +38,39 @@ if (move_timer = 0){
     {
 
     //Reset movement timer
-    move_timer = move_timer_max;
+    move_time_seconds = 10
    }
 
 
 
 // Zone 2 move options
-if (move_timer = 0){
+if (move_time_seconds = 0){
 	
-   if global.gwiberpos = 2{
+   if (global.gwiberpos) = 2{
 	   if forwards {if global.door_left_open{
-	global.gwiberpos = 0}
+	(global.gwiberpos) = 0}
 		   
 	   }
-		   if global.door_left_open = false{
+		   if (global.door_left_open) = false{
 		    choose(1,4)}
 
         show_debug_message(amcd_name + " moved zone " + string(global.gwiberpos));
     }
 
     //Reset movement timer
-    move_timer = move_timer_max;
+    if !move_time_seconds = 0
+	move_time_mill = -1
    }
    
    
    
 // Zone 3 move options
-if (move_timer = 0){
+if (move_time_seconds = 0){
 	
-   if global.gwiberpos = 3{
+   if (global.gwiberpos) = 3{
 	   if forward {global.gwiberpos = 2}
    }
-	  else global.gwiberpos = 4
+	  else (global.gwiberpos) = 4
 	  
    }
 	   
@@ -88,15 +79,15 @@ if (move_timer = 0){
     {
 
     //Reset movement timer
-    move_timer = move_timer_max;
+    move_time_seconds = 10
    }
    
    
    
    // Zone 4 move options
-if (move_timer = 0){
+if (move_time_seconds = 0){
 	
-   if global.gwiberpos = 4{
+   if (global.gwiberpos) = 4{
 	   if forward {global.gwiberpos = 3}
    }
 
@@ -108,16 +99,16 @@ if (move_timer = 0){
     {
 
     //Reset movement timer
-    move_timer = move_timer_max;
+    move_time_seconds = 10
    }
    
    
    
    
 // Zone 5 move options
-if (move_timer = 0){
+if (move_time_seconds = 0){
 	
-   if global.gwiberpos = 5{
+   if (global.gwiberpos) = 5{
 	   if forward {global.gwiberpos = 1}
    }
 
@@ -129,5 +120,5 @@ if (move_timer = 0){
     {
 
     //Reset movement timer
-    move_timer = move_timer_max;
+    move_time_seconds = 10
    }

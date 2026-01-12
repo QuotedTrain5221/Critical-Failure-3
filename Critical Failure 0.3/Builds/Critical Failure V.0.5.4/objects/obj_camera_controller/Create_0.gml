@@ -33,5 +33,5 @@ global.current_zone = 0;
 //Optional: smooth camera movement
 smooth_amount = 0.15;
 
-
+global.enemy_zones = true
 

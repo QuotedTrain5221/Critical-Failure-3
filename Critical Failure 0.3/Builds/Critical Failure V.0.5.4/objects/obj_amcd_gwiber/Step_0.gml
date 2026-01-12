@@ -1,49 +1,57 @@
 show_debug_message("Gwiber Step Event Functioning");
 
 
+{
+if move_time_seconds = -1 
+move_time_seconds = 600
+	move_time_mill -= 1
+	
+	
+if move_time_mill = -1
+move_time_mill = 600
+move_time_seconds -=1
+}
+
+if global.gwiberpos = global.current_zone = true {global.gwiberwatched = true}
+if global.gwiberwatched = true & move_time_seconds = 0 & move_time_mill = 0{alarm [0] = 200} //longer Time
+if global.gwiberwatched = false & move_time_seconds = 0 & move_time_mill = 0{alarm [0] = 100}//Shorter Time
 
 
-if global.gwiberpos = global.current_zone{global.gwiberwatched = true}
 
-if global.gwiberwatched = true{alarm [0] =100}// Longer Time
-
-if global.gwiberwatched =false{alarm [0] =50}// Shorter Time
-
-
-if global.gwiberpos = 0
+if global.gwiberpos = 0 & global.current_zone
 x = 5215//cords for office zone 0
 y = 2910//cords for office zone 0
 
 
-if global.gwiberpos = 1
+if global.gwiberpos = 1 & global.current_zone
 x = 1025//cords for camera zone 1
 y = 735//cords for camera zone 1
 
-if global.gwiberpos = 2
+if global.gwiberpos = 2 & global.current_zone
 x = 1023//cords for camera zone 2
 y = 2908//cords for camera zone 2
 
-if global.gwiberpos = 3
+if global.gwiberpos = 3 & global.current_zone
 x = 5220//cords for camera zone 3
 y = 1758//cords for camera zone 3
 
-if global.gwiberpos = 4
+if global.gwiberpos = 4 & global.current_zone
 x = 3184//cords for camera zone 4
 y = 618//cords for camera zone 4
 
-if global.gwiberpos = 5
+if global.gwiberpos = 5 & global.current_zone
 x = 988//cords for camera zone 5
 y = 1768//cords for camera zone 5
 
-if global.gwiberpos = 6
+if global.gwiberpos = 6 & global.current_zone
 x = 3166//cords for camera zone 6
 y = 2918//cords for camera zone 6
 
-if global.gwiberpos = 7
+if global.gwiberpos = 7 & global.current_zone
 x = 2205//cords for camera zone 7
 y = 2365//cords for camera zone 7
 
-if global.gwiberpos = 8
+if global.gwiberpos = 8 & global.current_zone
 x = 3184//cords for camera zone 8
 y = 1764//cords for camera zone 8
 
