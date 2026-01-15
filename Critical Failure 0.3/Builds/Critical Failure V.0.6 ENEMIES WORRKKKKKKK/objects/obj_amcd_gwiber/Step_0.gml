@@ -11,24 +11,24 @@ move_time_seconds -=1
 
 if global.gwiberwatched{
 	if move_time_seconds = -1 {
-		move_time_seconds = 400 
+		move_time_seconds = 600 
 		move_time_mill -= 1
 }
 
 	if move_time_mill = -1 {
-		move_time_mill = 100
+		move_time_mill = 600
 		move_time_seconds -=1
 }
 }
 
 if !global.gwiberwatched{
 	if move_time_seconds = -1 {
-		move_time_seconds = 200 
+		move_time_seconds = 400
 		move_time_mill -= 1
 }
 
 	if move_time_mill = -1 {
-		move_time_mill = 200
+		move_time_mill = 400
 		move_time_seconds -=1
 }
 }
@@ -84,7 +84,7 @@ if global.gwiberpos = 4 { //cam 4
    if global.gwiberpos = 2{
 	   if forward {if global.door_left_open{
 	global.gwiberpos = 0}
-		   
+	
 	  }
 		   if global.door_left_open = false{
 		    choose(global.gwiberpos = 1,global.gwiberpos = 3)}

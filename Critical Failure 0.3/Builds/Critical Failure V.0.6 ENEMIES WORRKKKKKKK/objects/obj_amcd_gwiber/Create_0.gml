@@ -1,8 +1,8 @@
 amcd_id = 2;
 amcd_name = "Gwiber|"
 
-move_time_seconds = 100; //time until alarm trigger(seconds)
-move_time_mill = 100; //time until alarm trigger(milliseconds)
+move_time_seconds = 400; //time until alarm trigger(seconds)
+move_time_mill = 400; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
 //start_move_sec = 400
