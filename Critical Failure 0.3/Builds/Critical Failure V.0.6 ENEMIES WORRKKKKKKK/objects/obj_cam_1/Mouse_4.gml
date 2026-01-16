@@ -3,3 +3,5 @@ with (obj_camera_controller)
 {
     scr_change_camera("cam1");
 }
+
+audio_play_sound_ext({ sound: snd_click_camera });

@@ -14,8 +14,8 @@
   "exportDir":"",
   "name":"snd_start_up_screen",
   "parent":{
-    "name":"Sounds",
-    "path":"folders/Sounds.yy",
+    "name":"Rooms",
+    "path":"folders/Sounds/Rooms.yy",
   },
   "preload":false,
   "resourceType":"GMSound",
