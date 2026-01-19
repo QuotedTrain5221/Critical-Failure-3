@@ -69,20 +69,7 @@ show_debug_message("amcd gwiber alarm event functioning");
 
 // Zone 0 movement options
 
-  if global.gwiberpos = 0 { if global.door_left_open = true
-	  alarm[0] = 2;
-  if forward {if global.door_left_open = true{
-	  global.gwiberpos = 0 movedirection = 0; move_time_seconds = 600;}
-	  else{ waiting = true
- 
-  } 
-  
-   if !forward {if global.door_left_open = false
-	   global.gwiberpos = 0 jump_scare_timer -=1 }	if jump_scare_timer >=0 {
-	instance_create_layer(0,0,1,obj_gwiber_jump_scare);
-audio_play_sound_ext({ sound: snd_gwiber_jump_scare });
-}	
-		}
+
 
 
 

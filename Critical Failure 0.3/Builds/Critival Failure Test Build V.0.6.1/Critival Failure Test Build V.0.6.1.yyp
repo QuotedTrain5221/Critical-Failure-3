@@ -81,7 +81,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Critival Failure Test Build V.0.6.1",
   "resources":[
@@ -149,6 +149,8 @@
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"id":{"name":"rm_office","path":"rooms/rm_office/rm_office.yy",},},
     {"id":{"name":"scr_change_camera","path":"scripts/scr_change_camera/scr_change_camera.yy",},},
+    {"id":{"name":"snd_AMCD_LEFT","path":"sounds/snd_AMCD_LEFT/snd_AMCD_LEFT.yy",},},
+    {"id":{"name":"snd_AMCD1_Identified","path":"sounds/snd_AMCD1_Identified/snd_AMCD1_Identified.yy",},},
     {"id":{"name":"snd_click_camera","path":"sounds/snd_click_camera/snd_click_camera.yy",},},
     {"id":{"name":"snd_close_camera","path":"sounds/snd_close_camera/snd_close_camera.yy",},},
     {"id":{"name":"snd_close_door_vent","path":"sounds/snd_close_door_vent/snd_close_door_vent.yy",},},
