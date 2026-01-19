@@ -25,7 +25,6 @@ if waiting {
 
 
 
-
 	//if global.gwiberpos = global.current_zone {global.gwiberwatched = true}
 
 
@@ -68,23 +67,13 @@ show_debug_message("amcd gwiber alarm event functioning");
 //Gwiber Zone check and Movement
 
 // Zone 0 movement options
-
-  if global.gwiberpos = 0 { if global.door_left_open = true
-	  alarm[0] = 2;
-  if forward {if global.door_left_open = true{
-	  global.gwiberpos = 0 movedirection = 0; move_time_seconds = 600;}
-	  else{ waiting = true
- 
-  } 
-  
-   if !forward {if global.door_left_open = false
-	   global.gwiberpos = 0 jump_scare_timer -=1 }	if jump_scare_timer >=0 {
-	instance_create_layer(0,0,1,obj_gwiber_jump_scare);
-audio_play_sound_ext({ sound: snd_gwiber_jump_scare });
-}	
-		}
-
-
+if global.gwiberpos = 0 {
+  if global.gwiberpos = 0 and global.door_left_open = false
+	alarm[3] = 300
+}
+   if global.gwiberpos = 0 and global.door_left_open = true {
+alarm[1] = 500
+}
 
 	
 
@@ -92,6 +81,7 @@ audio_play_sound_ext({ sound: snd_gwiber_jump_scare });
 		
 		
 // Zone 1 movement options
+{
 if global.gwiberpos = 1 { //cam 1
     alarm[0] = 2; 
       if forward {global.gwiberpos = 2

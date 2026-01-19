@@ -21,7 +21,7 @@ global.gwiberpos = 4;
 
 // Gwiber Jump-Scare
 
-jump_scare_timer = 700
+jump_scare_timer = 400
 
-jump_scare_active = false
+
 

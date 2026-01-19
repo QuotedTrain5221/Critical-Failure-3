@@ -6,7 +6,6 @@ draw_text(
 draw_text(100,50,waiting)
 draw_text(100,100,wait_timer)
 draw_text(100,150,forward)
-draw_text(100, 25, jump_scare_active)
 draw_text(100, 15, jump_scare_timer)
  
  
