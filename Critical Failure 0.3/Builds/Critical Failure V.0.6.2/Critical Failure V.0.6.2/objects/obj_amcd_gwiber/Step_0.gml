@@ -61,7 +61,7 @@ else if movedirection >= 6{forward = false;}
 if move_time_seconds = 0 or move_time_mill = 0 {
 
 show_debug_message("amcd gwiber alarm event functioning");
-
+}
 }
 
 //Gwiber Zone check and Movement
@@ -76,9 +76,9 @@ if global.door_left_open = true
 	alarm[1] = 500}
 }
 	if global.door_left_open = false {
-	waiting = true
-	}
-	if wait_timer = 0{
+	jump_scare_timer = 400
+	jump_scare_timer -=1
+	if jump_scare_timer = 0{
 	alarm[3] = 300}
 }
 		
