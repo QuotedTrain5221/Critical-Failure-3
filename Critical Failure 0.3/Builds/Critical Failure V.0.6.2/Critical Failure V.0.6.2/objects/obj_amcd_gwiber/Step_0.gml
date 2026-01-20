@@ -69,16 +69,13 @@ show_debug_message("amcd gwiber alarm event functioning");
 // Zone 0 movement options
 {
 if global.gwiberpos = 0 {
-if global.door_left_open = true
 	jump_scare_timer = 400
 	jump_scare_timer -=1
-	if jump_scare_timer = 0{
+if jump_scare_timer = 0 and global.door_left_open = true
+{
 	alarm[1] = 500}
-}
-	if global.door_left_open = false {
-	jump_scare_timer = 400
-	jump_scare_timer -=1
-	if jump_scare_timer = 0{
+
+	if jump_scare_timer = 0 and global.door_left_open = false   {
 	alarm[3] = 300}
 }
 		
@@ -99,18 +96,23 @@ if global.gwiberpos = 1 { //cam 1
 
 if global.gwiberpos = 3 { //cam 3
    alarm[0] = 2; 
-	if forward {global.gwiberpos = 4; movedirection = 0; move_time_seconds = 600; 
+	//if move timer = 0{
+	if forward and readytomove {global.gwiberpos = 4; movedirection = 0; move_time_seconds = 600; 
+		readytomove = false;
 	}
-	if !forward{global.gwiberpos = 2; movedirection = 0; move_time_seconds = 600;
+	if !forward and readytomove{global.gwiberpos = 2; movedirection = 0; move_time_seconds = 600;
+		readytomove = false;
 	}
 }
 
 if global.gwiberpos = 4 { //cam 4
     alarm[0] = 2;
     
-	if forward {global.gwiberpos = 3; movedirection = 0; move_time_seconds = 600;
+	if forward and readytomove {global.gwiberpos = 3; movedirection = 0; move_time_seconds = 600;
+		readytomove = false;
 	}
-	if !forward{global.gwiberpos = 4; movedirection = 0; move_time_seconds = 600;
+	if !forward and readytomove{global.gwiberpos = 4; movedirection = 0; move_time_seconds = 600;
+	readytomove = false;
 	}
 
 }
@@ -119,14 +121,16 @@ if global.gwiberpos = 4 { //cam 4
    if global.gwiberpos = 2{
     show_debug_message("timer set to " + string(move_time_seconds))
     alarm[0] = 2;
-    if forward {if global.door_left_open{
-	   global.gwiberpos = 0;movedirection = 0; move_time_seconds = 600; show_debug_message("moving to 0")}
+    if forward and readytomove{if global.door_left_open{
+	   global.gwiberpos = 0;movedirection = 0; move_time_seconds = 600; show_debug_message("moving to 0")
+	   readytomove = false;}
 	   else{
         waiting = true;}
     }
-    if !forward {
+    if !forward and readytomove{
         choose(global.gwiberpos = 1,global.gwiberpos = 3)
         movedirection = 0; move_time_seconds = 600;
+		readytomove = false;
     }  
 
         show_debug_message(amcd_name + " moved zone " + string(global.gwiberpos))};  
