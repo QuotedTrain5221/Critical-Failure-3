@@ -27,4 +27,4 @@ readytomove = true
 
 
 alarm [3] = 300
-alarm [1] = 500
+alarm[1] = 500

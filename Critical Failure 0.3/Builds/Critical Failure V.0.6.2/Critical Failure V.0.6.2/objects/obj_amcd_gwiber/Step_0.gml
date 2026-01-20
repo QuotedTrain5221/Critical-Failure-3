@@ -1,9 +1,27 @@
-//show_debug_message("Gwiber Step Event Functioning");
+show_debug_message("Gwiber Step Event Functioning");
 
-if global.current_zone = global.gwiberpos +1{
-	global.gwiberwatched = true
-}
-else {global.gwiberwatched = false}
+//if global.current_zone = global.gwiberpos + 1{
+	//global.gwiberwatched = true
+//}
+//else {global.gwiberwatched = false}
+
+
+
+
+
+//	if global.gwiberpos = global.current_zone {global.gwiberwatched = true}
+
+
+//if global.gwiberwatched{
+//	if move_time_seconds = -1 {
+	//	move_time_seconds = 600 
+		//move_time_mill -= 1
+//}
+
+	//if move_time_mill = -1 {
+		//move_time_mill = 600
+		//move_time_seconds -=1
+
 
 if !waiting{
     move_time_seconds -=1}
@@ -22,52 +40,26 @@ if waiting {
 }
 
 
+if !global.gwiberwatched{
+if move_time_seconds = -1 {
+		move_time_seconds = 400
+		move_time_mill -= 1
+}
 
+;	if move_time_mill = -1 {
+		move_time_mill = 400
+		move_time_seconds -=1
+}
+}
 
-
-	//if global.gwiberpos = global.current_zone {global.gwiberwatched = true}
-
-
-//if global.gwiberwatched{
-	//if move_time_seconds = -1 {
-		//move_time_seconds = 600 
-		//move_time_mill -= 1
-//}
-//
-	//if move_time_mill = -1 {
-		//move_time_mill = 600
-		//move_time_seconds -=1
-//}
-//}
-//
-//if !global.gwiberwatched{
-	//if move_time_seconds = -1 {
-		//move_time_seconds = 400
-		//move_time_mill -= 1
-//}
-//
-	//if move_time_mill = -1 {
-		//move_time_mill = 400
-		//move_time_seconds -=1
-//}
-
-//}
 {
 if movedirection !=0 {
 if movedirection <= 5{forward = true;} //6/10 forward vice versa
 else if movedirection >= 6{forward = false;}
 }
 
-if move_time_seconds = 0 or move_time_mill = 0 {
-
-show_debug_message("amcd gwiber alarm event functioning");
-}
-}
-
-//Gwiber Zone check and Movement
-
-// Zone 0 movement options
-{
+if move_time_seconds = 0 or move_time_mill = 0 {{
+	
 if global.gwiberpos = 0 {
 	jump_scare_timer = 400
 	jump_scare_timer -=1
@@ -82,21 +74,20 @@ if jump_scare_timer = 0 and global.door_left_open = true
 		
 		
 // Zone 1 movement options
-{
+if move_time_seconds = 0{
 if global.gwiberpos = 1 { //cam 1
     alarm[0] = 2; 
       if forward {global.gwiberpos = 2
            movedirection = 0; move_time_seconds = 600; show_debug_message("moving to 2")
       }
-  	  if !forward{global.gwiberpos = 5;
-          movedirection = 0; move_time_seconds = 600;
+  	  if !forward{global.gwiberpos = 5 movedirection = 0; move_time_seconds = 600;
   	  }
 }
 
 
 if global.gwiberpos = 3 { //cam 3
    alarm[0] = 2; 
-	//if move timer = 0{
+	if move move_time_seconds = 0
 	if forward and readytomove {global.gwiberpos = 4; movedirection = 0; move_time_seconds = 600; 
 		readytomove = false;
 	}
@@ -147,6 +138,15 @@ if global.gwiberpos = 4 { //cam 4
     
 
 }
+    
+show_debug_message("amcd gwiber alarm event functioning");
+}
+}
+
+//Gwiber Zone check and Movement
+
+// Zone 0 movement options
+
 
 
 
