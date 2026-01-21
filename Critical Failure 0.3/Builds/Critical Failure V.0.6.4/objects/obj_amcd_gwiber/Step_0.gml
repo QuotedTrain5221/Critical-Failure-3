@@ -57,7 +57,7 @@ if move_time_mill >= -1 {
 // NON KILL STATE MOVEMENT
 
 if move_time_mill <= 0{
-move_time_mill = 800
+move_time_mill = 1000
 alarm[5] = 2
 }
     
