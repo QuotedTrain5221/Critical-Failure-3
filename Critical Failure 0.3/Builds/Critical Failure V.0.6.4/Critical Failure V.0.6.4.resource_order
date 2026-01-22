@@ -66,7 +66,7 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_amcd_gwiber","order":6,"path":"objects/obj_amcd_gwiber/obj_amcd_gwiber.yy",},
-    {"name":"obj_amcd_k9","order":12,"path":"objects/obj_amcd_k9/obj_amcd_k9.yy",},
+    {"name":"obj_amcd_k9","order":5,"path":"objects/obj_amcd_k9/obj_amcd_k9.yy",},
     {"name":"obj_back_vent_open","order":1,"path":"objects/obj_back_vent_open/obj_back_vent_open.yy",},
     {"name":"obj_cam_2","order":1,"path":"objects/obj_cam_2/obj_cam_2.yy",},
     {"name":"obj_cam_3","order":2,"path":"objects/obj_cam_3/obj_cam_3.yy",},
