@@ -5,18 +5,17 @@ amcd_name = "K9|"
 move_time_mill = 300; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
-//start_move_sec = 400
-//start_move_mill = 400
+
 
 forward = true
 
 //amcd state
 global.k9watched = false
 
-//global.gwiberpos = global.current_zone; // The Issue!
+
 global.k9pos = 5;
 
-// Gwiber Jump-Scare
+// K9 Jump-Scare
 
 jump_scare_timer = 350
 corridordirection = 3

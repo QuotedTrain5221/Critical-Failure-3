@@ -72,11 +72,11 @@ show_debug_message("amcd gwiber alarm event functioning");
 if global.gwiberpos = 0 
 x = 30//cords for office zone 0
 y = 576//cords for office zone 0
-if jump_scare_timer = 0{
-(instance_exists(gwiberjumpscare))
-    gwiberjumpscare.sprite_index =
-   global.gwiberkillstate ? spr_gwiber_jump_scare : spr_right_door_closed_up_close;
-}
+//if jump_scare_timer = 0{
+//(instance_exists(gwiberjumpscare))
+   // gwiberjumpscare.sprite_index =
+   //global.gwiberkillstate ? spr_gwiber_jump_scare : spr_right_door_closed_up_close;
+//}
 }
 
 {

@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj Menu Buttons",
-    "path":"folders/Objects/obj Buttons/obj Menu Buttons.yy",
+    "path":"folders/Objects/obj Buttons/Screen Buttons/obj Menu Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_help",
-    "path":"sprites/spr_help/spr_help.yy",
+    "name":"spr_controls",
+    "path":"sprites/spr_controls/spr_controls.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -9,5 +9,3 @@ if move_time_mill <10{movetime+= ""+string(move_time_mill)}
 
 
 draw_text(0,0,movetime)}
-
-//if global.gwiberpos = 1{draw gwiber in cam 1 or smth idk}

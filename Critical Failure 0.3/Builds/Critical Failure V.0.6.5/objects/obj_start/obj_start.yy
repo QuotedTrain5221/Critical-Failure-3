@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_start",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_start",
   "overriddenProperties":[],
   "parent":{
     "name":"obj Menu Buttons",
-    "path":"folders/Objects/obj Buttons/obj Menu Buttons.yy",
+    "path":"folders/Objects/obj Buttons/Screen Buttons/obj Menu Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
