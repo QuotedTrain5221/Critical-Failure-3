@@ -11,6 +11,7 @@
   "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Animation Curves","folderPath":"folders/Animation Curves.yy","name":"Animation Curves","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Camera Buttons","folderPath":"folders/Camera Buttons.yy","name":"Camera Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Extensions","folderPath":"folders/Extensions.yy","name":"Extensions","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Fonts","folderPath":"folders/Fonts.yy","name":"Fonts","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Global","folderPath":"folders/Global.yy","name":"Global","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -53,7 +54,6 @@
     {"$GMFolder":"","%Name":"Rooms","folderPath":"folders/Sounds/Rooms.yy","name":"Rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Buttons","folderPath":"folders/Sprites/Buttons.yy","name":"Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Camera Buttons","folderPath":"folders/Camera Buttons.yy","name":"Camera Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Door Buttons","folderPath":"folders/Sprites/Buttons/Door Buttons.yy","name":"Door Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Menu Buttons","folderPath":"folders/Sprites/Buttons/Menu Buttons.yy","name":"Menu Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Vent Buttons","folderPath":"folders/Sprites/Buttons/Vent Buttons.yy","name":"Vent Buttons","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -146,6 +146,7 @@
     {"id":{"name":"rm_cut_scene","path":"rooms/rm_cut_scene/rm_cut_scene.yy",},},
     {"id":{"name":"rm_death_screen","path":"rooms/rm_death_screen/rm_death_screen.yy",},},
     {"id":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
+    {"id":{"name":"rm_office_2","path":"rooms/rm_office_2/rm_office_2.yy",},},
     {"id":{"name":"rm_office","path":"rooms/rm_office/rm_office.yy",},},
     {"id":{"name":"scr_change_camera","path":"scripts/scr_change_camera/scr_change_camera.yy",},},
     {"id":{"name":"snd_AMCD_LEFT","path":"sounds/snd_AMCD_LEFT/snd_AMCD_LEFT.yy",},},
@@ -243,6 +244,7 @@
     {"roomId":{"name":"rm_main_menu","path":"rooms/rm_main_menu/rm_main_menu.yy",},},
     {"roomId":{"name":"rm_cut_scene","path":"rooms/rm_cut_scene/rm_cut_scene.yy",},},
     {"roomId":{"name":"rm_death_screen","path":"rooms/rm_death_screen/rm_death_screen.yy",},},
+    {"roomId":{"name":"rm_office_2","path":"rooms/rm_office_2/rm_office_2.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

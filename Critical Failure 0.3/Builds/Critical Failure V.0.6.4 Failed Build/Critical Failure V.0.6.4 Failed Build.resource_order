@@ -1,6 +1,7 @@
 {
   "FolderOrderSettings":[
     {"name":"Animation Curves","order":8,"path":"folders/Animation Curves.yy",},
+    {"name":"Camera Buttons","order":13,"path":"folders/Camera Buttons.yy",},
     {"name":"Extensions","order":11,"path":"folders/Extensions.yy",},
     {"name":"Fonts","order":10,"path":"folders/Fonts.yy",},
     {"name":"Global","order":1,"path":"folders/Global.yy",},
@@ -41,7 +42,6 @@
     {"name":"Doors and Vents","order":1,"path":"folders/Sounds/Office/Doors and Vents.yy",},
     {"name":"Rooms","order":6,"path":"folders/Sounds/Rooms.yy",},
     {"name":"Buttons","order":17,"path":"folders/Sprites/Buttons.yy",},
-    {"name":"Camera Buttons","order":13,"path":"folders/Camera Buttons.yy",},
     {"name":"Door Buttons","order":2,"path":"folders/Sprites/Buttons/Door Buttons.yy",},
     {"name":"Menu Buttons","order":5,"path":"folders/Sprites/Buttons/Menu Buttons.yy",},
     {"name":"Vent Buttons","order":3,"path":"folders/Sprites/Buttons/Vent Buttons.yy",},
@@ -111,6 +111,7 @@
     {"name":"rm_cut_scene","order":2,"path":"rooms/rm_cut_scene/rm_cut_scene.yy",},
     {"name":"rm_death_screen","order":3,"path":"rooms/rm_death_screen/rm_death_screen.yy",},
     {"name":"rm_main_menu","order":1,"path":"rooms/rm_main_menu/rm_main_menu.yy",},
+    {"name":"rm_office_2","order":4,"path":"rooms/rm_office_2/rm_office_2.yy",},
     {"name":"snd_AMCD_LEFT","order":1,"path":"sounds/snd_AMCD_LEFT/snd_AMCD_LEFT.yy",},
     {"name":"snd_as_long_as_its_closed","order":3,"path":"sounds/snd_as_long_as_its_closed/snd_as_long_as_its_closed.yy",},
     {"name":"snd_best_of_luck_16","order":4,"path":"sounds/snd_best_of_luck_16/snd_best_of_luck_16.yy",},
