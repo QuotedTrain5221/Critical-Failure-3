@@ -7,3 +7,6 @@ if (instance_exists(obj_right_door_closed_up_close))
     obj_right_door_closed_up_close.sprite_index = global.door_right_open ? spr_right_door_open_up_close : spr_right_door_closed_up_close;
 
 sprite_index = global.door_right_open ? spr_door_controls_on_right : spr_door_controls_off_right;
+
+
+audio_play_sound_ext({ sound: snd_close_door_vent });

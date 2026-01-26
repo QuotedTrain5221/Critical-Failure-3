@@ -194,7 +194,6 @@
     {"id":{"name":"snd_network_Infected","path":"sounds/snd_network_Infected/snd_network_Infected.yy",},},
     {"id":{"name":"snd_no_one_survived","path":"sounds/snd_no_one_survived/snd_no_one_survived.yy",},},
     {"id":{"name":"snd_open_camera","path":"sounds/snd_open_camera/snd_open_camera.yy",},},
-    {"id":{"name":"snd_open_door_vent","path":"sounds/snd_open_door_vent/snd_open_door_vent.yy",},},
     {"id":{"name":"snd_start_up_screen","path":"sounds/snd_start_up_screen/snd_start_up_screen.yy",},},
     {"id":{"name":"snd_system_failures","path":"sounds/snd_system_failures/snd_system_failures.yy",},},
     {"id":{"name":"snd_Unknown_Reasons","path":"sounds/snd_Unknown_Reasons/snd_Unknown_Reasons.yy",},},
