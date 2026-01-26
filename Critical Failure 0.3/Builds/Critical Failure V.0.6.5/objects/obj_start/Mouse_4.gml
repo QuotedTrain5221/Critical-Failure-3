@@ -1,1 +1,1 @@
-room_goto(rm_office)
+room_goto(rm_level1)

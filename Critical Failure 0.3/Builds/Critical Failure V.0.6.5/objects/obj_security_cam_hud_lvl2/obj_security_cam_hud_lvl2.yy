@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_back_to_main_menu",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_security_cam_hud_lvl2",
+  "eventList":[],
   "managed":true,
-  "name":"obj_back_to_main_menu",
+  "name":"obj_security_cam_hud_lvl2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Death screen Buttons",
-    "path":"folders/Objects/obj Buttons/Screen Buttons/Death screen Buttons.yy",
+    "name":"obj Main Zones",
+    "path":"folders/Objects/obj Main Zones.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_back_to_menu",
-    "path":"sprites/spr_back_to_menu/spr_back_to_menu.yy",
+    "name":"spr_security_cam_hud_lvl2",
+    "path":"sprites/spr_security_cam_hud_lvl2/spr_security_cam_hud_lvl2.yy",
   },
   "spriteMaskId":null,
   "visible":true,

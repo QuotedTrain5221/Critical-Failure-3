@@ -4,32 +4,35 @@ cam_x = [];
 cam_y = [];
 
 //Main Office
-cam_x[0] = 30;  cam_y[0] = 576;
+cam_x[0] = 25;  cam_y[0] = 1754;
 
 //Tablet UI
-cam_x[1] = 479;  cam_y[1] = 575;
+cam_x[1] = 896;  cam_y[1] = 799;
 
-//Cameras 1–8
-cam_x[2] = 31;    cam_y[2] = 31;
-cam_x[3] = 479;    cam_y[3] = 31;
-cam_x[4] = 927;  cam_y[4] = 31;
-cam_x[5] = 1375;  cam_y[5] = 31;
-cam_x[6] = 31;    cam_y[6] = 319;
-cam_x[7] = 479;  cam_y[7] = 319;
-cam_x[8] = 927;  cam_y[8] = 319;
-cam_x[9] = 1375;  cam_y[9] = 319;
-
+//Cameras 1–14
+cam_x[2] = 30;    cam_y[2] = 28; //cam 1
+cam_x[3] = 447;    cam_y[3] = 30; //cam 2
+cam_x[4] = 863;  cam_y[4] = 30; //cam 3
+cam_x[5] = 1279;  cam_y[5] = 30;//cam 4
+cam_x[6] = 32;    cam_y[6] = 286; //cam 5
+cam_x[7] = 447;  cam_y[7] = 286; //cam 6
+cam_x[8] = 863;  cam_y[8] = 286; //cam 7
+cam_x[9] = 1279;  cam_y[9] = 286; //cam 8
+cam_x[10] = 32;  cam_y[10] = 540 //cam 9
+cam_x[11] = 447; cam_y[11] = 540; //cam 10
+cam_x[12] = 863; cam_y [12] = 540; //cam 11
+cam_x[13] = 1279; cam_y[13] = 540; //cam 12
+cam_x[14] = 31;  cam_y[14] = 799;  //cam 13
+cam_x[15]= 447;    cam_y[15] = 799; //cam 14
 //Close-up Zones
-cam_x[10] = 31;    cam_y[10] = 831; // Back Vent
-cam_x[11] = 479;  cam_y[11] = 831; // Front Vent
-cam_x[12] = 927;  cam_y[12] = 575; // Left Door
-cam_x[13] = 1375;  cam_y[13] = 575; // Right Door
+cam_x[16]= 863;    cam_y[16] = 1503; // Back Vent
+cam_x[17] = 1279;  cam_y[17] = 1503; // Front Vent
+cam_x[18] = 863;  cam_y[18] = 1759; // Left Door
+cam_x[19] = 1279;  cam_y[19] = 1759; // Right Door
 
 //Start in the office
 global.current_zone = 0;
 
-//smooth camera movement
-//smooth_amount = 100;
 
 //New Camera Create
 

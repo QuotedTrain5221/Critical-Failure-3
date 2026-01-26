@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_back_to_main_menu",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_cam_zone_13",
+  "eventList":[],
   "managed":true,
-  "name":"obj_back_to_main_menu",
+  "name":"obj_cam_zone_13",
   "overriddenProperties":[],
   "parent":{
-    "name":"Death screen Buttons",
-    "path":"folders/Objects/obj Buttons/Screen Buttons/Death screen Buttons.yy",
+    "name":"Cam Zones",
+    "path":"folders/Objects/Cam Zones.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_back_to_menu",
-    "path":"sprites/spr_back_to_menu/spr_back_to_menu.yy",
+    "name":"spr_zone_13",
+    "path":"sprites/spr_zone_13/spr_zone_13.yy",
   },
   "spriteMaskId":null,
   "visible":true,

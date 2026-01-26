@@ -18,8 +18,12 @@ if (mouse_check_button_pressed(mb_left))
     else if (position_meeting(mx, my, obj_cam_6)) scr_change_camera("cam6");
     else if (position_meeting(mx, my, obj_cam_7)) scr_change_camera("cam7");
     else if (position_meeting(mx, my, obj_cam_8)) scr_change_camera("cam8");
-
- 
+    else if (position_meeting(mx, my, obj_cam_9)) scr_change_camera("cam9");
+    else if (position_meeting(mx, my, obj_cam_10)) scr_change_camera("cam10");
+	else if (position_meeting(mx, my, obj_cam_11)) scr_change_camera("cam11");
+	else if (position_meeting(mx, my, obj_cam_12)) scr_change_camera("cam12");
+	else if (position_meeting(mx, my, obj_cam_13)) scr_change_camera("cam13");
+	else if (position_meeting(mx, my, obj_cam_14)) scr_change_camera("cam14");
     // EXIT TABLET - OFFICE
     else if (position_meeting(mx, my, obj_exit_camera))
         scr_change_camera("office");
