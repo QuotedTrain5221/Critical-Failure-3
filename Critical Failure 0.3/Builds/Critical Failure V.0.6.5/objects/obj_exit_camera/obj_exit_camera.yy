@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Camera Buttons",
-    "path":"folders/Objects/obj Buttons/Camera Buttons.yy",
+    "path":"folders/Objects/Level 1/obj Buttons/Camera Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

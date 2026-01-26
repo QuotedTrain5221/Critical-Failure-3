@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Vent Buttons",
-    "path":"folders/Objects/obj Buttons/Vent Buttons.yy",
+    "path":"folders/Objects/Level 1/obj Buttons/Vent Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":true,

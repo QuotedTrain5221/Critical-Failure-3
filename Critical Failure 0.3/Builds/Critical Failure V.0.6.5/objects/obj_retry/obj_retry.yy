@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Death screen Buttons",
-    "path":"folders/Objects/obj Buttons/Screen Buttons/Death screen Buttons.yy",
+    "path":"folders/Objects/Level 1/obj Buttons/Screen Buttons/Death screen Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

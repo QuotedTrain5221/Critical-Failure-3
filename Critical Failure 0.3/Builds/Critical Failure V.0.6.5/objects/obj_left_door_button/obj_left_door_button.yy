@@ -10,7 +10,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Door Buttons",
-    "path":"folders/Objects/obj Buttons/Door Buttons.yy",
+    "path":"folders/Objects/Level 1/obj Buttons/Door Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":true,

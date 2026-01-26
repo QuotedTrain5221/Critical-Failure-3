@@ -7,7 +7,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"obj Menu Buttons",
-    "path":"folders/Objects/obj Buttons/Screen Buttons/obj Menu Buttons.yy",
+    "path":"folders/Objects/Level 1/obj Buttons/Screen Buttons/obj Menu Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

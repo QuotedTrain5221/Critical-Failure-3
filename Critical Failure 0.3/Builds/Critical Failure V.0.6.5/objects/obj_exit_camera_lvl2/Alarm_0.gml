@@ -1,0 +1,5 @@
+// Exit Camera button alarm
+with (obj_camera_controller_lvl2)
+{
+    scr_change_camera_lvl2("lvl2office");
+}
