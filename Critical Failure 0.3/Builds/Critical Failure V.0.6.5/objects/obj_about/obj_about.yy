@@ -1,15 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_back_to_main_menu",
+  "%Name":"obj_about",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_back_to_main_menu",
+  "name":"obj_about",
   "overriddenProperties":[],
   "parent":{
-    "name":"Death screen Buttons",
-    "path":"folders/Objects/Screen Buttons/Death screen Buttons.yy",
+    "name":"obj Menu Buttons",
+    "path":"folders/Objects/Screen Buttons/obj Menu Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_back_to_menu",
-    "path":"sprites/spr_back_to_menu/spr_back_to_menu.yy",
+    "name":"spr_about",
+    "path":"sprites/spr_about/spr_about.yy",
   },
   "spriteMaskId":null,
   "visible":true,

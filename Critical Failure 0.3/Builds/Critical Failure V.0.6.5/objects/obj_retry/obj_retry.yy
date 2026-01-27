@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
   "%Name":"obj_retry",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_retry",
   "overriddenProperties":[],
   "parent":{
     "name":"Death screen Buttons",
-    "path":"folders/Objects/Level 1/obj Buttons/Screen Buttons/Death screen Buttons.yy",
+    "path":"folders/Objects/Screen Buttons/Death screen Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
