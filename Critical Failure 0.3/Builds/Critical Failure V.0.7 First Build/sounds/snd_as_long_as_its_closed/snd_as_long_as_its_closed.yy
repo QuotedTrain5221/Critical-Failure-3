@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_as_long_as_its_closed",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":4.501338,
+  "exportDir":"",
+  "name":"snd_as_long_as_its_closed",
+  "parent":{
+    "name":"ESA",
+    "path":"folders/Sounds/Dialogue/ESA.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_as_long_as_its_closed.mp3",
+  "volume":1.0,
+}
