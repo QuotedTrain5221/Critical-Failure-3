@@ -49,7 +49,7 @@ if global.bulkerpos = 9 { //cam 9
 	}
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.bulkerpos = 9;
+		global.bulkerpos = choose (9,18);
 		pickedadirection = false
 		
 
@@ -69,7 +69,7 @@ if global.bulkerpos = 9 { //cam 9
 	   
 	   if !global.door_right_open{
 		   alarm[6] = 2;
-	   global.bulkerpos = choose(6,8)
+	   global.bulkerpos = choose(6,8,20)
 	   pickedadirection = false
 		
 	   }
@@ -77,7 +77,7 @@ if global.bulkerpos = 9 { //cam 9
     
     if !forward and pickedadirection{
 		alarm[4] = 2;		
-        global.bulkerpos = choose(6,8);
+        global.bulkerpos = choose(6,8,20);
 		pickedadirection = false
 	}
         show_debug_message(amcd_name + " moved zone " + string(global.bulkerpos))}
@@ -132,7 +132,26 @@ if global.bulkerpos = 14 { //cam 14
 	}
 	if !forward and pickedadirection{
 		alarm[4] = 2;
+		global.bulkerpos = 15;
+		pickedadirection = false
+		
+
+	}
+
+}
+
+
+if global.bulkerpos = 15 { //cam 15
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
 		global.bulkerpos = 14;
+		pickedadirection = false
+	}
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.bulkerpos = 15;
 		pickedadirection = false
 		
 
@@ -140,4 +159,61 @@ if global.bulkerpos = 14 { //cam 14
 
 }
    
+   
+   if global.bulkerpos = 20 { //cam 20
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.bulkerpos = 7;
+		pickedadirection = false
+	}
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.bulkerpos = 20;
+		pickedadirection = false
+		
+
+	}
+
+}
+
+
+   if global.bulkerpos = 18 { //cam 18
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.bulkerpos = 9;
+		pickedadirection = false
+	}
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.bulkerpos = 19;
+		pickedadirection = false
+		
+
+	}
+
+}
+
+
+
+ if global.bulkerpos = 19 { //cam 19
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.bulkerpos = 18;
+		pickedadirection = false
+	}
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.bulkerpos = 19;
+		pickedadirection = false
+		
+
+	}
+
+}
         show_debug_message(amcd_name + "Moved to Zone " + string(global.bulkerpos));

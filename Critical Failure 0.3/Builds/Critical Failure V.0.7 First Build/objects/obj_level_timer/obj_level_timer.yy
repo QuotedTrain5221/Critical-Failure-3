@@ -1,13 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"obj_office",
-  "eventList":[],
+  "%Name":"obj_level_timer",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_office",
+  "name":"obj_level_timer",
   "overriddenProperties":[],
   "parent":{
-    "name":"obj Main Zones",
-    "path":"folders/Objects/obj Main Zones.yy",
+    "name":"Controller",
+    "path":"folders/Objects/Levels/Level 1/Controller.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -26,11 +29,8 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
-  "spriteId":{
-    "name":"spr_office",
-    "path":"sprites/spr_office/spr_office.yy",
-  },
+  "solid":false,
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -43,7 +43,7 @@ instance_exists(obj_front_vent_open)
 ? instance_find(obj_front_vent_open, 0)
 : noone;
 
-// UP-CLOSE front vent (CLOSED object)
+//front vent 
 front_vent_upclose =
 instance_exists(obj_front_vent_closed_up_close)
 ? instance_find(obj_front_vent_closed_up_close, 0)

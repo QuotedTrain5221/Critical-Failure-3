@@ -129,27 +129,113 @@ if global.k9pos = 6 { //cam 6
 	}
    }
    
-   // Zone 12 movement options
-if global.k9pos = 12 { //cam 8
+//Zone 13 Movement
+if global.k9pos = 12{ //cam 12
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
 		global.k9pos = 1;
-		
-
-
+		pickedadirection = false
 	}
 
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.k9pos = 16
+		pickedadirection = false
+	}
+	
 }
 
-   // Zone 13 movement options
-if global.k9pos = 13 { //cam 8
+   // Zone 14 movement options
+if global.k9pos = 13{ //cam 13
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
 		global.k9pos = 4;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.k9pos = 17
+		pickedadirection = false
+	}
+	
+}
+
+
+
+   // Zone 18 movement options
+if global.k9pos = 17{ //cam 17
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.k9pos = 13;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.k9pos = 17
+		pickedadirection = false
+	}
+	
+}
+
+   // Zone 17 movement options
+if global.k9pos = 16{ //cam 16
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.k9pos = 12;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.k9pos = 16
+		pickedadirection = false
+	}
+	
+}
+
+   // Zone 15 movement options
+if global.k9pos = 14{ //cam 14
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.k9pos = 6;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.k9pos = 15
+		pickedadirection = false
+	}
+	
+}
+
+
+   // Zone 16 movement options
+if global.k9pos = 15{ //cam 15
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.k9pos = 14;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.k9pos = 15
+		pickedadirection = false
 	}
 	
 }

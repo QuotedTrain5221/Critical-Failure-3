@@ -117,7 +117,7 @@ if global.gwiberpos = 12{ //cam 12
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = 12
+		global.gwiberpos = 16
 		pickedadirection = false
 	}
 	
@@ -135,7 +135,44 @@ if global.gwiberpos = 13{ //cam 13
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = 13
+		global.gwiberpos = 17
+		pickedadirection = false
+	}
+	
+}
+
+
+
+if global.gwiberpos = 16{ //cam 16
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.gwiberpos = 12;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.gwiberpos = 16
+		pickedadirection = false
+	}
+	
+}
+
+
+if global.gwiberpos = 17{ //cam 17
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.gwiberpos = 13;
+		pickedadirection = false
+	}
+
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.gwiberpos = 17
 		pickedadirection = false
 	}
 	
