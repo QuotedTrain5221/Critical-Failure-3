@@ -1,1 +1,2 @@
-move_time_mill = 600
+
+move_time_mill = 600;

@@ -110,7 +110,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Critical Failure V.0.7 First Build",
   "resources":[
@@ -276,6 +276,7 @@
     {"id":{"name":"snd_close_door_vent","path":"sounds/snd_close_door_vent/snd_close_door_vent.yy",},},
     {"id":{"name":"snd_CLOSE_LEFT_DOOR","path":"sounds/snd_CLOSE_LEFT_DOOR/snd_CLOSE_LEFT_DOOR.yy",},},
     {"id":{"name":"snd_Coffee_Machine_Working","path":"sounds/snd_Coffee_Machine_Working/snd_Coffee_Machine_Working.yy",},},
+    {"id":{"name":"snd_crawl","path":"sounds/snd_crawl/snd_crawl.yy",},},
     {"id":{"name":"snd_dont_sufficate","path":"sounds/snd_dont_sufficate/snd_dont_sufficate.yy",},},
     {"id":{"name":"snd_effect_on_amcd","path":"sounds/snd_effect_on_amcd/snd_effect_on_amcd.yy",},},
     {"id":{"name":"snd_elevator_offline","path":"sounds/snd_elevator_offline/snd_elevator_offline.yy",},},

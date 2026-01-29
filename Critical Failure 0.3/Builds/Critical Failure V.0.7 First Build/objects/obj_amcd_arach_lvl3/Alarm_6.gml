@@ -1,1 +1,0 @@
-global.Arachpos = choose (5,8)

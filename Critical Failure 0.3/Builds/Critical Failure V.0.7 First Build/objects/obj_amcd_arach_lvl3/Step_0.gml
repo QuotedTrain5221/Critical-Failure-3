@@ -1,103 +1,74 @@
+show_debug_message("Gwiber Step Event Functioning");
 
+if global.current_zone = global.Arachpos+1{ 
+	global.Arachwatched = true
+}
+else {global.Arachwatched = false}
 
 
 //KILL STATE CODE
-//Triggers if in pos 5  and front vent is open on movement interval
+//Triggers if in pos 2 and door is open on movement interval
 
-if global.Arachkillstate = true{
-if global.vent_front_closed{
-if jump_scare_timer >= -1 {
-		jump_scare_timer -= 1
+if killstate = true{
+if attacktimer >= -1 {
+		attacktimer -= 1
 }
-if jump_scare_timer = 0 and global.vent_front_open = true
-{
-	alarm[1] = 2}
+}
 
-	if jump_scare_timer = 0 and global.vent_front_open = false   {
-	
-	alarm[4] = 2;
+if attacktimer = 0{
+	if global.Arachpos = 5 and global.vent_front_open{
+	alarm[1] = 2
+	}
+	if global.Arachpos = 5 and !global.vent_front_open{
+		alarm[4] = 2;
 	alarm[3] = 2
-	jump_scare_timer = 600
+	attacktimer = 600
 	killstate = false
-	readytomove = true
+	readytomove = true}
 	
+	if global.Arachpos =8 and global.vent_back_open{
+	alarm[1] = 2
 	}
-}
-if !global.vent_front_closed{
-
-if jump_scare_timer >= -1 {
-		jump_scare_timer -=1
-}
-}
+	if global.Arachpos = 8 and !global.vent_back_open{
+		alarm[4] = 2;
+	alarm[3] = 2
+	attacktimer = 600
+	killstate = false
+	readytomove = true}
 }
 
 if dead = true{
 	deathscreentimer -=1}
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
-	
 
+//REGULAR MOVE TIMER
 
-//KILL STATE CODE
-//Triggers if in pos 7 and door is open on movement interval
-
-if global.Arachkillstate = true{
-if global.vent_back_closed{
-if jump_scare_timer >= -1 {
-		jump_scare_timer -= 1
+if readytomove{
+if !global.Arachwatched{
+if move_time_mill >= -1 {
+		move_time_mill -= 1
 }
-if jump_scare_timer = 0 and global.vent_back_open = true
-{
-	alarm[1] = 2}
-
-	if jump_scare_timer = 0 and global.vent_back_open = false   {
-	
-	alarm[4] = 2;
-	alarm[6] = 2
-	jump_scare_timer = 400
-	killstate = false
-	readytomove = true
-	
-	}
 }
-if !global.vent_back_closed{
+if global.Arachwatched{
 
-if jump_scare_timer >= -1 {
-		jump_scare_timer -=1
+if move_time_mill >= -1 {
+		move_time_mill -=1
 }
 }
 }
 
-if dead = true{
-	deathscreentimer -=1}
-	if deathscreentimer = 0{room_goto(rm_death_screen)}
+
 
 
 // NON KILL STATE MOVEMENT
-move_time_mill -=1
+
 if move_time_mill <= 0{
+move_time_mill = 400
 alarm[5] = 2
+}
+    
+if attacktimer = 580 {audio_play_sound_ext({ sound: snd_crawl })
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+//Physically Move K9 Parallel to his movement code

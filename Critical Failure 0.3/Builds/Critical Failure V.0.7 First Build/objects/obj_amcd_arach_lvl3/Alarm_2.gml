@@ -1,1 +1,0 @@
-global.Arachpos = 5
