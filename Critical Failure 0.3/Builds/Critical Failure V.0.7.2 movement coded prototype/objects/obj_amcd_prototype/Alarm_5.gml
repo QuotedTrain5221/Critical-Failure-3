@@ -26,14 +26,14 @@ if global.prototypepos = 1 { //cam 1
 	   alarm[0] = 2
     if forward and pickedadirection{
 	if global.door_left_open{
-	   jump_scare_timer = 350;
+	   jump_scare_timer = 500;
 	   killstate = true
 	   readytomove = false;
 	   }
 	   
 	   if !global.door_left_open{
-		   alarm[4] = 2;
-	   global.prototypepos = 5
+		   alarm[6] = 2;
+	   global.prototypepos = choose (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
 	   pickedadirection = false
 		
 	   }
@@ -41,18 +41,18 @@ if global.prototypepos = 1 { //cam 1
     
     if !forward and pickedadirection{
 		if global.door_left_open{
-	   jump_scare_timer = 350;
+	   jump_scare_timer = 500;
 	   killstate = true
 	   readytomove = false;
 	   }
 	   
 	   if !global.door_left_open{
-		   alarm[4] = 2;
+		   alarm[6] = 2;
 	   global.prototypepos = choose (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
 	   pickedadirection = false
 	   }
 	}
-        show_debug_message(amcd_name + " moved zone " + string(global.k9pos))}
+        show_debug_message(amcd_name + " moved zone " + string(global.prototypepos))}
 
   
 // Cam 5 move options
@@ -101,14 +101,14 @@ if global.prototypepos = 6 { //cam 6
 	   alarm[0] = 2
     if forward and pickedadirection{
 	if global.door_right_open{
-	   jump_scare_timer = 350;
+	   jump_scare_timer = 500;
 	   killstate = true
 	   readytomove = false;
 	   }
 	   
 	   if !global.door_right_open{
-		   alarm[4] = 2;
-	   global.prototypepos = 5
+		   alarm[6] = 2;
+	   global.prototypepos = choose (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
 	   pickedadirection = false
 		
 	   }
@@ -122,8 +122,8 @@ if global.prototypepos = 6 { //cam 6
 	   }
 	   
 	   if !global.door_right_open{
-		   alarm[4] = 2;
-	   global.prototypepos = 5
+		   alarm[6] = 2;
+	   global.prototypepos =  choose (1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20)
 	   pickedadirection = false
 	   }
 	}
@@ -153,13 +153,13 @@ if global.prototypepos = 13{ //cam 13
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.k9pos = 4;
+		global.prototypepos = 4;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.k9pos = 17
+		global.prototypepos = 17
 		pickedadirection = false
 	}
 	
@@ -341,4 +341,4 @@ if global.prototypepos = 19{ //cam 19
 	}
 	
 }
-        show_debug_message(amcd_name + "Moved to Zone " + string(global.k9pos));
+        show_debug_message(amcd_name + "Moved to Zone " + string(global.prototypepos));

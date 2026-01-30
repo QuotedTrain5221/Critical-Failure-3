@@ -1,16 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_level_timer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_night2",
+  "eventList":[],
   "managed":true,
-  "name":"obj_level_timer",
+  "name":"obj_night2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Game State",
-    "path":"folders/Objects/Game State.yy",
+    "name":"Night Endings",
+    "path":"folders/Objects/Game State/Night Endings.yy",
   },
   "parentObjectId":null,
   "persistent":false,
