@@ -1,0 +1,11 @@
+What to do tonight and on Monday
+
+1. Finish designing zones
+
+2. Create sound assets in Game Maker ready for sound files
+
+3. Create Zone state Controller
+
+4. Create Sound state Controller
+
+5. Create Level 5.

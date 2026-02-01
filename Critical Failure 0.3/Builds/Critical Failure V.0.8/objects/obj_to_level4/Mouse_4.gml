@@ -1,1 +1,1 @@
-room_goto(rm_level4)
+alarm [0] = 2

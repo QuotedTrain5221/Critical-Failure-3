@@ -1,0 +1,1 @@
+global.playstartscreen = false

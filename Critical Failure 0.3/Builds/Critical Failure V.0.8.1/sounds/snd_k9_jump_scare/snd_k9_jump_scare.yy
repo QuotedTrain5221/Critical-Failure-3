@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_k9_jump_scare",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":1.6979592,
+  "exportDir":"",
+  "name":"snd_k9_jump_scare",
+  "parent":{
+    "name":"K9",
+    "path":"folders/Sounds/AMCD's/K9.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_k9_jump_scare.mp3",
+  "volume":1.0,
+}
