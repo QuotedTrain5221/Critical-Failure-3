@@ -3,7 +3,7 @@
 if global.gwiberlvl2pos = 1{
 	sprite_index = spr_zone_1_gwiber}
 	
-	if !global.gwiberlvl2rpos = 1{
+	if !global.gwiberlvl2pos = 1{
 		sprite_index = spr_zone_1}
 }
 
