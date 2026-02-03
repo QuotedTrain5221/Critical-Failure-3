@@ -1,1 +1,1 @@
-global.bulkerpos = 7
+global.bulkerlvl2pos = 7

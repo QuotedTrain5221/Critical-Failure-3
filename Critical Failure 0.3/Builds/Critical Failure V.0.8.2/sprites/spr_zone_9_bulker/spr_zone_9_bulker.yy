@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7102436a-5885-4240-bda4-0caf7fa9dd85","blendMode":0,"displayName":"default","isLocked":false,"name":"7102436a-5885-4240-bda4-0caf7fa9dd85","opacity":88.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"2c1e29f4-a5e1-435c-8d00-af8b1fa3f845","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"2c1e29f4-a5e1-435c-8d00-af8b1fa3f845","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"b70a2237-89c4-45cf-baa2-2fe105abbb57","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b70a2237-89c4-45cf-baa2-2fe105abbb57","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_zone_9_bulker",
@@ -27,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Bulker",
-    "path":"folders/Sprites/Camera Zones/Bulker.yy",
+    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Bulker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

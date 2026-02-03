@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":7,
   "parent":{
-    "name":"level1",
-    "path":"folders/Sprites/Enemies/level1.yy",
+    "name":"AMCD's",
+    "path":"folders/Sprites/Enemies/level1/AMCD's.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

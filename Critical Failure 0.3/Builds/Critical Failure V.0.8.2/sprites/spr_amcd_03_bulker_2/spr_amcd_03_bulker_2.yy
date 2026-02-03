@@ -44,8 +44,8 @@
   },
   "origin":9,
   "parent":{
-    "name":"Level2",
-    "path":"folders/Sprites/Enemies/Level2.yy",
+    "name":"AMCD's",
+    "path":"folders/Sprites/Enemies/Level2/AMCD's.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

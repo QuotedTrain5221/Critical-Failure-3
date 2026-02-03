@@ -1,18 +1,18 @@
 	
 	
 // Zone 1 movement options
-if global.gwiberpos = 1 { //cam 1
+if global.gwiberlvl2pos = 1 { //cam 1
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.gwiberpos = 2;
+		global.gwiberlvl2pos = 2;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = choose(5,12)
+		global.gwiberlvl2pos = choose(5,12)
 		pickedadirection = false
 		
 
@@ -21,36 +21,36 @@ if global.gwiberpos = 1 { //cam 1
 }
 
 //Zone 3 Movement
-if global.gwiberpos = 3 { //cam 3
+if global.gwiberlvl2pos = 3 { //cam 3
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.gwiberpos = 2;
+		global.gwiberlvl2pos = 2;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = 4;
+		global.gwiberlvl2pos = 4;
 		pickedadirection = false
 
 	}
 
 }
 
-if global.gwiberpos = 4 { //cam 4
+if global.gwiberlvl2pos = 4 { //cam 4
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.gwiberpos = 3;
+		global.gwiberlvl2pos = 3;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = choose(4,13);
+		global.gwiberlvl2pos = choose(4,13);
 		pickedadirection = false
 		
 
@@ -59,7 +59,7 @@ if global.gwiberpos = 4 { //cam 4
 }
  
 // Zone 2 move options
-   if global.gwiberpos = 2{
+   if global.gwiberlvl2pos = 2{
 	   alarm[0] = 2
     if forward and pickedadirection{
 	if global.door_left_open{
@@ -70,7 +70,7 @@ if global.gwiberpos = 4 { //cam 4
 	   
 	   if !global.door_left_open{
 		   alarm[4] = 2;
-	   global.gwiberpos = choose(1,3)
+	   global.gwiberlvl2pos = choose(1,3)
 	   pickedadirection = false
 		
 	   }
@@ -78,26 +78,26 @@ if global.gwiberpos = 4 { //cam 4
     
     if !forward and pickedadirection{
 		alarm[4] = 2;		
-        global.gwiberpos = choose(1,3);
+        global.gwiberlvl2pos = choose(1,3);
 		pickedadirection = false
 	}
-        show_debug_message(amcd_name + " moved zone " + string(global.gwiberpos))}
+        show_debug_message(amcd_name + " moved zone " + string(global.gwiberlvl2pos))}
 
   
 // Zone 5 move options
 
-   if global.gwiberpos = 5 { //cam 5
+   if global.gwiberlvl2pos = 5 { //cam 5
     alarm[0] = 2;
 	
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.gwiberpos = 1;
+		global.gwiberlvl2pos = 1;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = 5;
+		global.gwiberlvl2pos = 5;
 		pickedadirection = false
 		
 
@@ -106,39 +106,39 @@ if global.gwiberpos = 4 { //cam 4
 }
 
 //Zone 12 Movement
-if global.gwiberpos = 12{ //cam 12
+if global.gwiberlvl2pos = 12{ //cam 12
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.gwiberpos = 1;
+		global.gwiberlvl2pos = 1;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = 12
+		global.gwiberlvl2pos = 12
 		pickedadirection = false
 	}
 	
 }
 
 
-if global.gwiberpos = 13{ //cam 13
+if global.gwiberlvl2pos = 13{ //cam 13
     alarm[0] = 2;
     
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.gwiberpos = 4;
+		global.gwiberlvl2pos = 4;
 		pickedadirection = false
 	}
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.gwiberpos = 13
+		global.gwiberlvl2pos = 13
 		pickedadirection = false
 	}
 	
 }
 
-        show_debug_message(amcd_name + "Moved to Zone " + string(global.gwiberpos));
+        show_debug_message(amcd_name + "Moved to Zone " + string(global.gwiberlvl2pos));

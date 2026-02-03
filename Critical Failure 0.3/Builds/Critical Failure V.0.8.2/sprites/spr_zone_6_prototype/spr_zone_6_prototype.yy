@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Prototype",
-    "path":"folders/Sprites/Camera Zones/Prototype.yy",
+    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Prototype.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

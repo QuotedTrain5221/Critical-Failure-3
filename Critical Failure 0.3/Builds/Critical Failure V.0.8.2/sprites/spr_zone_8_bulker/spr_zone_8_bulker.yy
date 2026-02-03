@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7102436a-5885-4240-bda4-0caf7fa9dd85","blendMode":0,"displayName":"default","isLocked":false,"name":"7102436a-5885-4240-bda4-0caf7fa9dd85","opacity":88.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"aeb2b990-cef2-48d4-9025-d7709085dc0d","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"aeb2b990-cef2-48d4-9025-d7709085dc0d","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6c2a7771-09cc-478b-9096-fdd8ab6af3f6","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"6c2a7771-09cc-478b-9096-fdd8ab6af3f6","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"e8645cf4-0b3f-4522-9159-a08346cc0201","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"e8645cf4-0b3f-4522-9159-a08346cc0201","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -28,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Bulker",
-    "path":"folders/Sprites/Camera Zones/Bulker.yy",
+    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Bulker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

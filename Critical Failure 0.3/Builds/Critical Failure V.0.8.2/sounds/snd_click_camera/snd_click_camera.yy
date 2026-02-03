@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_click_camera.WAV",
+  "soundFile":"snd_click_camera.mp3",
   "volume":1.0,
 }

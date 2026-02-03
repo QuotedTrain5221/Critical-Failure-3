@@ -37,10 +37,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_amcd_00_prototype",
-    "path":"sprites/spr_amcd_00_prototype/spr_amcd_00_prototype.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":{
     "name":"spr_amcd_02_gwiber",
     "path":"sprites/spr_amcd_02_gwiber/spr_amcd_02_gwiber.yy",

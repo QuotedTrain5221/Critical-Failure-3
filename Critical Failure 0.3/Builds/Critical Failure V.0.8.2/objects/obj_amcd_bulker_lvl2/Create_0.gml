@@ -10,10 +10,10 @@ deathscreentimer = 10
 forward = false
 
 //amcd state
-global.bulkerwatched = false
+global.bulkerlvl2watched = false
 
 
-global.bulkerpos = 11;
+global.bulkerlvl2pos = 11;
 
 // Gwiber Jump-Scare
 

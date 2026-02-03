@@ -13,7 +13,7 @@ forward = true
 global.k9watched = false
 
 
-global.k9pos = 5;
+global.k9lvl2pos = 5;
 
 // K9 Jump-Scare
 

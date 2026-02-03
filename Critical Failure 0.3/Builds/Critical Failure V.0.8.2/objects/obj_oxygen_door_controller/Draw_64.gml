@@ -26,6 +26,12 @@ if (oxygen_warning_active)
         32,
         80
     );
+	
+	if (!oxygen_warning_active)
+	{
+		sprite_delete(
+		spr_oxygen_flash)
+}
 }
 
 

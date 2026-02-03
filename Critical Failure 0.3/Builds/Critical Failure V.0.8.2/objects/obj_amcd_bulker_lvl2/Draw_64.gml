@@ -1,8 +1,8 @@
 {
 draw_text(
     32,
-   200 + global.bulkerpos *1,
-   amcd_name + string (global.bulkerpos))}
+   200 + global.bulkerlvl2pos *1,
+   amcd_name + string (global.bulkerlvl2pos))}
 draw_text(100,110,move_time_mill)
 draw_text(100,150,forward)
 draw_text(100, 80, jump_scare_timer)

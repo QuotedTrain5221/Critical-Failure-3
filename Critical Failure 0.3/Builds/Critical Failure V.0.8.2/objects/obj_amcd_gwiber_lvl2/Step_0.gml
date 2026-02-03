@@ -1,6 +1,6 @@
 show_debug_message("Gwiber Step Event Functioning");
 
-if global.current_zone = global.gwiberpos+1{ 
+if global.current_zone = global.gwiberlvl2pos+1{ 
 	global.gwiberwatched = true
 }
 else {global.gwiberwatched = false}
@@ -69,90 +69,7 @@ show_debug_message("amcd gwiber alarm event functioning");
 
 
 
-//Physically Move Gwiber Parallel to the Movement code
 
 
 
-{
-if global.gwiberpos = 1
-x = 228//cords for camera zone 1
-y = 144//cords for camera zone 1
-}
 
-{
-if global.gwiberpos = 2
-x = 674//cords for camera zone 2
-y = 144//cords for camera zone 2
-}
-
-{
-if global.gwiberpos = 3
-x = 1056//cords for camera zone 3
-y = 144//cords for camera zone 3
-}
-
-{
-if global.gwiberpos = 4
-x = 1476//cords for camera zone 4
-y = 144//cords for camera zone 4
-}
-
-{
-if global.gwiberpos = 5
-x = 240//cords for camera zone 5
-y = 408//cords for camera zone 5
-}
-
-{
-if global.gwiberpos = 6
-x = 641//cords for camera zone 6
-y = 408//cords for camera zone 6
-}
-
-{
-if global.gwiberpos = 7
-x = 1067//cords for camera zone 7
-y = 408//cords for camera zone 7
-}
-
-{
-if global.gwiberpos = 8
-x = 1478//cords for camera zone 8
-y = 408//cords for camera zone 8
-}
-
-{
-if global.gwiberpos = 9
-x = 240//cords for camera zone 9
-y = 657//cords for camera zone 9
-}
-
-{
-if global.gwiberpos = 10
-x = 648//cords for camera zone 10
-y = 657//cords for camera zone 10
-}
-
-{
-if global.gwiberpos = 11
-x = 1068//cords for camera zone 11
-y = 657//cords for camera zone 11
-}
-
-{
-if global.gwiberpos = 12
-x = 1487//cords for camera zone 12
-y = 657//cords for camera zone 12
-}
-
-{
-if global.gwiberpos = 13
-x = 239//cords for camera zone 13
-y = 899//cords for camera zone 13
-}
-
-{
-if global.gwiberpos = 14
-x = 648//cords for camera zone 14
-y = 899//cords for camera zone 14
-}
