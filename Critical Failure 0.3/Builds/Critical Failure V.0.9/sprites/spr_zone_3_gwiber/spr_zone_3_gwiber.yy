@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7102436a-5885-4240-bda4-0caf7fa9dd85","blendMode":0,"displayName":"default","isLocked":false,"name":"7102436a-5885-4240-bda4-0caf7fa9dd85","opacity":88.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"05162c08-ce9b-470d-ae91-89ec23edcfbf","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"05162c08-ce9b-470d-ae91-89ec23edcfbf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"4037348d-98ad-40f2-9d56-0a3077b7338c","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"4037348d-98ad-40f2-9d56-0a3077b7338c","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_zone_3_gwiber",
@@ -27,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Gwiber",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Gwiber.yy",
+    "path":"folders/Sprites/Camera Zones/Solo zones/Gwiber.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

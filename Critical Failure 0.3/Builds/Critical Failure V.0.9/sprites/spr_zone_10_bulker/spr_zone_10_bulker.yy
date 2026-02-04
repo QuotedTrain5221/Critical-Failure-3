@@ -30,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"Bulker",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Bulker.yy",
+    "path":"folders/Sprites/Camera Zones/Solo zones/Bulker.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

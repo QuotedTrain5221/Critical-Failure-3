@@ -21,6 +21,8 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"d389b2b6-9a36-4307-9e43-0dc0be5c425b","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"d389b2b6-9a36-4307-9e43-0dc0be5c425b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"17017dbb-d60a-407f-8510-05db6dffa0d0","blendMode":0,"displayName":"default","isLocked":false,"name":"17017dbb-d60a-407f-8510-05db6dffa0d0","opacity":88.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"909af82d-4d47-4e3e-ab33-1ee6d2025210","blendMode":0,"displayName":"Layer 4","isLocked":false,"name":"909af82d-4d47-4e3e-ab33-1ee6d2025210","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"db0ae8da-ec53-427c-a237-4484f67c51e7","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"db0ae8da-ec53-427c-a237-4484f67c51e7","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6ae8ae85-bcb1-4f4b-a1aa-da263fb02f14","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"6ae8ae85-bcb1-4f4b-a1aa-da263fb02f14","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_zone_1_gwiber",
@@ -28,7 +30,7 @@
   "origin":0,
   "parent":{
     "name":"Gwiber",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Gwiber.yy",
+    "path":"folders/Sprites/Camera Zones/Solo zones/Gwiber.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"K9",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/K9.yy",
+    "path":"folders/Sprites/Camera Zones/Solo zones/K9.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

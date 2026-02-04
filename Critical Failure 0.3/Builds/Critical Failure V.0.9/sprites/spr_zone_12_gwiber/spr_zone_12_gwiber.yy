@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7102436a-5885-4240-bda4-0caf7fa9dd85","blendMode":0,"displayName":"default","isLocked":false,"name":"7102436a-5885-4240-bda4-0caf7fa9dd85","opacity":88.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"9f561bb6-f233-44d4-b9bf-5bb7697ed17a","blendMode":0,"displayName":"Layer 3","isLocked":false,"name":"9f561bb6-f233-44d4-b9bf-5bb7697ed17a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"af2a6f65-f31a-4f7e-a3e6-cf8ec616b5bb","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"af2a6f65-f31a-4f7e-a3e6-cf8ec616b5bb","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"511abc94-3580-482e-8367-bcf17031941f","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"511abc94-3580-482e-8367-bcf17031941f","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
@@ -28,7 +29,7 @@
   "origin":0,
   "parent":{
     "name":"Gwiber",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Gwiber.yy",
+    "path":"folders/Sprites/Camera Zones/Solo zones/Gwiber.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

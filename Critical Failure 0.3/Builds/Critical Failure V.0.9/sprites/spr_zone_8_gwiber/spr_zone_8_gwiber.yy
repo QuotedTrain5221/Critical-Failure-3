@@ -28,7 +28,7 @@
   "origin":0,
   "parent":{
     "name":"Gwiber",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/Solo zones/Gwiber.yy",
+    "path":"folders/Sprites/Camera Zones/Solo zones/Gwiber.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

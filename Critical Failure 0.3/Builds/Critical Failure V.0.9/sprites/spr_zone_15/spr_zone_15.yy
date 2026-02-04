@@ -27,7 +27,7 @@
   "origin":0,
   "parent":{
     "name":"No Enemies",
-    "path":"folders/Sprites/Enemies/level1/Camera Zones/No Enemies.yy",
+    "path":"folders/Sprites/Camera Zones/No Enemies.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
