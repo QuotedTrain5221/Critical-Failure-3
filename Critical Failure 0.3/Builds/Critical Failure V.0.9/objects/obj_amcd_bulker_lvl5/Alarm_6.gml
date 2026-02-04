@@ -1,1 +1,1 @@
-move_time_mill = 2000
+move_time_mill = 4500

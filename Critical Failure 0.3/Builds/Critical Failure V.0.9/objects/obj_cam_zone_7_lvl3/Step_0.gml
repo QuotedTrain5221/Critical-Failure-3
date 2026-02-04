@@ -1,10 +1,12 @@
 //Gwiber
 {
 if global.gwiberlvl3pos = 7{
-	sprite_index = spr_zone_7_gwiber}
+	sprite_index = spr_zone_7_gwiber
+}
 	
 	if !global.gwiberlvl3pos = 7{
-		sprite_index = spr_zone_7}
+		sprite_index = spr_zone_7
+		}
 }
 
 //k9
@@ -20,8 +22,10 @@ if global.k9lvl3pos = 7{
 {
 if global.bulkerlvl3pos = 7{
 	sprite_index = spr_zone_7_bulker}
+
 	
 	if !global.bulkerlvl3pos = 7{
 		sprite_index = spr_zone_7}
+		
 }
 
