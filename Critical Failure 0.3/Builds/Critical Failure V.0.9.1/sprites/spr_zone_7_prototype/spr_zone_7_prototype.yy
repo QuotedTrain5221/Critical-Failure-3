@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"7102436a-5885-4240-bda4-0caf7fa9dd85","blendMode":0,"displayName":"default","isLocked":false,"name":"7102436a-5885-4240-bda4-0caf7fa9dd85","opacity":88.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"ae37c13c-ba52-4c79-9bee-d80e70894a54","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"ae37c13c-ba52-4c79-9bee-d80e70894a54","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"95d283c6-41f4-4213-84aa-027eab39e72e","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"95d283c6-41f4-4213-84aa-027eab39e72e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_zone_7_prototype",

@@ -1,24 +1,54 @@
 	
 	
 // Zone 1 movement options
-if global.gwiberpos = 1 { //cam 1
+
+if  global.gwiberpos = 1 { //cam 1
     alarm[0] = 2;
-    
+    if global.k9pos = 1{
 	if forward and pickedadirection {
 		alarm[4] = 2;
 		global.gwiberpos = 2;
 		pickedadirection = false
-	}
-
-	if !forward and pickedadirection{
+		object_set_sprite( obj_cam_zone_1_lvl1, spr_zone_1_gwiber)}}
+		
+		if global.gwiberpos = 1 { //cam 1
+    alarm[0] = 2;
+ if !global.k9pos = 1{
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.gwiberpos = 2;
+		pickedadirection = false
+		object_set_sprite( obj_cam_zone_1_lvl1, spr_zone_1_gwiber)}
+		
+ }
+	
+	if  global.gwiberpos = 1 { //cam 1
+    alarm[0] = 2;
+    if global.k9pos = 1{
+	if !forward and pickedadirection {
 		alarm[4] = 2;
 		global.gwiberpos = 5;
 		pickedadirection = false
+		object_set_sprite( obj_cam_zone_1_lvl1, spr_zone_1_gwiber)}}
 		
-
+		if global.gwiberpos = 1 { //cam 1
+    alarm[0] = 2;
+ if !global.k9pos = 1{
+	if !forward and pickedadirection {
+		alarm[4] = 2;
+		global.gwiberpos = 5;
+		pickedadirection = false
+		object_set_sprite( obj_cam_zone_1_lvl1, spr_zone_1_gwiber)}
+ }
+ }
 	}
-
+		}
 }
+
+
+
+
+
 
 
 if global.gwiberpos = 3 { //cam 3
