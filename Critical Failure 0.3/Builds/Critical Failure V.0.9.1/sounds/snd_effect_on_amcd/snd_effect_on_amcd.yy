@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_effect_on_amcd",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":7.274671,
+  "exportDir":"",
+  "name":"snd_effect_on_amcd",
+  "parent":{
+    "name":"ESA",
+    "path":"folders/Sounds/Dialogue/ESA.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_effect_on_amcd.mp3",
+  "volume":1.0,
+}

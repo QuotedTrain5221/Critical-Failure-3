@@ -1,0 +1,1 @@
+global.bulkerpos = 7
