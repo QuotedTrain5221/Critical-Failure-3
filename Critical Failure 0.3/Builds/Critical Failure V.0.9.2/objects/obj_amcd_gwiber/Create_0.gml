@@ -13,7 +13,7 @@ forward = false
 global.gwiberwatched = false
 
 
-global.gwiberpos = 4;
+global.gwiberpos = 1;
 
 // Gwiber Jump-Scare
 
