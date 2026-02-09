@@ -11,8 +11,8 @@
   "name":"obj_camera_controller_lvl1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controller",
-    "path":"folders/Objects/Levels/Level 1/Controller.yy",
+    "name":"Controllers",
+    "path":"folders/Objects/Levels/Level 1/Controllers.yy",
   },
   "parentObjectId":null,
   "persistent":false,

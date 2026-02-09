@@ -10,8 +10,8 @@
   "name":"obj_cam_zone_7_lvl1",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level 1 Cam Zones",
-    "path":"folders/Objects/Levels/Level 1/Level 1 Cam Zones.yy",
+    "name":"Empty",
+    "path":"folders/Objects/Levels/Level 1/Level 1 Cam Zones/Empty.yy",
   },
   "parentObjectId":null,
   "persistent":false,
