@@ -36,7 +36,17 @@ if (mouse_check_button_pressed(mb_left))
 
     else if (position_meeting(mx, my, obj_move_button_right_door))
         scr_change_camera_lvl1("rightDoor");
+		
+	
 }
+
+
+// Jump-Scare Zone
+		if (global.dead = true) {scr_change_camera_lvl1("jumpscarezone")};
+
+
+
+
 
 
 

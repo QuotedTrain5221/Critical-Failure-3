@@ -33,11 +33,11 @@ main_right_door = instance_exists(obj_door_closed_right) ? instance_find(obj_doo
 upclose_left_door  = instance_exists(obj_left_door_closed_up_close)  ? instance_find(obj_left_door_closed_up_close, 0)  : noone;
 upclose_right_door = instance_exists(obj_right_door_closed_up_close) ? instance_find(obj_right_door_closed_up_close, 0) : noone;
 
-// -------------------------
-// Vent instances
-// -------------------------
 
-// MAIN VIEW front vent (OPEN object)
+// Vent instances
+
+
+// Main view front vent (Open state)
 front_vent_main =
 instance_exists(obj_front_vent_open)
 ? instance_find(obj_front_vent_open, 0)
@@ -49,7 +49,7 @@ instance_exists(obj_front_vent_closed_up_close)
 ? instance_find(obj_front_vent_closed_up_close, 0)
 : noone;
 
-// BACK vent up-close
+// Back vent up-close
 back_vent_upclose =
 instance_exists(obj_back_vent_closed_up_close)
 ? instance_find(obj_back_vent_closed_up_close, 0)
@@ -63,4 +63,3 @@ image_speed = 0.1; //Control Animation SPEED for Oxygen Flash.
 
 levelend = false
 
-global.doorsandventsopen = true

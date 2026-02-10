@@ -1,6 +1,4 @@
-// -------------------------
-// Sync DOORS
-// -------------------------
+// Sync Doors
 if (instance_exists(main_left_door))
     main_left_door.sprite_index =
     global.door_left_open ? spr_door_open_left : spr_door_closed_left;
@@ -57,22 +55,20 @@ global.oxygen = clamp(global.oxygen, 0, 100);
 oxygen_warning_active = (global.oxygen <= oxygen_warning_threshold);
 
 
-{
+
 if global.oxygen = 0{
-	global.playerhealth -=1}
-	
+	global.playerhealth -=1
+}
 	if global.playerhealth = 0{
-		room_restart()
-		room_goto(rm_death_screen)
-			global.playerhealth = 100
-			global.oxygen = 100
-			oxygen_gain_per_open = false
+		oxygen_gain_per_open = false
 			oxygen_loss_per_closed = false
-			
-if global.dead = false {global.doorsandventsopen = false}
+		global.playerhealth = 100
+			global.oxygen = 100
+			global.dead = true
+		}
+		
+		
 
-}
 
 
 
-}

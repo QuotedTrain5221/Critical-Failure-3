@@ -25,6 +25,9 @@ cam_x[11] = 479;  cam_y[11] = 831; // Front Vent
 cam_x[12] = 927;  cam_y[12] = 575; // Left Door
 cam_x[13] = 1375;  cam_y[13] = 575; // Right Door
 
+
+//Jump-Scare Zone
+cam_x[14] = 61;    cam_y[14] = 1574;
 //Start in the office
 global.current_zone = 0;
 

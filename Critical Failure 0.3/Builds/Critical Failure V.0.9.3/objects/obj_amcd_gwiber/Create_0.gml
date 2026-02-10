@@ -5,7 +5,7 @@ amcd_name = "Gwiber|"
 move_time_mill = 3000; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
-deathscreentimer = 100
+deathscreentimer = 150
 
 forward = false
 
@@ -20,8 +20,6 @@ global.gwiberpos = 4;
 jump_scare_timer = 400
 
 readytomove = true
-
-global.gwiberkillstate = false
 global.dead = false
+global.gwiberkillstate = false
 pickedadirection = false
-gwiberjumpscare = instance_exists(obj_gwiber_jump_scare)  ? instance_find(obj_gwiber_jump_scare, 0)  : noone;

@@ -37,7 +37,11 @@ if jump_scare_timer >= -1 {
 }
 
 if global.dead = true{
-	deathscreentimer -=1}
+	deathscreentimer -=1
+	instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_gwiber_jump_scare)
+	}
+	
+	
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
 	
 //REGULAR MOVE TIMER

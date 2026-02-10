@@ -24,4 +24,4 @@ readytomove = true
 global.gwiberkillstate = false
 dead = false
 pickedadirection = false
-gwiberjumpscare = instance_exists(obj_gwiber_jump_scare)  ? instance_find(obj_gwiber_jump_scare, 0)  : noone;
+gwiberjumpscare = instance_exists(obj_jump_scare_zone)  ? instance_find(obj_jump_scare_zone, 0)  : noone;
