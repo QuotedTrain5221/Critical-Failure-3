@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_yes_security_guard",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.3040135,
+  "exportDir":"",
+  "name":"snd_yes_security_guard",
+  "parent":{
+    "name":"ESA",
+    "path":"folders/Sounds/Dialogue/ESA.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_yes_security_guard.mp3",
+  "volume":1.0,
+}

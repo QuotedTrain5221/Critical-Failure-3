@@ -1,6 +1,6 @@
 show_debug_message("Gwiber Step Event Functioning");
 
-if global.current_zone = global.Arachlvl3pos+1{ 
+if global.current_zone = global.Arachlvl4pos+1{ 
 	global.Arachwatched = true
 }
 else {global.Arachwatched = false}
@@ -63,7 +63,7 @@ if move_time_mill >= -1 {
 // NON KILL STATE MOVEMENT
 
 if move_time_mill <= 0{
-move_time_mill = 400
+move_time_mill = 600
 alarm[5] = 2
 }
     

@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_arach_jump_scare",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":2.507755,
+  "exportDir":"",
+  "name":"snd_arach_jump_scare",
+  "parent":{
+    "name":"Arach",
+    "path":"folders/Sounds/AMCD's/Arach.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_arach_jump_scare.mp3",
+  "volume":1.0,
+}
