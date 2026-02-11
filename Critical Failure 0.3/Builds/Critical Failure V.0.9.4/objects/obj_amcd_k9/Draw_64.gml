@@ -1,0 +1,1 @@
+draw_text(60,80,global.k9pos)
