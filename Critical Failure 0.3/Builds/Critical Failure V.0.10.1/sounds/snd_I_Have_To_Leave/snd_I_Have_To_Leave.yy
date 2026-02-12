@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_I_Have_To_Leave",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":24.405352,
+  "exportDir":"",
+  "name":"snd_I_Have_To_Leave",
+  "parent":{
+    "name":"ESA",
+    "path":"folders/Sounds/Dialogue/ESA.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_I_Have_To_Leave.mp3",
+  "volume":1.0,
+}

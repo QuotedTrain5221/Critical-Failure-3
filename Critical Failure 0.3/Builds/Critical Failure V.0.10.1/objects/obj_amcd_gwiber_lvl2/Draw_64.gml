@@ -1,0 +1,1 @@
+draw_text(60,60,global.gwiberlvl2pos)

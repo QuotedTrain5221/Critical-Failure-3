@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_no_one_survived",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":12.672018,
+  "exportDir":"",
+  "name":"snd_no_one_survived",
+  "parent":{
+    "name":"ESA",
+    "path":"folders/Sounds/Dialogue/ESA.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_no_one_survived.mp3",
+  "volume":1.0,
+}
