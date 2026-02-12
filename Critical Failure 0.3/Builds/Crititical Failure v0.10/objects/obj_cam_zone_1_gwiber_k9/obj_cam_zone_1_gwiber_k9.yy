@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Gwiber and K9",
-    "path":"folders/Objects/Levels/Level 1/Level 1 Cam Zones/Gwiber and K9.yy",
+    "path":"folders/Objects/Enemy Zones/Double Zones/Gwiber and K9.yy",
   },
   "parentObjectId":null,
   "persistent":false,

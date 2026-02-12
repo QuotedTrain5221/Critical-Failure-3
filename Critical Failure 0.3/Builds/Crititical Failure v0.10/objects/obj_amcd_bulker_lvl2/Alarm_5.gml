@@ -102,42 +102,12 @@ if global.bulkerlvl2pos = 9 { //cam 9
 
 	}
 
-}
 
-if global.bulkerlvl2pos = 6 { //cam 6
-    alarm[0] = 2;
+
+
     
-	if forward and pickedadirection {
-		alarm[4] = 2;
-		global.bulkerlvl2pos = 14;
-		pickedadirection = false
-	}
-	if !forward and pickedadirection{
-		alarm[4] = 2;
-		global.bulkerlvl2pos = 9;
-		pickedadirection = false
-		
+	
 
-	}
 
-}
-
-if global.bulkerlvl2pos = 14 { //cam 14
-    alarm[0] = 2;
-    
-	if forward and pickedadirection {
-		alarm[4] = 2;
-		global.bulkerlvl2pos = 6;
-		pickedadirection = false
-	}
-	if !forward and pickedadirection{
-		alarm[4] = 2;
-		global.bulkerlvl2pos = 14;
-		pickedadirection = false
-		
-
-	}
-
-}
    
-        show_debug_message(amcd_name + "Moved to Zone " + string(global.bulkerlvl2pos));
+        show_debug_message(amcd_name + "Moved to Zone " + string(global.bulkerlvl2pos))};

@@ -9,7 +9,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"Gwiber",
-    "path":"folders/Objects/Levels/Level 1/Level 1 Cam Zones/Not Empty/Gwiber.yy",
+    "path":"folders/Objects/Enemy Zones/Single Zones/Gwiber.yy",
   },
   "parentObjectId":null,
   "persistent":false,

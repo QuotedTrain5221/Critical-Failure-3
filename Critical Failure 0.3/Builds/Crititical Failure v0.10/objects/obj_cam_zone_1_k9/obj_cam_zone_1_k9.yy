@@ -12,7 +12,7 @@
   "overriddenProperties":[],
   "parent":{
     "name":"K9",
-    "path":"folders/Objects/Levels/Level 1/Level 1 Cam Zones/Not Empty/K9.yy",
+    "path":"folders/Objects/Enemy Zones/Single Zones/K9.yy",
   },
   "parentObjectId":null,
   "persistent":false,

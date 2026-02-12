@@ -8,8 +8,8 @@
   "name":"obj_cam_zone_8_lvl2",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level 2 Camera Zones",
-    "path":"folders/Objects/Levels/Level 2/Level 2 Camera Zones.yy",
+    "name":"Empty",
+    "path":"folders/Objects/Levels/Level 2/Level 2 Camera Zones/Empty.yy",
   },
   "parentObjectId":null,
   "persistent":false,

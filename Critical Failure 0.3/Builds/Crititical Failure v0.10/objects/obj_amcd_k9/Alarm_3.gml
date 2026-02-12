@@ -1,2 +1,2 @@
 global.k9pos = 5
-corridordirection = 3;
+corridordirection = choose(1,2);
