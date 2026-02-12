@@ -35,6 +35,7 @@
     {"name":"Empty","order":20,"path":"folders/Objects/Levels/Level 2/Level 2 Camera Zones/Empty.yy",},
     {"name":"Level 3","order":2,"path":"folders/Objects/Levels/Level 3.yy",},
     {"name":"Buttons","order":1,"path":"folders/Objects/Levels/Level 3/Buttons.yy",},
+    {"name":"Camera","order":1,"path":"folders/Objects/Levels/Level 3/Buttons/Camera.yy",},
     {"name":"Doors","order":2,"path":"folders/Objects/Levels/Level 3/Buttons/Doors.yy",},
     {"name":"Vents","order":3,"path":"folders/Objects/Levels/Level 3/Buttons/Vents.yy",},
     {"name":"Controllers","order":2,"path":"folders/Objects/Levels/Level 3/Controllers.yy",},
