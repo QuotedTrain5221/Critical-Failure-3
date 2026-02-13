@@ -1,1 +1,0 @@
-draw_text(60,90,global.bulkerlvl2pos)

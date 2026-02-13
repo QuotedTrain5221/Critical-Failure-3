@@ -32,14 +32,14 @@ var closed_count = 0;
 // Doors
 open_count   += global.door_left_open  ? 2 : 0;
 open_count   += global.door_right_open ? 2 : 0;
-closed_count += global.door_left_open  ? 0 : 2;
-closed_count += global.door_right_open ? 0 : 2;
+closed_count += global.door_left_open  ? 0 : 1;
+closed_count += global.door_right_open ? 0 : 1;
 
 // Vents
 open_count   += global.vent_front_open ? 2 : 0;
 open_count   += global.vent_back_open  ? 2 : 0;
-closed_count += global.vent_front_open ? 0 : 2;
-closed_count += global.vent_back_open  ? 0 : 2;
+closed_count += global.vent_front_open ? 0 : 1;
+closed_count += global.vent_back_open  ? 0 : 1;
 
 //Apply	Oxygen
 var delta = delta_time / 1000000; // seconds

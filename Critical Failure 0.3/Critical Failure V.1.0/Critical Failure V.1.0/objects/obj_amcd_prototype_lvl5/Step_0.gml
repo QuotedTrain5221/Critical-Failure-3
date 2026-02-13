@@ -52,7 +52,7 @@ if dead = true{
 if readytomove{
 if !global.prototypewatched{
 if move_time_mill >= -1 {
-		move_time_mill -= 1
+		move_time_mill -= 3
 }
 }
 if global.prototypewatched{

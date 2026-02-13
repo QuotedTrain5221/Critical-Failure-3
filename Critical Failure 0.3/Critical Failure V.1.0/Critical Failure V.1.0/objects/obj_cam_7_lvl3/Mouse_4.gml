@@ -5,8 +5,8 @@ with (obj_camera_controller_lvl3)
 }
 audio_play_sound_ext({ sound: snd_click_camera });
 
-camera_set_view_size(view_camera[0],400,225)
 
+camera_set_view_size(view_camera[0],400,225)
 
 
 

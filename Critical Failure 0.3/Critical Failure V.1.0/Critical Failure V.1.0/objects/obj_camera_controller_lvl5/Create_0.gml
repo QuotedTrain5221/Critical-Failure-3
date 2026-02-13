@@ -17,7 +17,7 @@ cam_x[3] = 447;    cam_y[3] = 31; //cam 2 // zone 3
 cam_x[4] = 862;  cam_y[4] = 31; //cam 3 // zone 4
 cam_x[5] = 1279;  cam_y[5] = 31;//cam 4 // zone 5
 cam_x[6] = 1694;    cam_y[6] = 31; //cam 5 // zone 6
-cam_x[7] = 2527;  cam_y[7] = 30; //cam 6 // zone 7
+cam_x[7] = 2111;  cam_y[7] = 31; //cam 6 // zone 7
 cam_x[8] = 2527;  cam_y[8] = 31; //cam 7 // zone 8
 cam_x[9] = 31;  cam_y[9] = 286; //cam 8 // zone 9
 cam_x[10] = 447;  cam_y[10] = 286//cam 9 // zone 10

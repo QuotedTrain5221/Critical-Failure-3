@@ -121,8 +121,24 @@ if global.bulkerlvl3pos = 9 { //cam 9
 	    instance_create_layer(obj_cam_zone_7_k9_bulker.x,obj_cam_zone_7_k9_bulker.y,"Instances",obj_cam_zone_7_k9)
 			instance_destroy(obj_cam_zone_7_k9_bulker)}
 			
+			if !global.door_right_open{
+		   alarm[6] = 2;
+        global.bulkerlvl3pos = 20
+		pickedadirection = false
+			if instance_exists(obj_cam_zone_20_lvl3){
+	    instance_create_layer(obj_cam_zone_20_lvl3.x,obj_cam_zone_20_lvl3.y,"Instances",obj_cam_zone_20_bulker)
+			instance_destroy(obj_cam_zone_20_lvl3)}
 			
+			if instance_exists(obj_cam_zone_7_bulker){
+	    instance_create_layer(obj_cam_zone_7_bulker.x,obj_cam_zone_7_bulker.y,"Instances",obj_cam_zone_7_lvl3)
+			instance_destroy(obj_cam_zone_7_bulker)}
 			
+			if instance_exists(obj_cam_zone_7_k9_bulker){
+	    instance_create_layer(obj_cam_zone_7_k9_bulker.x,obj_cam_zone_7_k9_bulker.y,"Instances",obj_cam_zone_7_k9)
+			instance_destroy(obj_cam_zone_7_k9_bulker)}
+		
+			
+			}
 			
 		
 	   }
@@ -231,7 +247,34 @@ if global.bulkerlvl3pos = 19 { //cam 19
 
 	}
 	
+	if global.bulkerlvl3pos = 20 { //cam 20
+    alarm[0] = 2;
+    
+	if forward and pickedadirection {
+		alarm[4] = 2;
+		global.bulkerlvl3pos = 7;
+		pickedadirection = false
+		if instance_exists(obj_cam_zone_7_lvl3){
+	    instance_create_layer(obj_cam_zone_7_lvl3.x,obj_cam_zone_7_lvl3.y,"Instances",obj_cam_zone_7_bulker)
+			instance_destroy(obj_cam_zone_7_lvl3)}
+			
+			if instance_exists(obj_cam_zone_20_bulker){
+	    instance_create_layer(obj_cam_zone_20_bulker.x,obj_cam_zone_20_bulker.y,"Instances",obj_cam_zone_20_lvl3)
+			instance_destroy(obj_cam_zone_20_bulker)}
+			
+			if instance_exists(obj_cam_zone_7_k9){
+	    instance_create_layer(obj_cam_zone_7_k9.x,obj_cam_zone_7_k9.y,"Instances",obj_cam_zone_7_k9_bulker)
+			instance_destroy(obj_cam_zone_7_k9)}
+	}
+	if !forward and pickedadirection{
+		alarm[4] = 2;
+		global.bulkerlvl3pos = 20;
+		pickedadirection = false
+		if instance_exists(obj_cam_zone_20_lvl3){
+	    instance_create_layer(obj_cam_zone_20_lvl3.x,obj_cam_zone_20_lvl3.y,"Instances",obj_cam_zone_20_bulker)
+			instance_destroy(obj_cam_zone_20_lvl3)}
 
 	}
-   
+	}
+	}
         show_debug_message(amcd_name + "Moved to Zone " + string(global.bulkerlvl3pos))};

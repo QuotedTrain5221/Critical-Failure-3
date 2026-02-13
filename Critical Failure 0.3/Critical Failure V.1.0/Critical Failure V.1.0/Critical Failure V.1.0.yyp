@@ -19,10 +19,10 @@
     {"$GMFolder":"","%Name":"Debug Tools","folderPath":"folders/Objects/Debug Tools.yy","name":"Debug Tools","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Enemy Zones","folderPath":"folders/Objects/Enemy Zones.yy","name":"Enemy Zones","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Double Zones","folderPath":"folders/Objects/Enemy Zones/Double Zones.yy","name":"Double Zones","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Prototype and Bulker","folderPath":"folders/Objects/Enemy Zones/Double Zones/Prototype and Bulker.yy","name":"Prototype and Bulker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Gwiber and K9","folderPath":"folders/Objects/Enemy Zones/Double Zones/Gwiber and K9.yy","name":"Gwiber and K9","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"K9 and Bulker","folderPath":"folders/Objects/Enemy Zones/Double Zones/K9 and Bulker.yy","name":"K9 and Bulker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"K9 and Prototype","folderPath":"folders/Objects/Enemy Zones/Double Zones/K9 and Prototype.yy","name":"K9 and Prototype","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Prototype and Bulker","folderPath":"folders/Objects/Enemy Zones/Double Zones/Prototype and Bulker.yy","name":"Prototype and Bulker","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Prototype and Giwber","folderPath":"folders/Objects/Enemy Zones/Double Zones/Prototype and Giwber.yy","name":"Prototype and Giwber","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Single Zones","folderPath":"folders/Objects/Enemy Zones/Single Zones.yy","name":"Single Zones","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Bulker","folderPath":"folders/Objects/Enemy Zones/Single Zones/Bulker.yy","name":"Bulker","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -175,7 +175,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.2.213",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Critical Failure V.1.0",
   "resources":[
@@ -414,6 +414,7 @@
     {"id":{"name":"obj_cam_zone_2_prototype_gwiber","path":"objects/obj_cam_zone_2_prototype_gwiber/obj_cam_zone_2_prototype_gwiber.yy",},},
     {"id":{"name":"obj_cam_zone_2_prototype_k9","path":"objects/obj_cam_zone_2_prototype_k9/obj_cam_zone_2_prototype_k9.yy",},},
     {"id":{"name":"obj_cam_zone_2_prototype","path":"objects/obj_cam_zone_2_prototype/obj_cam_zone_2_prototype.yy",},},
+    {"id":{"name":"obj_cam_zone_20_bulker","path":"objects/obj_cam_zone_20_bulker/obj_cam_zone_20_bulker.yy",},},
     {"id":{"name":"obj_cam_zone_20_lvl1","path":"objects/obj_cam_zone_20_lvl1/obj_cam_zone_20_lvl1.yy",},},
     {"id":{"name":"obj_cam_zone_20_lvl2","path":"objects/obj_cam_zone_20_lvl2/obj_cam_zone_20_lvl2.yy",},},
     {"id":{"name":"obj_cam_zone_20_lvl3","path":"objects/obj_cam_zone_20_lvl3/obj_cam_zone_20_lvl3.yy",},},

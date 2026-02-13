@@ -60,7 +60,7 @@ if move_time_mill >= -1 {
 if global.k9watched{
 
 if move_time_mill >= -1 {
-		move_time_mill -=2
+		move_time_mill -=1
 }
 }
 }
