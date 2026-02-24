@@ -39,7 +39,7 @@ if jump_scare_timer = 0{
 }
 
 
-if dead = true{
+if global.dead = true{
 	deathscreentimer -=1
 	if instance_exists(obj_jump_scare_zone){
 	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_k9_jump_scare)

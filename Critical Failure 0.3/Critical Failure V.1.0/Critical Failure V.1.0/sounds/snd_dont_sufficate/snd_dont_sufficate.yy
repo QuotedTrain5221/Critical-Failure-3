@@ -2,8 +2,8 @@
   "$GMSound":"v2",
   "%Name":"snd_dont_sufficate",
   "audioGroupId":{
-    "name":"audiogroup_default",
-    "path":"audiogroups/audiogroup_default",
+    "name":"Voicelines",
+    "path":"audiogroups/Voicelines",
   },
   "bitDepth":1,
   "channelFormat":0,

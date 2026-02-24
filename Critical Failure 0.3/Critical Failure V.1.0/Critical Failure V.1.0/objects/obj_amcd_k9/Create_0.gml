@@ -5,7 +5,7 @@ amcd_name = "K9|"
 move_time_mill = 1200; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
-deathscreentimer = 10
+deathscreentimer = 150
 
 forward = true
 
@@ -24,3 +24,12 @@ readytomove = true
 killstate = false
 dead = false
 pickedadirection = false
+
+
+
+
+global.k9footstep_cam5 = false
+global.k9footstep_cam6 = false
+global.k9footstep_cam7 = false
+global.k9footstep_cam1 = false
+global.k9footstep_cam2 = false

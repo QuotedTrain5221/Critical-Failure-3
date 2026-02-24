@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_gwiber_slither",
+  "audioGroupId":{
+    "name":"gwiber",
+    "path":"audiogroups/gwiber",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":25.813015,
+  "exportDir":"",
+  "name":"snd_gwiber_slither",
+  "parent":{
+    "name":"Gwiber",
+    "path":"folders/Sounds/AMCD's/Gwiber.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_gwiber_slither.wav",
+  "volume":1.0,
+}

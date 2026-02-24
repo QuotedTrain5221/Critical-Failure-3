@@ -24,3 +24,9 @@ readytomove = true
 killstate = false
 dead = false
 pickedadirection = false
+
+global.k9footstep_cam5lvl3 = false
+global.k9footstep_cam6lvl3 = false
+global.k9footstep_cam7lvl3 = false
+global.k9footstep_cam1lvl3 = false
+global.k9footstep_cam2lvl3 = false

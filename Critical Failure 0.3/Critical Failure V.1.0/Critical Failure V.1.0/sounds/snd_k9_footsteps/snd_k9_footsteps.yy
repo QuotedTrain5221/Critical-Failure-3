@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"snd_k9_footsteps",
+  "audioGroupId":{
+    "name":"k9",
+    "path":"audiogroups/k9",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":1,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":38.243267,
+  "exportDir":"",
+  "name":"snd_k9_footsteps",
+  "parent":{
+    "name":"K9",
+    "path":"folders/Sounds/AMCD's/K9.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"snd_k9_footsteps.mp3",
+  "volume":1.0,
+}

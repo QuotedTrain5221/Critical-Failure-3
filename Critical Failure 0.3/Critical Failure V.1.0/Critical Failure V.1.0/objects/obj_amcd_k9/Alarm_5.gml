@@ -15,6 +15,7 @@ if  global.k9pos = 1 { //cam 1
 	
 		if forward and pickedadirection {
 		alarm[4] = 2;
+		global.k9footstep_cam5 = true
 		global.k9pos = 5;
 		pickedadirection = false
 		
@@ -33,6 +34,7 @@ if  global.k9pos = 1 { //cam 1
 		
 		if !forward and pickedadirection {
 		alarm[4] = 2;
+		global.k9footstep_cam2 = true
 		global.k9pos = 2;
 		pickedadirection = false
 		
@@ -67,6 +69,7 @@ if  global.k9pos = 1 { //cam 1
 	   
 	   if !global.door_left_open{
 		   alarm[4] = 2;
+		   global.k9footstep_cam5 = true
 	   global.k9pos = 5
 	   pickedadirection = false
 	   
@@ -91,6 +94,7 @@ if  global.k9pos = 1 { //cam 1
 	   
 	   if !global.door_left_open{
 		   alarm[4] = 2;
+		   global.k9footstep_cam5 = true
 	   global.k9pos = 5
 	   pickedadirection = false
 	   
@@ -125,6 +129,7 @@ if  global.k9pos = 1 { //cam 1
 		
 	if corridordirection = 1 and pickedadirection {
 		alarm[4] = 2;
+		global.k9footstep_cam1 = true
 		global.k9pos = 1;
 		pickedadirection = false
 		
@@ -142,6 +147,7 @@ if  global.k9pos = 1 { //cam 1
 
 	if corridordirection = 2 and pickedadirection{
 		alarm[4] = 2;
+		global.k9footstep_cam6 = true
 		global.k9pos = 6;
 		pickedadirection = false
 		
@@ -170,6 +176,7 @@ if global.k9pos = 6 { //cam 6
 	
 	if !forward and pickedadirection{
 		alarm[4] = 2;
+		global.k9footstep_cam7 = true
 		global.k9pos = 7;
 		pickedadirection = false
 		if instance_exists(obj_cam_zone_6_k9){
@@ -182,6 +189,7 @@ if global.k9pos = 6 { //cam 6
 		}
 	if forward and pickedadirection {
 		alarm[4] = 2;
+		global.k9footstep_cam7 = true
 		global.k9pos = 7;
 		pickedadirection = false
 		if instance_exists(obj_cam_zone_6_k9){
@@ -212,6 +220,7 @@ if global.k9pos = 6 { //cam 6
 	   
 	   if !global.door_right_open{
 		   alarm[4] = 2;
+		   global.k9footstep_cam5 = true
 	   global.k9pos = 5
 	   pickedadirection = false
 		
@@ -244,6 +253,7 @@ if global.k9pos = 6 { //cam 6
 	   
 	   if !global.door_right_open{
 		   alarm[4] = 2;
+		   global.k9footstep_cam5 = true
 	   global.k9pos = 5
 	   pickedadirection = false
 	   

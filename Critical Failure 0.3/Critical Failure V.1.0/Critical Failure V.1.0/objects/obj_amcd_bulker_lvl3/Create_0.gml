@@ -24,4 +24,9 @@ readytomove = true
 global.bulkerkillstate = false
 dead = false
 pickedadirection = false
-gwiberjumpscare = instance_exists(obj_jump_scare_zone)  ? instance_find(obj_jump_scare_zone, 0)  : noone;
+
+global.bulkerfootstep_cam11lvl3 = false
+global.bulkerfootstep_cam10lvl3 = false
+global.bulkerfootstep_cam9lvl3 = false
+global.bulkerfootstep_cam8lvl3 = false
+global.bulkerfootstep_cam7lvl3 = false

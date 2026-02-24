@@ -24,3 +24,12 @@ readytomove = true
 global.bulkerkillstate = false
 dead = false
 pickedadirection = false
+
+
+global.bulkerfootstep_cam11lvl5 = false
+global.bulkerfootstep_cam10lvl5 = false
+global.bulkerfootstep_cam9lvl5 = false
+global.bulkerfootstep_cam8lvl5 = false
+global.bulkerfootstep_cam7lvl5 = false
+global.bulkerfootstep_cam19lvl5 = false
+global.bulkerfootstep_cam13lvl5 = false
