@@ -39,7 +39,12 @@ if jump_scare_timer = 0{
 }
 
 if dead = true{
-	deathscreentimer -=1}
+	deathscreentimer -=1
+	if instance_exists(obj_jump_scare_zone){
+	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_k9_jump_scare)
+			instance_destroy(obj_jump_scare_zone)}
+			if global.dead = true {scr_change_camera_lvl2("jumpscarezone")};
+}
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
 
 //REGULAR MOVE TIMER

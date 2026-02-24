@@ -55,6 +55,8 @@ if  global.k9pos = 1 { //cam 1
 // Zone 2 move options
    if global.k9pos = 2{
 	   alarm[0] = 2
+	       audio_play_sound(snd_left_hallway,1,false)
+	   if !global.k9pos = 2{audio_stop_sound(snd_left_hallway)}
     if forward and pickedadirection{
 	if global.door_left_open{
 	   jump_scare_timer = 350;
@@ -198,6 +200,8 @@ if global.k9pos = 6 { //cam 6
 // Zone 7 move options
    if global.k9pos = 7{
 	   alarm[0] = 2
+	       audio_play_sound(snd_right_hallway,1,false)
+	   if !global.k9pos = 7{audio_stop_sound(snd_right_hallway)}
     if forward and pickedadirection{
 	if global.door_right_open{
 	   jump_scare_timer = 350;

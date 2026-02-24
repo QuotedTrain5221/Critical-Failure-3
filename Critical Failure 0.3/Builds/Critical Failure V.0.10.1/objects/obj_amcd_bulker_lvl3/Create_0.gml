@@ -2,7 +2,7 @@ amcd_id = 3;
 amcd_name = "bulker|"
 
 //time until alarm trigger(seconds)
-move_time_mill = 4000; //time until alarm trigger(milliseconds)
+move_time_mill = 5000; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
 deathscreentimer = 10
@@ -13,7 +13,7 @@ forward = false
 global.bulkerwatched = false
 
 
-global.bulkerlvl3pos = 11;
+global.bulkerlvl3pos = choose(19,11);
 
 // Gwiber Jump-Scare
 

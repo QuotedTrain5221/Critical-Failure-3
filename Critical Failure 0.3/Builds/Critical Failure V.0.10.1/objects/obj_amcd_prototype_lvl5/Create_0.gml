@@ -13,7 +13,7 @@ forward = true
 global.prototypewatched = false
 
 
-global.prototypepos = 19;
+global.prototypelvl4pos = 15;
 
 // prototype Jump-Scare
 

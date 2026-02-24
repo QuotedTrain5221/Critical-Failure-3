@@ -1,0 +1,1 @@
+global.oxygen = 100

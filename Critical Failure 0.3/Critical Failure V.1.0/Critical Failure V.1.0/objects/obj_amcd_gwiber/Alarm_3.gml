@@ -1,0 +1,1 @@
+global.gwiberpos = 2

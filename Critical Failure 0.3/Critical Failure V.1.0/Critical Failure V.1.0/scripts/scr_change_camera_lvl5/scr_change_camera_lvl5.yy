@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"scr_change_camera_lvl5",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"scr_change_camera_lvl5",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
