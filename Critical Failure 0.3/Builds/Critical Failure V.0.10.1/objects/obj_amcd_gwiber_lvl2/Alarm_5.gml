@@ -74,9 +74,9 @@ if global.gwiberlvl2pos = 3 { //cam 3
 	
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		if instance_exists(obj_cam_zone_4_lvl2){
+		
 		instance_create_layer(obj_cam_zone_4_lvl2.x,obj_cam_zone_4_lvl2.y,"Instances",obj_cam_zone_4_gwiber)
-		instance_destroy(obj_cam_zone_4_lvl2)}
+		instance_destroy(obj_cam_zone_4_lvl2)
 		
 		global.gwiberlvl2pos = 4;
 		pickedadirection = false
@@ -107,9 +107,8 @@ if global.gwiberlvl2pos = 4 { //cam 4
     
 	if forward and pickedadirection {
 		alarm[4] = 2
-		if instance_exists(obj_cam_zone_3_lvl2){
 		instance_create_layer(obj_cam_zone_3_lvl2.x,obj_cam_zone_3_lvl2.y,"Instances",obj_cam_zone_3_gwiber)
-			instance_destroy(obj_cam_zone_3_lvl2)}
+			instance_destroy(obj_cam_zone_3_lvl2)
 		
 		if instance_exists(obj_cam_zone_4_gwiber){
 			instance_create_layer(obj_cam_zone_4_gwiber.x,obj_cam_zone_4_gwiber.y,"Instances",obj_cam_zone_4_lvl2) 
@@ -130,8 +129,6 @@ if global.gwiberlvl2pos = 4 { //cam 4
   // Zone 2 move options
    if global.gwiberlvl2pos = 2{
 	   alarm[0] = 2
-	       audio_play_sound(snd_left_hallway,1,false)
-	   if !global.gwiberlvl2pos = 2{audio_stop_sound(snd_left_hallway)}
     if forward and pickedadirection{
 	if global.door_left_open{
 	   jump_scare_timer = 400;
@@ -195,7 +192,7 @@ if global.gwiberlvl2pos = 4 { //cam 4
 		}
 	   }
 		  
-		  if global.gwiberlvl2pos = 3{
+		  if global.gwiberpos = 3{
 		     instance_create_layer(obj_cam_zone_3_lvl2.x,obj_cam_zone_3_lvl2.y,"Instances",obj_cam_zone_3_gwiber)
 			instance_destroy(obj_cam_zone_3_lvl2)
 		  }

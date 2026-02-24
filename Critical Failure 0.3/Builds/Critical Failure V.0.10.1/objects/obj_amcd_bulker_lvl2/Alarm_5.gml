@@ -88,8 +88,6 @@ if global.bulkerlvl2pos = 9 { //cam 9
 // Zone 7 move options
    if global.bulkerlvl2pos = 7{
 	   alarm[0] = 2
-	       audio_play_sound(snd_right_hallway,1,false)
-	   if !global.bulkerlvl2pos = 7{audio_stop_sound(snd_right_hallway)}
     if forward and pickedadirection{
 	if global.door_right_open{
 	   jump_scare_timer = 400;

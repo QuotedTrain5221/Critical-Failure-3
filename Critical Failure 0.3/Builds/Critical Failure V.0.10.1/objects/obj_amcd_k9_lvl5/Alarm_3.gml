@@ -1,2 +1,2 @@
-global.k9lvl5pos = 5
+global.k9pos = 5
 corridordirection = 3;

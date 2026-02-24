@@ -1,1 +1,0 @@
-global.gwiberlvl3pos = 2

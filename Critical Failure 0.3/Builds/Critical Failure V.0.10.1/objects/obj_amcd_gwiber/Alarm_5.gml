@@ -144,8 +144,6 @@ if global.gwiberpos = 4 { //cam 4
   // Zone 2 move options
    if global.gwiberpos = 2{
 	   alarm[0] = 2
-	       audio_play_sound(snd_left_hallway,1,false)
-	   if !global.gwiberpos = 2{audio_stop_sound(snd_left_hallway)}
     if forward and pickedadirection{
 	if global.door_left_open{
 	   jump_scare_timer = 400;

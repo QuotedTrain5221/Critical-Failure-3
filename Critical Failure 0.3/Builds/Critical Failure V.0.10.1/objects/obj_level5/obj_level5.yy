@@ -3,15 +3,13 @@
   "%Name":"obj_level5",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_level5",
   "overriddenProperties":[],
   "parent":{
-    "name":"Level Select",
-    "path":"folders/Objects/Screen Buttons/Level Select.yy",
+    "name":"Buttons",
+    "path":"folders/Objects/Levels/Level 5/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

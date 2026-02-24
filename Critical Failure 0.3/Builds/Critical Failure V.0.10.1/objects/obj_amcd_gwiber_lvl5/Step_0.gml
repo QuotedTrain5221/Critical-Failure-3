@@ -1,6 +1,6 @@
 show_debug_message("Gwiber Step Event Functioning");
 
-if global.current_zone = global.gwiberlvl5pos+1{ 
+if global.current_zone = global.gwiberpos+1{ 
 	global.gwiberwatched = true
 }
 else {global.gwiberwatched = false}
@@ -37,12 +37,7 @@ if jump_scare_timer >= -1 {
 }
 
 if dead = true{
-	deathscreentimer -=1
-	if instance_exists(obj_jump_scare_zone){
-	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_gwiber_jump_scare)
-			instance_destroy(obj_jump_scare_zone)}
-			if global.dead = true {scr_change_camera_lvl5("jumpscarezone")};
-}
+	deathscreentimer -=1}
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
 
 //REGULAR MOVE TIMER
@@ -74,5 +69,65 @@ show_debug_message("amcd gwiber alarm event functioning");
 
 
 
+//Physically Move Gwiber Parallel to the Movement code
 
-            
+{
+if global.gwiberpos = 0 
+x = 30//cords for office zone 0
+y = 576//cords for office zone 0
+//if jump_scare_timer = 0{
+//(instance_exists(gwiberjumpscare))
+   // gwiberjumpscare.sprite_index =
+   //global.gwiberkillstate ? spr_gwiber_jump_scare : spr_right_door_closed_up_close;
+//}
+}
+
+{
+if global.gwiberpos = 1
+x = 31//cords for camera zone 1
+y = 31//cords for camera zone 1
+}
+
+{
+if global.gwiberpos = 2
+x = 479//cords for camera zone 2
+y = 31//cords for camera zone 2
+}
+
+{
+if global.gwiberpos = 3
+x = 927//cords for camera zone 3
+y = 31//cords for camera zone 3
+}
+
+{
+if global.gwiberpos = 4
+x = 1375//cords for camera zone 4
+y = 31//cords for camera zone 4
+}
+
+{
+if global.gwiberpos = 5
+x = 31//cords for camera zone 5
+y = 319//cords for camera zone 5
+}
+
+{
+if global.gwiberpos = 6
+x = 479//cords for camera zone 6
+y = 319//cords for camera zone 6
+}
+
+{
+if global.gwiberpos = 7
+x = 927//cords for camera zone 7
+y = 319//cords for camera zone 7
+}
+
+{
+if global.gwiberpos = 8
+x = 1375//cords for camera zone 8
+y = 319//cords for camera zone 8
+}
+
+                                                       

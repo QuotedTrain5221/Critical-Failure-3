@@ -38,12 +38,7 @@ if jump_scare_timer >= -1 {
 
 if global.dead = true{
 	deathscreentimer -=1
-	if instance_exists(obj_jump_scare_zone){
-	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_gwiber_jump_scare)
-			instance_destroy(obj_jump_scare_zone)}
-			// Jump-Scare Zone
-		if global.dead = true {scr_change_camera_lvl1("jumpscarezone")};
-
+	instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_gwiber_jump_scare)
 	}
 	
 	

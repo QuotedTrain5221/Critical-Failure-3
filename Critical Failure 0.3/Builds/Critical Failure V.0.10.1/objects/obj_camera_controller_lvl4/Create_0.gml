@@ -38,8 +38,6 @@ cam_x[23] = 1695;  cam_y[23] = 798; // Front Vent // zone 23
 cam_x[24] = 447;  cam_y[24] = 798; // Left Door // zone 24
 cam_x[25] = 862;  cam_y[25] = 798; // Right Door // zone 25
 
-//jumpscarezone
-cam_x[26] = 48; cam_y[26] = 1076
 //Start in the office
 global.current_zone = 0;
 

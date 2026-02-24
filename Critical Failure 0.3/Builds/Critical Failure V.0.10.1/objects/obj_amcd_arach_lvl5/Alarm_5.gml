@@ -1,5 +1,5 @@
 // Zone 8 move options back vent
-   if global.Arachlvl5pos = 8{
+   if global.Arachpos = 8{
 	   alarm[0] = 2
     if forward and pickedadirection{
 	if global.vent_back_open{
@@ -10,7 +10,7 @@
 	   
 	   if !global.vent_back_open{
 		   alarm[4] = 2;
-	   global.Arachlvl5pos = 5
+	   global.Arachpos = 5
 	   pickedadirection = false
 		
 	   }
@@ -25,7 +25,7 @@
 	   
 	   if !global.vent_back_open{
 		   alarm[4] = 2;
-	   global.Arachlvl5pos = 5
+	   global.Arachpos = 5
 	   pickedadirection = false
 	   }
 	}
@@ -34,7 +34,7 @@
 
 
   // Cam 5 move options front vent
-   if global.Arachlvl5pos = 5{
+   if global.Arachpos = 5{
 	   alarm[0] = 2
     if forward and pickedadirection{
 	if global.vent_front_open{
@@ -45,7 +45,7 @@
 	   
 	   if !global.vent_front_open{
 		   alarm[4] = 2;
-	   global.Arachlvl5pos = 8
+	   global.Arachpos = 8
 	   pickedadirection = false
 		
 	   }
@@ -60,7 +60,7 @@
 	   
 	   if !global.vent_front_open{
 		   alarm[4] = 2;
-	   global.Arachlvl5pos = 8
+	   global.Arachpos = 8
 	   pickedadirection = false
 	   }
 	}

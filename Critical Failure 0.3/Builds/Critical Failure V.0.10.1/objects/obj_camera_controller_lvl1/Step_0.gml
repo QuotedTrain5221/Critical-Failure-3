@@ -41,7 +41,8 @@ if (mouse_check_button_pressed(mb_left))
 }
 
 
-
+// Jump-Scare Zone
+		if (global.dead = true) {scr_change_camera_lvl1("jumpscarezone")};
 
 
 

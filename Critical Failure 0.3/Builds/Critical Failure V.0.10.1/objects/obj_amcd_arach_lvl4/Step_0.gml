@@ -1,6 +1,6 @@
 show_debug_message("Gwiber Step Event Functioning");
 
-if global.current_zone = global.Arachlvl4pos+1{ 
+if global.current_zone = global.Arachlvl3pos+1{ 
 	global.Arachwatched = true
 }
 else {global.Arachwatched = false}
@@ -38,12 +38,7 @@ if attacktimer = 0{
 }
 
 if dead = true{
-	deathscreentimer -=1
-	if instance_exists(obj_jump_scare_zone){
-	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_arach_jump_scare)
-			instance_destroy(obj_jump_scare_zone)}
-			if global.dead = true {scr_change_camera_lvl4("jumpscarezone")};
-}
+	deathscreentimer -=1}
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
 
 //REGULAR MOVE TIMER

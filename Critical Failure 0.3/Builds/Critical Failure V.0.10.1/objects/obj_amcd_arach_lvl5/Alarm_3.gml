@@ -1,2 +1,2 @@
-global.Arachlvl5pos = 5
+global.Arachpos = 5
 corridordirection = 1;

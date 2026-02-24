@@ -13,7 +13,7 @@ forward = true
 global.Arachwatched = false
 
 
-global.Arachlvl5pos = 5;
+global.Arachpos = 5;
 
 // Arach Jump-Scare
 

@@ -1,6 +1,6 @@
 show_debug_message("Gwiber Step Event Functioning");
 
-if global.current_zone = global.bulkerlvl5pos+1{ 
+if global.current_zone = global.bulkerpos+1{ 
 	global.bulkerwatched = true
 }
 else {global.bulkerwatched = false}
@@ -37,12 +37,7 @@ if jump_scare_timer >= -1 {
 }
 
 if dead = true{
-	deathscreentimer -=1
-	if instance_exists(obj_jump_scare_zone){
-	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_bulker_jump_scare)
-			instance_destroy(obj_jump_scare_zone)}
-			if global.dead = true {scr_change_camera_lvl5("jumpscarezone")};
-}
+	deathscreentimer -=1}
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
 	
 
@@ -75,6 +70,61 @@ show_debug_message("amcd bulker alarm event functioning");
 
 
 
+//Physically Move Gwiber Parallel to the Movement code
 
+{
+if global.bulkerpos = 0 
+x = 30//cords for office zone 0
+y = 576//cords for office zone 0
 
-              
+}
+
+{
+if global.bulkerpos = 1
+x = 31//cords for camera zone 1
+y = 31//cords for camera zone 1
+}
+
+{
+if global.bulkerpos = 2
+x = 479//cords for camera zone 2
+y = 31//cords for camera zone 2
+}
+
+{
+if global.bulkerpos = 3
+x = 927//cords for camera zone 3
+y = 31//cords for camera zone 3
+}
+
+{
+if global.bulkerpos = 4
+x = 1375//cords for camera zone 4
+y = 31//cords for camera zone 4
+}
+
+{
+if global.bulkerpos = 5
+x = 31//cords for camera zone 5
+y = 319//cords for camera zone 5
+}
+
+{
+if global.bulkerpos = 6
+x = 479//cords for camera zone 6
+y = 319//cords for camera zone 6
+}
+
+{
+if global.bulkerpos = 7
+x = 927//cords for camera zone 7
+y = 319//cords for camera zone 7
+}
+
+{
+if global.bulkerpos = 8
+x = 1375//cords for camera zone 8
+y = 319//cords for camera zone 8
+}
+
+                                                       

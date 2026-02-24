@@ -22,7 +22,6 @@ function scr_change_camera_lvl2(zone_name)
         case "lvl2frontVent":  global.current_zone = 17; break;
         case "lvl2leftDoor":   global.current_zone = 18; break;
         case "lvl2rightDoor":  global.current_zone = 19; break;
-		case "jumpscarezone": global.current_zone = 20; break;
         default:
             show_debug_message("Invalid camera name: " + string(zone_name));
     }

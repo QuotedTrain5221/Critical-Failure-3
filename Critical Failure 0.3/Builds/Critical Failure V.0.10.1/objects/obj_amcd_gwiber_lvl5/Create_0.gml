@@ -13,7 +13,7 @@ forward = false
 global.gwiberwatched = false
 
 
-global.gwiberlvl5pos = 4;
+global.gwiberpos = 4;
 
 // Gwiber Jump-Scare
 
@@ -24,3 +24,4 @@ readytomove = true
 global.gwiberkillstate = false
 dead = false
 pickedadirection = false
+gwiberjumpscare = instance_exists(obj_jump_scare_zone)  ? instance_find(obj_jump_scare_zone, 0)  : noone;
