@@ -1,1 +1,0 @@
-camera = camera_create_view(cam_x[global.current_zone],cam_y[global.current_zone],400,225);

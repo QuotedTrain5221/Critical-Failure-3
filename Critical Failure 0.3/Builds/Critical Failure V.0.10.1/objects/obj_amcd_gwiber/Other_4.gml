@@ -1,2 +1,0 @@
-instance_create_layer(obj_cam_zone_4_lvl1.x,obj_cam_zone_4_lvl1.y,"Instances",obj_cam_zone_4_gwiber)
-		instance_destroy(obj_cam_zone_4_lvl1)

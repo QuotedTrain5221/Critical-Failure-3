@@ -1,1 +1,0 @@
-sprite_index = spr_zone_11_bulker
