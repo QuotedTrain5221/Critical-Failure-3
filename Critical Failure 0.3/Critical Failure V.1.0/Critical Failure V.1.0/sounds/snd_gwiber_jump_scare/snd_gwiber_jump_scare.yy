@@ -10,7 +10,7 @@
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":1.2705669,
+  "duration":3.651814,
   "exportDir":"",
   "name":"snd_gwiber_jump_scare",
   "parent":{
