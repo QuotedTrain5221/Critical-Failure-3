@@ -42,7 +42,7 @@ if dead = true{
 	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_bulker_jump_scare)
 			instance_destroy(obj_jump_scare_zone)}
 			// Jump-Scare Zone
-		if global.dead = true {scr_change_camera_lvl2("jumpscarezone")};
+		if dead = true {scr_change_camera_lvl2("jumpscarezone")};
 }
 	
 	if deathscreentimer = 0{room_goto(rm_death_screen)}

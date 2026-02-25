@@ -3,4 +3,3 @@ righthallway = false
 
 audioplaytimerleft = 150
 audioplaytimerright = 150
-soundplaying = false

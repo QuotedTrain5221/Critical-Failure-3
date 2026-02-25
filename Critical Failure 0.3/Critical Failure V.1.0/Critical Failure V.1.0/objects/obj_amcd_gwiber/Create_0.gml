@@ -20,6 +20,6 @@ global.gwiberpos = 4;
 jump_scare_timer = 400
 
 readytomove = true
-global.dead = false
+dead = false
 global.gwiberkillstate = false
 pickedadirection = false

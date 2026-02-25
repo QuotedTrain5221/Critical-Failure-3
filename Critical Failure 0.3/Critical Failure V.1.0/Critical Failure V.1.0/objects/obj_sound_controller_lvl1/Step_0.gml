@@ -1,4 +1,9 @@
 
+
+
+
+
+
 if global.gwiberpos = 2 or global.k9pos = 2 {lefthallway = true}
 if global.k9pos = 7 {righthallway = true}
 if righthallway = true{
@@ -27,6 +32,7 @@ if audioplaytimerright = 0 {
 audio_group_load(Background)
 audio_group_load(k9)
 audio_group_load(gwiber)
+audio_group_load(audiogroup_default)
 
 if audioplaytimerleft <= 0{
 	audioplaytimerleft = 150
@@ -86,4 +92,8 @@ if audioplaytimerleft <= 0 {
   }}
   
   
+
+  
+
+
 

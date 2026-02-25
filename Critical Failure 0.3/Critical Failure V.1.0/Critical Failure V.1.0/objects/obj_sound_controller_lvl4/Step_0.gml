@@ -1,6 +1,6 @@
 
-if global.gwiberlvl5pos = 2 or global.k9lvl5pos = 2 or global.prototypelvl5pos = 2 {lefthallway = true}
-if global.k9lvl5pos = 7 or global.bulkerlvl5pos = 7 or global.prototypelvl5pos = 7 {righthallway = true}
+if global.prototypelvl5pos = 2  {lefthallway = true}
+if global.prototypelvlpos = 7  {righthallway = true}
 if righthallway = true{
    audioplaytimerright -=1}
    if lefthallway = true{
@@ -36,106 +36,110 @@ if audioplaytimerright <= 0{
 	audioplaytimerright = 150
 }
 //K9 Sounds
-if global.k9footstep_cam1lvl5 = true{
+if global.k9footstep_cam1lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_k9_footsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_k9_footsteps)
-  global.k9footstep_cam1lvl5 = false
+  global.k9footstep_cam1lvl3 = false
   }}
   
-  if global.k9footstep_cam2lvl5 = true{
+  if global.k9footstep_cam2lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_k9_footsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_k9_footsteps)
-  global.k9footstep_cam2lvl5 = false
+  global.k9footstep_cam2lvl3 = false
   }}
 
-if global.k9footstep_cam6lvl5 = true{
+if global.k9footstep_cam6lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_k9_footsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_k9_footsteps)
-  global.k9footstep_cam6lvl5 = false
+  global.k9footstep_cam6lvl3 = false
   }}
   
-  if global.k9footstep_cam7lvl5 = true{
+  if global.k9footstep_cam7lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_k9_footsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_k9_footsteps)
-  global.k9footstep_cam7lvl5 = false
+  global.k9footstep_cam7lvl3 = false
   }}
   
-  if global.k9footstep_cam5lvl5 = true{
+  if global.k9footstep_cam5lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_k9_footsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_k9_footsteps)
-  global.k9footstep_cam5lvl5 = false
+  global.k9footstep_cam5lvl3 = false
   }}
   
   //Bulker sounds
-  if global.bulkerfootstep_cam11lvl5 = true{
+  if global.bulkerfootstep_cam11lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_bulkerfootsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_bulkerfootsteps)
-  global.bulkerfootstep_cam11lvl5 = false
+  global.bulkerfootstep_cam11lvl3 = false
   }}
   
-  if global.bulkerfootstep_cam10lvl5 = true{
+  if global.bulkerfootstep_cam10lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_bulkerfootsteps,1,false)}
   audioplaytimerleft -= 1
   
 if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_bulkerfootsteps)
-  global.bulkerfootstep_cam10lvl5 = false
+  global.bulkerfootstep_cam10lvl3 = false
   }}
 
-if global.bulkerfootstep_cam9lvl5 = true{
+if global.bulkerfootstep_cam9lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_bulkerfootsteps,1,false)}
   audioplaytimerleft -= 1
   
-  if audioplaytimerleft <= 0 {
+if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_bulkerfootsteps)
-  global.bulkerfootstep_cam9lvl5 = false
+  global.bulkerfootstep_cam9lvl3 = false
   }}
   
-  if global.bulkerfootstep_cam8lvl5 = true{
+  if global.bulkerfootstep_cam8lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_bulkerfootsteps,1,false)}
   audioplaytimerleft -= 1
   
-  if audioplaytimerleft <= 0 {
+if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_bulkerfootsteps)
-  global.bulkerfootstep_cam8lvl5 = false
+  global.bulkerfootstep_cam8lvl3 = false
   }}
   
-  if global.bulkerfootstep_cam7lvl5 = true{
+  if global.bulkerfootstep_cam7lvl3 = true{
  if audioplaytimerleft = 150{
   audio_play_sound(snd_bulkerfootsteps,1,false)}
   audioplaytimerleft -= 1
   
-  if audioplaytimerleft <= 0 {
+if audioplaytimerleft <= 0 {
   audio_stop_sound(snd_bulkerfootsteps)
-  global.bulkerfootstep_cam7lvl5 = false
+  global.bulkerfootstep_cam7lvl3 = false
   }}
+  
+  
+  
+  
   
   
   

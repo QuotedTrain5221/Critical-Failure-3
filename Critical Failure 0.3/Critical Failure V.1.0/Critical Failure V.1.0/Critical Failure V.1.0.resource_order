@@ -511,6 +511,7 @@
     {"name":"obj_sound_controller_lvl1","order":1,"path":"objects/obj_sound_controller_lvl1/obj_sound_controller_lvl1.yy",},
     {"name":"obj_sound_controller_lvl2","order":1,"path":"objects/obj_sound_controller_lvl2/obj_sound_controller_lvl2.yy",},
     {"name":"obj_sound_controller_lvl3","order":1,"path":"objects/obj_sound_controller_lvl3/obj_sound_controller_lvl3.yy",},
+    {"name":"obj_sound_controller_lvl4","order":1,"path":"objects/obj_sound_controller_lvl4/obj_sound_controller_lvl4.yy",},
     {"name":"obj_sound_controller_lvl5","order":1,"path":"objects/obj_sound_controller_lvl5/obj_sound_controller_lvl5.yy",},
     {"name":"obj_to_level2","order":1,"path":"objects/obj_to_level2/obj_to_level2.yy",},
     {"name":"obj_to_level3","order":2,"path":"objects/obj_to_level3/obj_to_level3.yy",},

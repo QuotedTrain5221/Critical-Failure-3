@@ -9,6 +9,8 @@
     {"$GMAudioGroup":"v1","%Name":"k9","exportDir":"","name":"k9","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMAudioGroup":"v1","%Name":"Bulker","exportDir":"","name":"Bulker","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
     {"$GMAudioGroup":"v1","%Name":"Nextlevel","exportDir":"","name":"Nextlevel","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"ambience","exportDir":"","name":"ambience","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMAudioGroup":"v1","%Name":"ambience1","exportDir":"","name":"ambience1","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
   "configs":{
     "children":[],
@@ -605,6 +607,7 @@
     {"id":{"name":"obj_sound_controller_lvl1","path":"objects/obj_sound_controller_lvl1/obj_sound_controller_lvl1.yy",},},
     {"id":{"name":"obj_sound_controller_lvl2","path":"objects/obj_sound_controller_lvl2/obj_sound_controller_lvl2.yy",},},
     {"id":{"name":"obj_sound_controller_lvl3","path":"objects/obj_sound_controller_lvl3/obj_sound_controller_lvl3.yy",},},
+    {"id":{"name":"obj_sound_controller_lvl4","path":"objects/obj_sound_controller_lvl4/obj_sound_controller_lvl4.yy",},},
     {"id":{"name":"obj_sound_controller_lvl5","path":"objects/obj_sound_controller_lvl5/obj_sound_controller_lvl5.yy",},},
     {"id":{"name":"obj_start","path":"objects/obj_start/obj_start.yy",},},
     {"id":{"name":"obj_to_level1","path":"objects/obj_to_level1/obj_to_level1.yy",},},
