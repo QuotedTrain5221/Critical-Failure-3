@@ -5,7 +5,7 @@ amcd_name = "K9|"
 move_time_mill = 1200; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
-deathscreentimer = 10
+deathscreentimer = 150
 
 forward = true
 

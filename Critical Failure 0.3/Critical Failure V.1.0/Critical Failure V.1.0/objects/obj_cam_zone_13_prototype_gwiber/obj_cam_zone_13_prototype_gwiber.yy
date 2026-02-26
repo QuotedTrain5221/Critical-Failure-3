@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zone_13_prototype",
-    "path":"sprites/spr_zone_13_prototype/spr_zone_13_prototype.yy",
+    "name":"spr_zone_13_prototype_gwiber",
+    "path":"sprites/spr_zone_13_prototype_gwiber/spr_zone_13_prototype_gwiber.yy",
   },
   "spriteMaskId":null,
   "visible":true,

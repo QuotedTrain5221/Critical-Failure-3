@@ -5,7 +5,7 @@ amcd_name = "Prototype|"
 move_time_mill = 1000; //time until alarm trigger
 
 movedirection = 0;
-deathscreentimer = 10
+deathscreentimer = 150
 
 forward = true
 

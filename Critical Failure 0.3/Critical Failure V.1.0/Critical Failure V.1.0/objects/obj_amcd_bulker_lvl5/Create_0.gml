@@ -5,7 +5,7 @@ amcd_name = "bulker|"
 move_time_mill = 5000; //time until alarm trigger(milliseconds)
 
 movedirection = 0;
-deathscreentimer = 10
+deathscreentimer = 150
 
 forward = false
 

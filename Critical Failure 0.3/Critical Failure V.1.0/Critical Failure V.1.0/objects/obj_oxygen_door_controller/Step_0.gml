@@ -64,7 +64,7 @@ if global.oxygen = 0{
 			oxygen_loss_per_closed = false
 		global.playerhealth = 100
 			global.oxygen = 100
-			global.dead = true
+			alarm[0] = 2
 		}
 		
 		

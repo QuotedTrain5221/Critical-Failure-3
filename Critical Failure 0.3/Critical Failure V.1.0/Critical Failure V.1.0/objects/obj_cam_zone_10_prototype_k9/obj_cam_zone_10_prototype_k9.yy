@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zone_10_prototype",
-    "path":"sprites/spr_zone_10_prototype/spr_zone_10_prototype.yy",
+    "name":"spr_zone_10_prototype_k9",
+    "path":"sprites/spr_zone_10_prototype_k9/spr_zone_10_prototype_k9.yy",
   },
   "spriteMaskId":null,
   "visible":true,

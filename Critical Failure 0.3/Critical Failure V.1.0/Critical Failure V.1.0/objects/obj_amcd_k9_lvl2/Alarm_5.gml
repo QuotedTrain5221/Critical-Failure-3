@@ -2,15 +2,6 @@
 if  global.k9lvl2pos = 1 { //cam 1
     alarm[0] = 2;
 	
-	if instance_exists(obj_cam_zone_1_gwiber_k9){
-			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_gwiber) 
-		instance_destroy(obj_cam_zone_1_gwiber_k9)
-		}
-		if instance_exists(obj_cam_zone_1_k9){
-			instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_lvl2) 
-		instance_destroy(obj_cam_zone_1_k9)
-		}
-	
 		if forward and pickedadirection {
 		alarm[4] = 2;
 		global.k9lvl2pos = 5;
@@ -26,6 +17,17 @@ if  global.k9lvl2pos = 1 { //cam 1
 		show_debug_message("created new instance");
 		instance_destroy(obj_cam_zone_5_lvl2);
 		show_debug_message("destroyed old instance");
+		
+		
+	if instance_exists(obj_cam_zone_1_gwiber_k9){
+			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_gwiber) 
+		instance_destroy(obj_cam_zone_1_gwiber_k9)
+		}
+		if instance_exists(obj_cam_zone_1_k9){
+			instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_lvl2) 
+		instance_destroy(obj_cam_zone_1_k9)
+		}
+	
 		}
 		}
 		
@@ -44,6 +46,16 @@ if  global.k9lvl2pos = 1 { //cam 1
 		instance_destroy(obj_cam_zone_2_lvl2)
 		
 		}
+		
+	if instance_exists(obj_cam_zone_1_gwiber_k9){
+			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_gwiber) 
+		instance_destroy(obj_cam_zone_1_gwiber_k9)
+		}
+		if instance_exists(obj_cam_zone_1_k9){
+			instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_lvl2) 
+		instance_destroy(obj_cam_zone_1_k9)
+		}
+	
 		}
  
 }

@@ -2,14 +2,8 @@
 if  global.k9lvl5pos = 1 { //cam 1
     alarm[0] = 2;
 	
-	if instance_exists(obj_cam_zone_1_gwiber_k9){
-			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_gwiber) 
-		instance_destroy(obj_cam_zone_1_gwiber_k9)
-		}
-		if instance_exists(obj_cam_zone_1_k9){
-			instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_lvl5) 
-		instance_destroy(obj_cam_zone_1_k9)
-		}
+	
+		
 	
 	
 		if forward and pickedadirection {
@@ -17,6 +11,10 @@ if  global.k9lvl5pos = 1 { //cam 1
 		global.k9lvl5pos = 5;
 		pickedadirection = false
 		
+		if instance_exists(obj_cam_zone_1_k9){
+			instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_lvl5) 
+		instance_destroy(obj_cam_zone_1_k9)
+		}
 		
 		if instance_exists(obj_cam_zone_5_gwiber){
 		instance_create_layer(obj_cam_zone_5_gwiber.x,obj_cam_zone_5_gwiber.y,"Instances",obj_cam_zone_5_gwiber_k9)

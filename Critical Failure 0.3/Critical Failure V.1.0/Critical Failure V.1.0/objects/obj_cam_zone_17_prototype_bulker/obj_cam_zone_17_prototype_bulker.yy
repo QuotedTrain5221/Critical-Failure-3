@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zone_17_prototype",
-    "path":"sprites/spr_zone_17_prototype/spr_zone_17_prototype.yy",
+    "name":"spr_zone_17_prototype_bulker",
+    "path":"sprites/spr_zone_17_prototype_bulker/spr_zone_17_prototype_bulker.yy",
   },
   "spriteMaskId":null,
   "visible":true,

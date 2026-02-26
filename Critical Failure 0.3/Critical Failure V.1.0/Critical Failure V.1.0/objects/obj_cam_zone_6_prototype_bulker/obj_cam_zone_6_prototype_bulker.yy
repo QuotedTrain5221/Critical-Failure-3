@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"obj_cam_zone_6_prototype_bulker",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"obj_cam_zone_6_prototype_bulker",
   "overriddenProperties":[],
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zone_6_prototype",
-    "path":"sprites/spr_zone_6_prototype/spr_zone_6_prototype.yy",
+    "name":"spr_zone_6_prototype_bulker",
+    "path":"sprites/spr_zone_6_prototype_bulker/spr_zone_6_prototype_bulker.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -41,8 +41,8 @@ if dead = true{
 	deathscreentimer -=1
 	if instance_exists(obj_jump_scare_zone){
 	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_arach_jump_scare)
-			instance_destroy(obj_jump_scare_zone)}
-			if dead = true {scr_change_camera_lvl5("jumpscarezone")};
+			instance_destroy(obj_jump_scare_zone)
+			scr_change_camera_lvl5("jumpscarezone")};
 }
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
 
