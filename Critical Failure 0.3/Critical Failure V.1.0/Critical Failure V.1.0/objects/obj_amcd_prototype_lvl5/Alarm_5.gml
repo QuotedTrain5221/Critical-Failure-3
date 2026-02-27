@@ -131,9 +131,6 @@ if global.prototypelvl5pos = 1 { //cam 1
 		     instance_create_layer(obj_cam_zone_2_prototype.x,obj_cam_zone_2_prototype.y,"Instances",obj_cam_zone_2_lvl5)
 			instance_destroy(obj_cam_zone_2_prototype)}
 			
-				if instance_exists(obj_cam_zone_3_k9){
-		instance_create_layer(obj_cam_zone_3_k9.x,obj_cam_zone_3_k9.y,"Instances",obj_cam_zone_3_prototype_k9)
-		instance_destroy(obj_cam_zone_3_k9)}
 		
 		if instance_exists(obj_cam_zone_3_gwiber){
 		instance_create_layer(obj_cam_zone_3_gwiber.x,obj_cam_zone_3_gwiber.y,"Instances",obj_cam_zone_3_prototype_gwiber)
@@ -419,6 +416,18 @@ if instance_exists(obj_cam_zone_12_gwiber){
 	   if instance_exists(obj_cam_zone_2_prototype){
 		     instance_create_layer(obj_cam_zone_2_prototype.x,obj_cam_zone_2_prototype.y,"Instances",obj_cam_zone_2_lvl5)
 			instance_destroy(obj_cam_zone_2_prototype)}
+			
+				if instance_exists(obj_cam_zone_1_k9){
+		instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_prototype_k9)
+		instance_destroy(obj_cam_zone_1_k9)}
+		
+		if instance_exists(obj_cam_zone_1_gwiber){
+		instance_create_layer(obj_cam_zone_1_gwiber.x,obj_cam_zone_1_gwiber.y,"Instances",obj_cam_zone_1_prototype_gwiber)
+		instance_destroy(obj_cam_zone_1_gwiber)}
+		
+		if instance_exists(obj_cam_zone_2_proto_k9_gwib){
+		instance_create_layer(obj_cam_zone_2_proto_k9_gwib.x,obj_cam_zone_2_proto_k9_gwib.y,"Instances",obj_cam_zone_2_lvl5)
+			instance_destroy(obj_cam_zone_2_proto_k9_gwib)}
 			
 			
 	   //Camera 3

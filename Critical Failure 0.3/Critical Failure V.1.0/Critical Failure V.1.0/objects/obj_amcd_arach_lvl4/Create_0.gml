@@ -2,10 +2,10 @@ amcd_id = 4;
 amcd_name = "Arach|"
 
 //time until alarm trigger(seconds)
-move_time_mill = 600; //time until alarm trigger(milliseconds)
+move_time_mill = choose(3000,5000,1200); //time until alarm trigger(milliseconds)
 
 movedirection = 0;
-deathscreentimer = 10
+deathscreentimer = 150
 
 forward = true
 
