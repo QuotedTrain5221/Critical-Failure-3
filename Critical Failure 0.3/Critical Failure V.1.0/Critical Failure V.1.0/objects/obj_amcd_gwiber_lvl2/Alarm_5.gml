@@ -164,8 +164,9 @@ if global.gwiberlvl2pos = 4 { //cam 4
 	   }
 		  
 		  if global.gwiberlvl2pos = 3{
+			  if instance_exists(obj_cam_zone_3_lvl2){
 		     instance_create_layer(obj_cam_zone_3_lvl2.x,obj_cam_zone_3_lvl2.y,"Instances",obj_cam_zone_3_gwiber)
-			instance_destroy(obj_cam_zone_3_lvl2)
+			instance_destroy(obj_cam_zone_3_lvl2)}
 		  }
 		  
 		  }
@@ -189,17 +190,18 @@ if global.gwiberlvl2pos = 4 { //cam 4
 		instance_create_layer(obj_cam_zone_1_k9.x,obj_cam_zone_1_k9.y,"Instances",obj_cam_zone_1_gwiber_k9)
 		instance_destroy(obj_cam_zone_1_k9)
 		}
-		if instance_exists(obj_cam_zone_1_lvl2){
+		
 		instance_create_layer(obj_cam_zone_1_lvl2.x,obj_cam_zone_1_lvl2.y,"Instances",obj_cam_zone_1_gwiber)
 		instance_destroy(obj_cam_zone_1_lvl2)
 		}
 	   }
 		  
 		  if global.gwiberlvl2pos = 3{
+			  if instance_exists(obj_cam_zone_1_lvl2){
 		     instance_create_layer(obj_cam_zone_3_lvl2.x,obj_cam_zone_3_lvl2.y,"Instances",obj_cam_zone_3_gwiber)
-			instance_destroy(obj_cam_zone_3_lvl2)
+			instance_destroy(obj_cam_zone_3_lvl2)}
 		  }
-	}
+	
         show_debug_message(amcd_name + " moved zone " + string(global.gwiberlvl2pos))}
    
   
