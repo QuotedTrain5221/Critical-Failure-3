@@ -24,6 +24,9 @@ if global.prototypelvl5pos = 1 { //cam 1
 		instance_create_layer(obj_cam_zone_1_gwiber.x,obj_cam_zone_1_gwiber.y,"Instances",obj_cam_zone_1_prototype_gwiber)
 		instance_destroy(obj_cam_zone_1_gwiber)}
 		
+		if instance_exists(obj_cam_zone_2_gwiber_k9){
+		instance_create_layer(obj_cam_zone_2_gwiber_k9.x,obj_cam_zone_2_gwiber_k9.y,"Instances",obj_cam_zone_2_proto_k9_gwib)
+			instance_destroy(obj_cam_zone_2_gwiber_k9)}
 	
 	}
 	}
@@ -48,6 +51,10 @@ if global.prototypelvl5pos = 1 { //cam 1
 		if instance_exists(obj_cam_zone_1_prototype){
 		instance_create_layer(obj_cam_zone_1_prototype.x,obj_cam_zone_1_prototype.y,"Instances",obj_cam_zone_1_lvl5)
 		instance_destroy(obj_cam_zone_1_prototype)}
+		
+		if instance_exists(obj_cam_zone_5_gwiber_k9){
+		instance_create_layer(obj_cam_zone_5_gwiber_k9.x,obj_cam_zone_5_gwiber_k9.y,"Instances",obj_cam_zone_5_proto_k9_gwib)
+			instance_destroy(obj_cam_zone_5_gwiber_k9)}
 		}
 	   }
 		  
@@ -67,6 +74,8 @@ if global.prototypelvl5pos = 1 { //cam 1
 		if instance_exists(obj_cam_zone_1_prototype){
 		instance_create_layer(obj_cam_zone_1_prototype.x,obj_cam_zone_1_prototype.y,"Instances",obj_cam_zone_1_lvl5)
 		instance_destroy(obj_cam_zone_1_prototype)}
+		
+		
 	}
 
 
@@ -106,6 +115,10 @@ if global.prototypelvl5pos = 1 { //cam 1
 		if instance_exists(obj_cam_zone_1_gwiber){
 		instance_create_layer(obj_cam_zone_1_gwiber.x,obj_cam_zone_1_gwiber.y,"Instances",obj_cam_zone_1_prototype_gwiber)
 		instance_destroy(obj_cam_zone_1_gwiber)}
+		
+		if instance_exists(obj_cam_zone_2_proto_k9_gwib){
+		instance_create_layer(obj_cam_zone_2_proto_k9_gwib.x,obj_cam_zone_2_proto_k9_gwib.y,"Instances",obj_cam_zone_2_lvl5)
+			instance_destroy(obj_cam_zone_2_proto_k9_gwib)}
 			
 			
 	   //Camera 3
@@ -173,6 +186,8 @@ if global.prototypelvl5pos = 1 { //cam 1
 				if instance_exists(obj_cam_zone_6_k9){
 		instance_create_layer(obj_cam_zone_6_k9.x,obj_cam_zone_6_k9.y,"Instances",obj_cam_zone_6_prototype_k9)
 		instance_destroy(obj_cam_zone_6_k9)}
+		
+		
 		
 	
 			
@@ -660,6 +675,10 @@ if global.prototypelvl5pos = 6 { //cam 6
 		if instance_exists(obj_cam_zone_7_lvl5){
 		instance_create_layer(obj_cam_zone_7_lvl5.x,obj_cam_zone_7_lvl5.y,"Instances",obj_cam_zone_7_prototype)
 		instance_destroy(obj_cam_zone_7_lvl5)}
+		
+		if instance_exists(obj_cam_zone_7_k9_bulker){
+		instance_create_layer(obj_cam_zone_7_k9_bulker.x,obj_cam_zone_7_k9_bulker.y,"Instances",obj_cam_zone_7_proto_k9_bulk)
+			instance_destroy(obj_cam_zone_7_k9_bulker)}
 	}
 
 	if !forward and pickedadirection{
