@@ -243,6 +243,7 @@
     {"name":"obj_cam_9_lvl3","order":8,"path":"objects/obj_cam_9_lvl3/obj_cam_9_lvl3.yy",},
     {"name":"obj_cam_9_lvl4","order":8,"path":"objects/obj_cam_9_lvl4/obj_cam_9_lvl4.yy",},
     {"name":"obj_cam_9_lvl5","order":19,"path":"objects/obj_cam_9_lvl5/obj_cam_9_lvl5.yy",},
+    {"name":"obj_cam_zone_1_proto_k9_gwib","order":2,"path":"objects/obj_cam_zone_1_proto_k9_gwib/obj_cam_zone_1_proto_k9_gwib.yy",},
     {"name":"obj_cam_zone_10_bulker","order":1,"path":"objects/obj_cam_zone_10_bulker/obj_cam_zone_10_bulker.yy",},
     {"name":"obj_cam_zone_10_lvl1","order":1,"path":"objects/obj_cam_zone_10_lvl1/obj_cam_zone_10_lvl1.yy",},
     {"name":"obj_cam_zone_10_lvl2","order":1,"path":"objects/obj_cam_zone_10_lvl2/obj_cam_zone_10_lvl2.yy",},

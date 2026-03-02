@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_cam_zone_2_proto_k9_gwib",
+  "%Name":"obj_cam_zone_1_proto_k9_gwib",
   "eventList":[],
   "managed":true,
-  "name":"obj_cam_zone_2_proto_k9_gwib",
+  "name":"obj_cam_zone_1_proto_k9_gwib",
   "overriddenProperties":[],
   "parent":{
     "name":"Gwiber K9 PROTOTYPE",
@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_zone_1_proto_k9_gwib",
-    "path":"sprites/spr_zone_1_proto_k9_gwib/spr_zone_1_proto_k9_gwib.yy",
+    "name":"spr_zone_2_proto_k9_gwib",
+    "path":"sprites/spr_zone_2_proto_k9_gwib/spr_zone_2_proto_k9_gwib.yy",
   },
   "spriteMaskId":null,
   "visible":true,

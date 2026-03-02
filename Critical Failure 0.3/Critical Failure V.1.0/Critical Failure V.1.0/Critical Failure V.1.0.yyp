@@ -188,7 +188,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Critical Failure V.1.0",
   "resources":[
@@ -311,6 +311,7 @@
     {"id":{"name":"obj_cam_zone_1_lvl3","path":"objects/obj_cam_zone_1_lvl3/obj_cam_zone_1_lvl3.yy",},},
     {"id":{"name":"obj_cam_zone_1_lvl4","path":"objects/obj_cam_zone_1_lvl4/obj_cam_zone_1_lvl4.yy",},},
     {"id":{"name":"obj_cam_zone_1_lvl5","path":"objects/obj_cam_zone_1_lvl5/obj_cam_zone_1_lvl5.yy",},},
+    {"id":{"name":"obj_cam_zone_1_proto_k9_gwib","path":"objects/obj_cam_zone_1_proto_k9_gwib/obj_cam_zone_1_proto_k9_gwib.yy",},},
     {"id":{"name":"obj_cam_zone_1_prototype_bulker","path":"objects/obj_cam_zone_1_prototype_bulker/obj_cam_zone_1_prototype_bulker.yy",},},
     {"id":{"name":"obj_cam_zone_1_prototype_gwiber","path":"objects/obj_cam_zone_1_prototype_gwiber/obj_cam_zone_1_prototype_gwiber.yy",},},
     {"id":{"name":"obj_cam_zone_1_prototype_k9","path":"objects/obj_cam_zone_1_prototype_k9/obj_cam_zone_1_prototype_k9.yy",},},
