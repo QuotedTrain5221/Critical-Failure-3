@@ -4,8 +4,8 @@
   "bboxMode":0,
   "bbox_bottom":739,
   "bbox_left":0,
-  "bbox_right":193,
-  "bbox_top":5,
+  "bbox_right":199,
+  "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,6 +19,7 @@
   "height":740,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"181de71e-796a-43cb-b4a4-c29e48c108bb","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"181de71e-796a-43cb-b4a4-c29e48c108bb","opacity":52.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"304b63b8-17ca-4d5f-bc5f-b518dd90dc70","blendMode":0,"displayName":"default","isLocked":false,"name":"304b63b8-17ca-4d5f-bc5f-b518dd90dc70","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_door_closed_right",

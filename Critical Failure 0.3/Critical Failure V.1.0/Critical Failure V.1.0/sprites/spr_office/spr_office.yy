@@ -19,6 +19,8 @@
   "height":225,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"8be01665-8832-49d2-be08-c5628cf70ed9","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"8be01665-8832-49d2-be08-c5628cf70ed9","opacity":52.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b3f46c96-a9c1-4a5c-aa5c-9b0790d4c980","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"b3f46c96-a9c1-4a5c-aa5c-9b0790d4c980","opacity":52.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"98e4486a-b8bb-49b0-b7e7-6016235eef38","blendMode":0,"displayName":"default","isLocked":false,"name":"98e4486a-b8bb-49b0-b7e7-6016235eef38","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_office",
