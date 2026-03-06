@@ -1,42 +1,3 @@
-show_debug_message("Gwiber Step Event Functioning");
-
-if global.current_zone = global.Arachlvl4pos+1{ 
-	global.Arachwatched = true
-}
-else {global.Arachwatched = false}
-
-
-//KILL STATE CODE
-//Triggers if in pos 2 and door is open on movement interval
-
-if killstate = true{
-if attacktimer >= -1 {
-		attacktimer -= 1
-}
-}
-
-if attacktimer = 0{
-	if global.Arachlvl4pos = 5 and global.vent_front_open{
-	alarm[1] = 2
-	}
-	if global.Arachlvl4pos = 5 and !global.vent_front_open{
-		alarm[4] = 2;
-	alarm[3] = 2
-	attacktimer = 400
-	killstate = false
-	readytomove = true}
-	
-	if global.Arachlvl4pos =8 and global.vent_back_open{
-	alarm[1] = 2
-	}
-	if global.Arachlvl4pos = 8 and !global.vent_back_open{
-		alarm[4] = 2;
-	alarm[3] = 2
-	attacktimer = 400
-	killstate = false
-	readytomove = true}
-}
-
 if dead = true{
 	deathscreentimer -=1
 	if instance_exists(obj_jump_scare_zone){
@@ -45,33 +6,61 @@ if dead = true{
 			if dead = true {scr_change_camera_lvl4("jumpscarezone")};
 }
 	if deathscreentimer = 0{room_goto(rm_death_screen)}
-
-//REGULAR MOVE TIMER
-
-if readytomove{
-if !global.Arachwatched{
+	
+	
 if move_time_mill >= -1 {
-		move_time_mill -= 1
-}
-}
-if global.Arachwatched{
-
-if move_time_mill >= -1 {
-		move_time_mill -=1
-}
-}
-}
-
-
-
-
-// NON KILL STATE MOVEMENT
+		move_time_mill -=1}
 
 if move_time_mill <= 0{
-move_time_mill = 400
-alarm[5] = 2
-}
-    
-if attacktimer = 390 {audio_play_sound_ext({ sound: snd_crawl })
-}
+move_time_mill = choose (3000, 1200, 700)}
 
+
+
+
+
+
+
+	
+	
+	
+	
+	
+	if global.vent_front_closed{gofront = false}
+	if global.vent_back_closed{goback = false}
+	if !global.vent_front_closed{gofront = true}
+	if !global.vent_back_closed{goback = true}
+	
+	
+	
+	if move_time_mill <= 0 and gofront = true{
+			audio_play_sound(snd_crawl,1,false)
+			attacktimer = -1}
+			
+	if move_time_mill <= 0 and goback = true{
+			audio_play_sound(snd_crawl,1,false)
+			attacktimer = -1}
+			
+			if move_time_mill <= 0 and gofront = false{
+			audio_play_sound(snd_crawl,1,false)
+			}
+			
+	if move_time_mill <= 0 and goback = false{
+			audio_play_sound(snd_crawl,1,false)
+			}
+	
+	if attacktimer = 0 and gofront = true{
+		alarm[1] = 2
+		}
+		
+		if attacktimer = 0 and goback = true{
+		alarm[1] = 2
+		}
+		
+		if attacktimer = 0 and gofront = false{
+		attacktimer = 400
+		alarm[2] = 2}
+		
+		if attacktimer = 0 and goback = false{
+		attacktimer = 400
+		alarm[2] = 2}
+		

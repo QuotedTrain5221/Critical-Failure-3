@@ -67,7 +67,7 @@ if move_time_mill >= -1 {
 // NON KILL STATE MOVEMENT
 
 if move_time_mill <= 0{
-move_time_mill = irandom_range(1000,1500)
+move_time_mill = irandom_range(500,700)
 alarm[5] = 2
 }
     

@@ -2,7 +2,7 @@ amcd_id = 00;
 amcd_name = "Prototype|"
 
 //time until alarm trigger(seconds)
-move_time_mill = 1000; //time until alarm trigger
+move_time_mill = 700; //time until alarm trigger
 
 movedirection = 0;
 deathscreentimer = 150
@@ -17,7 +17,7 @@ global.prototypelvl5pos = 15;
 
 // prototype Jump-Scare
 
-jump_scare_timer = 350
+jump_scare_timer = 400
 corridordirection = 3
 readytomove = true
 

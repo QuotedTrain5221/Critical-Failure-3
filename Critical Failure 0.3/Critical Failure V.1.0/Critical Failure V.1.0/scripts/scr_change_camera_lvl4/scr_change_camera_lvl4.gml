@@ -10,7 +10,7 @@ function scr_change_camera_lvl4(zone_name)
         case "lvl4cam4":       global.current_zone = 5; break;
         case "lvl4cam5":       global.current_zone = 6; break;
         case "lvl4cam6":       global.current_zone = 7; break;
-        case "lvL4cam7":       global.current_zone = 8; break;
+        case "lvl4cam7":       global.current_zone = 8; break;
         case "lvl4cam8":       global.current_zone = 9; break;
         case "lvl4cam9":       global.current_zone = 10; break;
         case "lvl4cam10":      global.current_zone = 11; break;

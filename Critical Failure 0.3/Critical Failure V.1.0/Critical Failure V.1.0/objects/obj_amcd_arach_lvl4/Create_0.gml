@@ -1,26 +1,10 @@
 amcd_id = 4;
 amcd_name = "Arach|"
 
-//time until alarm trigger(seconds)
-move_time_mill = choose(3000,5000,1200); //time until alarm trigger(milliseconds)
-
-movedirection = 0;
+move_time_mill = choose(3000,1200,700)
+dead = false
+gofront = false
+goback = false
 deathscreentimer = 150
 
-forward = true
-
-//amcd state
-global.Arachwatched = false
-
-
-global.Arachlvl4pos = 5;
-
-// Arach Jump-Scare
-
-attacktimer = 600
-corridordirection = 1
-readytomove = true
-
-killstate = false
-dead = false
-pickedadirection = false
+attacktimer = 400

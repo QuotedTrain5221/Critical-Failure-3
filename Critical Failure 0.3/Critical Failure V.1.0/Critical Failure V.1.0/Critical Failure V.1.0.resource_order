@@ -151,7 +151,7 @@
     {"name":"obj_about","order":1,"path":"objects/obj_about/obj_about.yy",},
     {"name":"obj_amcd_arach_lvl3","order":4,"path":"objects/obj_amcd_arach_lvl3/obj_amcd_arach_lvl3.yy",},
     {"name":"obj_amcd_arach_lvl4","order":1,"path":"objects/obj_amcd_arach_lvl4/obj_amcd_arach_lvl4.yy",},
-    {"name":"obj_amcd_arach_lvl5","order":1,"path":"objects/obj_amcd_arach_lvl5/obj_amcd_arach_lvl5.yy",},
+    {"name":"obj_amcd_arach_lvl5","order":5,"path":"objects/obj_amcd_arach_lvl5/obj_amcd_arach_lvl5.yy",},
     {"name":"obj_amcd_bulker_lvl2","order":3,"path":"objects/obj_amcd_bulker_lvl2/obj_amcd_bulker_lvl2.yy",},
     {"name":"obj_amcd_bulker_lvl3","order":1,"path":"objects/obj_amcd_bulker_lvl3/obj_amcd_bulker_lvl3.yy",},
     {"name":"obj_amcd_bulker_lvl5","order":2,"path":"objects/obj_amcd_bulker_lvl5/obj_amcd_bulker_lvl5.yy",},

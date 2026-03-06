@@ -17,7 +17,7 @@ global.gwiberlvl5pos = 4;
 
 // Gwiber Jump-Scare
 
-jump_scare_timer = 400
+jump_scare_timer = 350
 
 readytomove = true
 

@@ -42,9 +42,6 @@
     "name":"spr_amcd_00_prototype_1",
     "path":"sprites/spr_amcd_00_prototype_1/spr_amcd_00_prototype_1.yy",
   },
-  "spriteMaskId":{
-    "name":"spr_amcd_02_gwiber",
-    "path":"sprites/spr_amcd_02_gwiber/spr_amcd_02_gwiber.yy",
-  },
+  "spriteMaskId":null,
   "visible":true,
 }
