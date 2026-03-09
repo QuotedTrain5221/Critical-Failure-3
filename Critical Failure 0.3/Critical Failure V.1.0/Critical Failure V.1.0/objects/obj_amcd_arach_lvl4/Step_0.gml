@@ -24,11 +24,11 @@ move_time_mill = choose (3000, 1200, 700)}
 	
 	
 	
-	
+
 	if global.vent_front_closed{gofront = false}
 	if global.vent_back_closed{goback = false}
-	if !global.vent_front_closed{gofront = true}
-	if !global.vent_back_closed{goback = true}
+	if !global.vent_front_closed or global.vent_front_open {gofront = true}
+	if !global.vent_back_closed or global.vent_back_open {goback = true}
 	
 	
 	
