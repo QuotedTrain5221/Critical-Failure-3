@@ -5,8 +5,8 @@
   "isDnD":false,
   "name":"scr_change_camera_lvl2",
   "parent":{
-    "name":"Scripts",
-    "path":"folders/Scripts.yy",
+    "name":"Level Scripts",
+    "path":"folders/Scripts/Level Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",
