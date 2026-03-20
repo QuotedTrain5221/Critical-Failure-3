@@ -693,6 +693,7 @@
     {"name":"spr_scene_6","order":6,"path":"sprites/spr_scene_6/spr_scene_6.yy",},
     {"name":"spr_scene_7","order":7,"path":"sprites/spr_scene_7/spr_scene_7.yy",},
     {"name":"spr_scene_8","order":8,"path":"sprites/spr_scene_8/spr_scene_8.yy",},
+    {"name":"spr_scene_9","order":9,"path":"sprites/spr_scene_9/spr_scene_9.yy",},
     {"name":"spr_security_cam_hud_lvl1","order":2,"path":"sprites/spr_security_cam_hud_lvl1/spr_security_cam_hud_lvl1.yy",},
     {"name":"spr_security_cam_hud_lvl2","order":3,"path":"sprites/spr_security_cam_hud_lvl2/spr_security_cam_hud_lvl2.yy",},
     {"name":"spr_security_cam_hud_lvl3","order":4,"path":"sprites/spr_security_cam_hud_lvl3/spr_security_cam_hud_lvl3.yy",},

@@ -203,7 +203,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Critical Failure V.1.0",
   "resources":[
@@ -837,6 +837,7 @@
     {"id":{"name":"spr_scene_6","path":"sprites/spr_scene_6/spr_scene_6.yy",},},
     {"id":{"name":"spr_scene_7","path":"sprites/spr_scene_7/spr_scene_7.yy",},},
     {"id":{"name":"spr_scene_8","path":"sprites/spr_scene_8/spr_scene_8.yy",},},
+    {"id":{"name":"spr_scene_9","path":"sprites/spr_scene_9/spr_scene_9.yy",},},
     {"id":{"name":"spr_scene_zone","path":"sprites/spr_scene_zone/spr_scene_zone.yy",},},
     {"id":{"name":"spr_security_cam_hud_lvl1","path":"sprites/spr_security_cam_hud_lvl1/spr_security_cam_hud_lvl1.yy",},},
     {"id":{"name":"spr_security_cam_hud_lvl2","path":"sprites/spr_security_cam_hud_lvl2/spr_security_cam_hud_lvl2.yy",},},

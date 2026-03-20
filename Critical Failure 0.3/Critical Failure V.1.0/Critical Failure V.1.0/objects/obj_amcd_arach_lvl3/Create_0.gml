@@ -1,10 +1,8 @@
 amcd_id = 4;
 amcd_name = "Arach|"
 
-move_time_mill = choose(3000,1200,700)
+move_time_mill = choose(4000,3500,1850,4000,3500,)
 dead = false
-gofront = false
-goback = false
+ventchosen = 0;
 deathscreentimer = 150
-
-attacktimer = 400
+choseavent = false;

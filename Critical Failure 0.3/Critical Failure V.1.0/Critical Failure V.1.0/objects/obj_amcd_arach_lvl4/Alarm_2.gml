@@ -1,1 +1,0 @@
-move_time_mill = choose(3000,1200,700)

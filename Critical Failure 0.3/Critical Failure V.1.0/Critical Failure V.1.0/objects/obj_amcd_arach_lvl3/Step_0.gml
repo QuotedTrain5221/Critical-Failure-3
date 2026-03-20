@@ -1,53 +1,45 @@
-if dead = true{
-	deathscreentimer -=1
-	if instance_exists(obj_jump_scare_zone){
-	    instance_create_layer(obj_jump_scare_zone.x,obj_jump_scare_zone.y,"Instances",obj_arach_jump_scare)
-			instance_destroy(obj_jump_scare_zone)}
-			if dead = true {scr_change_camera_lvl4("jumpscarezone")};
+// What to do If dead = true
+if (dead) {
+    deathscreentimer -= 1;
+
+    // Take player to jumpscare zone and change the zone to show Arachs jumpscare
+    if (instance_exists(obj_jump_scare_zone)) {
+        instance_create_layer(obj_jump_scare_zone.x, obj_jump_scare_zone.y, "Instances", obj_arach_jump_scare);
+        instance_destroy(obj_jump_scare_zone);
+    }
+
+    scr_change_camera_lvl3("jumpscarezone");
+
+    if (deathscreentimer <= 0) {
+        room_goto(rm_death_screen);
+    }
+    
+    return; //stop Arach if dead = true
 }
-	if deathscreentimer = 0{room_goto(rm_death_screen)}
-	
-	if move_time_mill = 3000 or 1200 or 700{
-	move_time_mill =-1
-	choose (goback,gofront)}
-	
-	
-	
-	
-	if global.vent_front_closed{gofront = false}
-	if global.vent_back_closed{goback = false}
-	if !global.vent_front_closed{gofront = true}
-	if !global.vent_back_closed{goback = true}
-	
-	
-	
-	if move_time_mill = 0 and gofront = true{
-			audio_play_sound(snd_crawl,1,false)
-			attacktimer = -1}
-			
-	if move_time_mill = 0 and goback = true{
-			audio_play_sound(snd_crawl,1,false)
-			attacktimer = -1}
-			
-			if move_time_mill = 0 and gofront = false{
-			audio_play_sound(snd_crawl,1,false)
-			move_time_mill = choose(3000,1200,700)}
-			
-	if move_time_mill = 0 and goback = false{
-			audio_play_sound(snd_crawl,1,false)
-			move_time_mill = choose(3000,1200,700)}
-	
-	if attacktimer = 0 and gofront = true{
-		alarm[1] = 2}
-		
-		if attacktimer = 0 and goback = true{
-		alarm[1] = 2}
-		
-		if attacktimer = 0 and gofront = false{
-		move_time_mill = choose(3000,1200,700)
-		attacktimer = 400}
-		
-		if attacktimer = 0 and goback = false{
-		move_time_mill = choose(3000,1200,700)
-		attacktimer = 400}
-		
+
+//Move Timer decrease
+
+if move_time_mill <= 200 and !choseavent{
+	ventchosen = choose(1,2)
+	choseavent = true;
+	audio_play_sound(snd_crawl, 1, false);
+}
+if move_time_mill <= 0 {
+	if ventchosen = 1 and global.vent_front_open{
+		audio_play_sound_ext({ sound: snd_arach_jump_scare });
+dead = true
+	}
+	if ventchosen = 2 and global.vent_back_open{
+		audio_play_sound_ext({ sound: snd_arach_jump_scare });
+dead = true
+	}
+	if ventchosen = 1 and !global.vent_front_open{
+		move_time_mill = choose(4000,3500,1850,4000,3500,)
+		choseavent = false
+	}
+	if ventchosen = 2 and !global.vent_back_open{
+		move_time_mill = choose(4000,3500,1850,4000,3500,)
+		choseavent = false
+	}
+}
+move_time_mill -= 1;
