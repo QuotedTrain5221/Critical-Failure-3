@@ -176,6 +176,7 @@
     {"name":"obj_amcd_k9_lvl3","order":3,"path":"objects/obj_amcd_k9_lvl3/obj_amcd_k9_lvl3.yy",},
     {"name":"obj_amcd_k9_lvl5","order":4,"path":"objects/obj_amcd_k9_lvl5/obj_amcd_k9_lvl5.yy",},
     {"name":"obj_amcd_k9","order":1,"path":"objects/obj_amcd_k9/obj_amcd_k9.yy",},
+    {"name":"obj_animatic_controller","order":1,"path":"objects/obj_animatic_controller/obj_animatic_controller.yy",},
     {"name":"obj_arach_jump_scare","order":5,"path":"objects/obj_arach_jump_scare/obj_arach_jump_scare.yy",},
     {"name":"obj_back_vent_open","order":1,"path":"objects/obj_back_vent_open/obj_back_vent_open.yy",},
     {"name":"obj_bulker_jump_scare","order":3,"path":"objects/obj_bulker_jump_scare/obj_bulker_jump_scare.yy",},
