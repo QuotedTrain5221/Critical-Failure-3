@@ -150,6 +150,7 @@
     {"name":"Pause Screen","order":5,"path":"folders/Sprites/Screens/Pause Screen.yy",},
     {"name":"Timer","order":8,"path":"folders/Sprites/Timer.yy",},
     {"name":"Tutorial Scenes","order":11,"path":"folders/Sprites/Tutorial Scenes.yy",},
+    {"name":"VoiceLines","order":7,"path":"folders/Sprites/Tutorial Scenes/VoiceLines.yy",},
     {"name":"Template Scene zone","order":5,"path":"folders/Sprites/Tutorial Scenes/Template Scene zone.yy",},
     {"name":"Tutorial Level 1","order":4,"path":"folders/Sprites/Tutorial Scenes/Tutorial Level 1.yy",},
     {"name":"Up Close Zones","order":5,"path":"folders/Sprites/Up Close Zones.yy",},

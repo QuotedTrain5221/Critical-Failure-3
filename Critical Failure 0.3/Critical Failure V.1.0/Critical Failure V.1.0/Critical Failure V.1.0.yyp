@@ -187,6 +187,7 @@
     {"$GMFolder":"","%Name":"Pause Screen","folderPath":"folders/Sprites/Screens/Pause Screen.yy","name":"Pause Screen","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timer","folderPath":"folders/Sprites/Timer.yy","name":"Timer","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tutorial Scenes","folderPath":"folders/Sprites/Tutorial Scenes.yy","name":"Tutorial Scenes","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"VoiceLines","folderPath":"folders/Sprites/Tutorial Scenes/VoiceLines.yy","name":"VoiceLines","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Template Scene zone","folderPath":"folders/Sprites/Tutorial Scenes/Template Scene zone.yy","name":"Template Scene zone","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tutorial Level 1","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1.yy","name":"Tutorial Level 1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Up Close Zones","folderPath":"folders/Sprites/Up Close Zones.yy","name":"Up Close Zones","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -203,7 +204,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.3.217",
+    "IDEVersion":"2024.14.1.210",
   },
   "name":"Critical Failure V.1.0",
   "resources":[
@@ -850,6 +851,7 @@
     {"id":{"name":"spr_to_level3","path":"sprites/spr_to_level3/spr_to_level3.yy",},},
     {"id":{"name":"spr_to_level4","path":"sprites/spr_to_level4/spr_to_level4.yy",},},
     {"id":{"name":"spr_to_level5","path":"sprites/spr_to_level5/spr_to_level5.yy",},},
+    {"id":{"name":"spr_you_the_new_security_guard","path":"sprites/spr_you_the_new_security_guard/spr_you_the_new_security_guard.yy",},},
     {"id":{"name":"spr_zone_1_bulker","path":"sprites/spr_zone_1_bulker/spr_zone_1_bulker.yy",},},
     {"id":{"name":"spr_zone_1_gwiber_k9","path":"sprites/spr_zone_1_gwiber_k9/spr_zone_1_gwiber_k9.yy",},},
     {"id":{"name":"spr_zone_1_gwiber","path":"sprites/spr_zone_1_gwiber/spr_zone_1_gwiber.yy",},},
