@@ -22,7 +22,12 @@ if (dead) {
 if move_time_mill <= 200 and !choseavent{
 	ventchosen = choose(1,2)
 	choseavent = true;
-	audio_play_sound(snd_crawl, 1, false);
+	
+	if ventchosen = 1{
+	audio_play_sound(snd_crawl_front, 1, false);}
+	
+	if ventchosen = 2{
+			audio_play_sound(snd_crawl_back, 1, false);}
 }
 if move_time_mill <= 0 {
 	if ventchosen = 1 and global.vent_front_open{

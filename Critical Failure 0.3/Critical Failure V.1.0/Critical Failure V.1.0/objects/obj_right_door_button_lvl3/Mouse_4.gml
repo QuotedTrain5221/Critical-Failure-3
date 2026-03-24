@@ -9,4 +9,4 @@ if (instance_exists(obj_right_door_closed_up_close))
 sprite_index = global.door_right_open ? spr_door_controls_on_right : spr_door_controls_off_right;
 
 
-audio_play_sound_ext({ sound: snd_close_door_vent });
+audio_play_sound_ext({ sound: snd_right_door });
