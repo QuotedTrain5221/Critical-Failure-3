@@ -30,7 +30,7 @@ cam_x[13] = 1375;  cam_y[13] = 575; // Right Door
 cam_x[14] = 61;    cam_y[14] = 1574;
 
 //Tutorial Scene zone
-cam_x[15] = 503;    cam_y[15] = 1256;
+cam_x[15] = 1151;    cam_y[15] = 1139;
 //Start in the office
 global.current_zone = 15;
 

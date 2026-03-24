@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_animatic_controller",
+  "%Name":"obj_scene_4",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_animatic_controller",
+  "name":"obj_scene_4",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controllers",
-    "path":"folders/Objects/Animatic Tutorial/Animatic Tutorial level 1/Controllers.yy",
+    "name":"Scenes for obj to use",
+    "path":"folders/Objects/Animatic Tutorial/Animatic Tutorial level 1/Tutorial Scenes lvl1/Scenes for obj to use.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_scene_4",
+    "path":"sprites/spr_scene_4/spr_scene_4.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

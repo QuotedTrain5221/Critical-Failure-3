@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_animatic_controller",
+  "%Name":"Scene_3_to_4_button",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_animatic_controller",
+  "name":"Scene_3_to_4_button",
   "overriddenProperties":[],
   "parent":{
-    "name":"Controllers",
-    "path":"folders/Objects/Animatic Tutorial/Animatic Tutorial level 1/Controllers.yy",
+    "name":"Scene Buttons",
+    "path":"folders/Objects/Animatic Tutorial/Animatic Tutorial level 1/Buttons/Scene Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
