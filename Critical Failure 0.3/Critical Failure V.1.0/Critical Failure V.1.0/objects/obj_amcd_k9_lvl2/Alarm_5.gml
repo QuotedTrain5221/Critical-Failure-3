@@ -1,14 +1,14 @@
 	
 	
 // Zone 1 movement options
-if  global.k9pos = 1 { //cam 1
+if  global.k9lvl2pos = 1 { //cam 1
     alarm[0] = 2;
 	
 	
 		if forward and pickedadirection {
 		alarm[4] = 2;
-		global.k9footstep_cam5 = true
-		global.k9pos = 5;
+		global.k9footstep_cam5lvl2 = true
+		global.k9lvl2pos = 5;
 		pickedadirection = false
 		
 		if instance_exists(obj_cam_zone_5_gwiber){
@@ -48,8 +48,8 @@ if  global.k9pos = 1 { //cam 1
 		
 		if !forward and pickedadirection {
 		alarm[4] = 2;
-		global.k9footstep_cam2 = true
-		global.k9pos = 2;
+		global.k9footstep_cam2lvl2 = true
+		global.k9lvl2pos = 2;
 		pickedadirection = false
 		
 		if instance_exists(obj_cam_zone_2_gwiber){
@@ -92,10 +92,10 @@ if  global.k9pos = 1 { //cam 1
 
  
 // Zone 2 move options
-   if global.k9pos = 2{
+   if global.k9lvl2pos = 2{
 	   alarm[0] = 2
 	       audio_play_sound(snd_left_hallway,1,false)
-	   if !global.k9pos = 2{audio_stop_sound(snd_left_hallway)}
+	   if !global.k9lvl2pos = 2{audio_stop_sound(snd_left_hallway)}
     if forward and pickedadirection{
 	if global.door_left_open{
 	   jump_scare_timer = 350;
@@ -106,8 +106,8 @@ if  global.k9pos = 1 { //cam 1
 	   
 	   if !global.door_left_open{
 		   alarm[4] = 2;
-		   global.k9footstep_cam5 = true
-	   global.k9pos = 5
+		   global.k9footstep_cam5lvl2 = true
+	   global.k9lvl2pos = 5
 	   pickedadirection = false
 	   
 	   if instance_exists(obj_cam_zone_5_gwiber){
@@ -158,8 +158,8 @@ if  global.k9pos = 1 { //cam 1
 	   
 	   if !global.door_left_open{
 		   alarm[4] = 2;
-		   global.k9footstep_cam5 = true
-	   global.k9pos = 5
+		   global.k9footstep_cam5lvl2 = true
+	   global.k9lvl2pos = 5
 	   pickedadirection = false
 	   
 	    if instance_exists(obj_cam_zone_5_gwiber){
@@ -201,12 +201,12 @@ if  global.k9pos = 1 { //cam 1
 		}
 	}
 
-        show_debug_message(amcd_name + " moved zone " + string(global.k9pos))}
+        show_debug_message(amcd_name + " moved zone " + string(global.k9lvl2pos))}
 
   
 // Zone 5 move options
 
-   if global.k9pos = 5 { //cam 5
+   if global.k9lvl2pos = 5 { //cam 5
     alarm[0] = 2;
 	
 	
@@ -214,8 +214,8 @@ if  global.k9pos = 1 { //cam 1
 		
 	if corridordirection = 1 and pickedadirection {
 		alarm[4] = 2;
-		global.k9footstep_cam1 = true
-		global.k9pos = 1;
+		global.k9footstep_cam1lvl2 = true
+		global.k9lvl2pos = 1;
 		pickedadirection = false
 		
 		if instance_exists(obj_cam_zone_1_gwiber){
@@ -259,8 +259,8 @@ if  global.k9pos = 1 { //cam 1
 
 	if corridordirection = 2 and pickedadirection{
 		alarm[4] = 2;
-		global.k9footstep_cam6 = true
-		global.k9pos = 6;
+		global.k9footstep_cam6lvl2 = true
+		global.k9lvl2pos = 6;
 		pickedadirection = false
 		
 	   if instance_exists(obj_cam_zone_6_prototype){
@@ -294,15 +294,15 @@ if  global.k9pos = 1 { //cam 1
  
 
 // Zone 6 movement options
-if global.k9pos = 6 { //cam 6
+if global.k9lvl2pos = 6 { //cam 6
     alarm[0] = 2;
     
 		
 	
 	if !forward and pickedadirection{
 		alarm[4] = 2;
-		global.k9footstep_cam7 = true
-		global.k9pos = 7;
+		global.k9footstep_cam7lvl2 = true
+		global.k9lvl2pos = 7;
 		pickedadirection = false
 		
 		if instance_exists(obj_cam_zone_7_prototype){
@@ -338,8 +338,8 @@ if global.k9pos = 6 { //cam 6
 }
 	if forward and pickedadirection {
 		alarm[4] = 2;
-		global.k9footstep_cam7 = true
-		global.k9pos = 7;
+		global.k9footstep_cam7lvl2 = true
+		global.k9lvl2pos = 7;
 		pickedadirection = false
 		
 		if instance_exists(obj_cam_zone_7_prototype){
@@ -379,10 +379,10 @@ if global.k9pos = 6 { //cam 6
 
 
 // Zone 7 move options
-   if global.k9pos = 7{
+   if global.k9lvl2pos = 7{
 	   alarm[0] = 2
 	       audio_play_sound(snd_right_hallway,1,false)
-	   if !global.k9pos = 7{audio_stop_sound(snd_right_hallway)}
+	   if !global.k9lvl2pos = 7{audio_stop_sound(snd_right_hallway)}
     if forward and pickedadirection{
 	if global.door_right_open{
 	   jump_scare_timer = 350;
@@ -393,8 +393,8 @@ if global.k9pos = 6 { //cam 6
 	   
 	   if !global.door_right_open{
 		   alarm[4] = 2;
-		   global.k9footstep_cam5 = true
-	   global.k9pos = 5
+		   global.k9footstep_cam5lvl2 = true
+	   global.k9lvl2pos = 5
 	   pickedadirection = false
 		
 		if instance_exists(obj_cam_zone_5_prototype){
@@ -443,8 +443,8 @@ if global.k9pos = 6 { //cam 6
 	   
 	   if !global.door_right_open{
 		   alarm[4] = 2;
-		   global.k9footstep_cam5 = true
-	   global.k9pos = 5
+		   global.k9footstep_cam5lvl2 = true
+	   global.k9lvl2pos = 5
 	   pickedadirection = false
 	   
 	   if instance_exists(obj_cam_zone_5_prototype){
@@ -482,4 +482,4 @@ if global.k9pos = 6 { //cam 6
  
 }
    
-        show_debug_message(amcd_name + "Moved to Zone " + string(global.k9pos));
+        show_debug_message(amcd_name + "Moved to Zone " + string(global.k9lvl2pos));

@@ -180,11 +180,11 @@ if global.gwiberlvl3pos = 4 { //cam 4
 		}
 	   
 		  
-		 
+		 if instance_exists(obj_cam_zone_3_lvl3){
 		     instance_create_layer(obj_cam_zone_3_lvl3.x,obj_cam_zone_3_lvl3.y,"Instances",obj_cam_zone_3_gwiber)
 			instance_destroy(obj_cam_zone_3_lvl3)
 		  }
-		  
+	   }
 		  
 	}
     if !forward and pickedadirection{
@@ -197,6 +197,13 @@ if global.gwiberlvl3pos = 4 { //cam 4
 			instance_create_layer(obj_cam_zone_2_gwiber.x,obj_cam_zone_2_gwiber.y,"Instances",obj_cam_zone_2_lvl3) 
 		instance_destroy(obj_cam_zone_2_gwiber)
 		}
+		
+		 if instance_exists(obj_cam_zone_3_lvl3){
+		     instance_create_layer(obj_cam_zone_3_lvl3.x,obj_cam_zone_3_lvl3.y,"Instances",obj_cam_zone_3_gwiber)
+			instance_destroy(obj_cam_zone_3_lvl3)
+		  }
+	}
+	
 		
 		alarm[4] = 2;		
         global.gwiberlvl3pos = choose(1,3);
@@ -213,7 +220,8 @@ if global.gwiberlvl3pos = 4 { //cam 4
 	   
 		  
 		  
-		     instance_create_layer(obj_cam_zone_3_lvl3.x,obj_cam_zone_3_lvl2.y,"Instances",obj_cam_zone_3_gwiber)
+		    if instance_exists(obj_cam_zone_3_lvl3){
+		     instance_create_layer(obj_cam_zone_3_lvl3.x,obj_cam_zone_3_lvl3.y,"Instances",obj_cam_zone_3_gwiber)
 			instance_destroy(obj_cam_zone_3_lvl3)
 		  }
 	
