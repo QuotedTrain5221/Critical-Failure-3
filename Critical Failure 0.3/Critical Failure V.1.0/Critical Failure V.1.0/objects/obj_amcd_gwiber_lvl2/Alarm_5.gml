@@ -3,14 +3,7 @@
 if  global.gwiberlvl2pos = 1 { //cam 1
     alarm[0] = 2;
 	
-	if instance_exists(obj_cam_zone_1_gwiber_k9){
-			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_k9) 
-		instance_destroy(obj_cam_zone_1_gwiber_k9)
-		}
-		if instance_exists(obj_cam_zone_1_gwiber){
-			instance_create_layer(obj_cam_zone_1_gwiber.x,obj_cam_zone_1_gwiber.y,"Instances",obj_cam_zone_1_lvl2) 
-		instance_destroy(obj_cam_zone_1_gwiber)
-		}
+	
 	
 		if !forward and pickedadirection {
 		alarm[4] = 2;
@@ -28,6 +21,14 @@ if  global.gwiberlvl2pos = 1 { //cam 1
 		instance_destroy(obj_cam_zone_5_lvl2);
 		show_debug_message("destroyed old instance");
 		}
+		if instance_exists(obj_cam_zone_1_gwiber_k9){
+			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_k9) 
+		instance_destroy(obj_cam_zone_1_gwiber_k9)
+		}
+		if instance_exists(obj_cam_zone_1_gwiber){
+			instance_create_layer(obj_cam_zone_1_gwiber.x,obj_cam_zone_1_gwiber.y,"Instances",obj_cam_zone_1_lvl2) 
+		instance_destroy(obj_cam_zone_1_gwiber)
+		}
 		}
 		
 		if forward and pickedadirection {
@@ -43,6 +44,14 @@ if  global.gwiberlvl2pos = 1 { //cam 1
 		if instance_exists(obj_cam_zone_2_lvl2){
 		instance_create_layer(obj_cam_zone_2_lvl2.x,obj_cam_zone_2_lvl2.y,"Instances",obj_cam_zone_2_gwiber)
 		instance_destroy(obj_cam_zone_2_lvl2)
+		}
+		if instance_exists(obj_cam_zone_1_gwiber_k9){
+			instance_create_layer(obj_cam_zone_1_gwiber_k9.x,obj_cam_zone_1_gwiber_k9.y,"Instances",obj_cam_zone_1_k9) 
+		instance_destroy(obj_cam_zone_1_gwiber_k9)
+		}
+		if instance_exists(obj_cam_zone_1_gwiber){
+			instance_create_layer(obj_cam_zone_1_gwiber.x,obj_cam_zone_1_gwiber.y,"Instances",obj_cam_zone_1_lvl2) 
+		instance_destroy(obj_cam_zone_1_gwiber)
 		}
 		}
  
@@ -67,19 +76,21 @@ if  global.gwiberlvl2pos = 1 { //cam 1
 if global.gwiberlvl2pos = 3 { //cam 3
     alarm[0] = 2;
 	
-	if instance_exists(obj_cam_zone_3_gwiber){
-			instance_create_layer(obj_cam_zone_3_gwiber.x,obj_cam_zone_3_gwiber.y,"Instances",obj_cam_zone_3_lvl2) 
-		instance_destroy(obj_cam_zone_3_gwiber)}
-		
 	
 	if !forward and pickedadirection{
 		alarm[4] = 2;
+		global.gwiberlvl2pos = 4;
+		pickedadirection = false
+		
 		if instance_exists(obj_cam_zone_4_lvl2){
 		instance_create_layer(obj_cam_zone_4_lvl2.x,obj_cam_zone_4_lvl2.y,"Instances",obj_cam_zone_4_gwiber)
 		instance_destroy(obj_cam_zone_4_lvl2)}
 		
-		global.gwiberlvl2pos = 4;
-		pickedadirection = false
+		if instance_exists(obj_cam_zone_3_gwiber){
+			instance_create_layer(obj_cam_zone_3_gwiber.x,obj_cam_zone_3_gwiber.y,"Instances",obj_cam_zone_3_lvl2) 
+		instance_destroy(obj_cam_zone_3_gwiber)}
+		
+		
 		}
 	if forward and pickedadirection {
 		alarm[4] = 2;
@@ -94,6 +105,9 @@ if global.gwiberlvl2pos = 3 { //cam 3
 		instance_create_layer(obj_cam_zone_2_lvl2.x,obj_cam_zone_2_lvl2.y,"Instances",obj_cam_zone_2_gwiber)
 		instance_destroy(obj_cam_zone_2_lvl2)
 		}
+		if instance_exists(obj_cam_zone_3_gwiber){
+			instance_create_layer(obj_cam_zone_3_gwiber.x,obj_cam_zone_3_gwiber.y,"Instances",obj_cam_zone_3_lvl2) 
+		instance_destroy(obj_cam_zone_3_gwiber)}
 	}
 			
 	}
@@ -107,6 +121,9 @@ if global.gwiberlvl2pos = 4 { //cam 4
     
 	if forward and pickedadirection {
 		alarm[4] = 2
+		global.gwiberlvl2pos = 3;
+		pickedadirection = false
+		
 		if instance_exists(obj_cam_zone_3_lvl2){
 		instance_create_layer(obj_cam_zone_3_lvl2.x,obj_cam_zone_3_lvl2.y,"Instances",obj_cam_zone_3_gwiber)
 			instance_destroy(obj_cam_zone_3_lvl2)}
@@ -115,8 +132,7 @@ if global.gwiberlvl2pos = 4 { //cam 4
 			instance_create_layer(obj_cam_zone_4_gwiber.x,obj_cam_zone_4_gwiber.y,"Instances",obj_cam_zone_4_lvl2) 
 		instance_destroy(obj_cam_zone_4_gwiber)
 		}
-		global.gwiberlvl2pos = 3;
-		pickedadirection = false
+		
 		
 		
 	}
@@ -125,6 +141,11 @@ if global.gwiberlvl2pos = 4 { //cam 4
 		alarm[4] = 2;
 		global.gwiberlvl2pos = 4;
 		pickedadirection = false
+		
+		if instance_exists(obj_cam_zone_4_lvl2){
+		instance_create_layer(obj_cam_zone_4_lvl2.x,obj_cam_zone_4_lvl2.y,"Instances",obj_cam_zone_4_gwiber)
+			instance_destroy(obj_cam_zone_4_lvl2)}
+		
 	}
 }
   // Zone 2 move options
