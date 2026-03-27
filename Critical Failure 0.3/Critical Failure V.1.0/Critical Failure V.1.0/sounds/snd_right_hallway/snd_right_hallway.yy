@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"snd_right_hallway.mp3",
+  "soundFile":"snd_right_hallway.wav",
   "volume":1.0,
 }

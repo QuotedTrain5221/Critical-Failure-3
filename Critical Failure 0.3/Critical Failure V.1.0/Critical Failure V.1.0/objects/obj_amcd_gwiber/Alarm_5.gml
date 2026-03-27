@@ -243,7 +243,7 @@ if global.gwiberpos = 4 { //cam 4
 		instance_destroy(obj_cam_zone_1_lvl1)
 		}
 	
-	}
+	
 
 	if !forward and pickedadirection{
 		alarm[4] = 2;
@@ -262,4 +262,4 @@ if global.gwiberpos = 4 { //cam 4
 		
 		}
    }
-        show_debug_message(amcd_name + "Moved to Zone " + string(global.gwiberpos));
+        show_debug_message(amcd_name + "Moved to Zone " + string(global.gwiberpos))};

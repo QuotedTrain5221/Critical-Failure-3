@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_scene_3",
-    "path":"sprites/spr_scene_3/spr_scene_3.yy",
+    "name":"spr_scene_3_B",
+    "path":"sprites/spr_scene_3_B/spr_scene_3_B.yy",
   },
   "spriteMaskId":null,
   "visible":true,

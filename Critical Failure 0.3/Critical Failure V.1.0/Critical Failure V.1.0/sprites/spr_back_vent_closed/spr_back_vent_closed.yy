@@ -19,8 +19,7 @@
   "height":219,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"a8daa90a-1144-49b6-9617-d9d612de284d","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"a8daa90a-1144-49b6-9617-d9d612de284d","opacity":15.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"ec890a5b-b565-4f21-8bb0-6fbc14642b31","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"ec890a5b-b565-4f21-8bb0-6fbc14642b31","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"3314f303-7665-40cc-b894-41a44d4bf406","blendMode":0,"displayName":"default","isLocked":false,"name":"3314f303-7665-40cc-b894-41a44d4bf406","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_back_vent_closed",
   "nineSlice":null,

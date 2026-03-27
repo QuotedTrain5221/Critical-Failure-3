@@ -42,7 +42,7 @@ if  global.k9pos = 1 { //cam 1
 			instance_create_layer(obj_cam_zone_1_prototype_k9.x,obj_cam_zone_1_prototype_k9.y,"Instances",obj_cam_zone_1_prototype) 
 		instance_destroy(obj_cam_zone_1_prototype_k9)
 		}
-		}
+		
  
 }
 		
@@ -84,7 +84,7 @@ if  global.k9pos = 1 { //cam 1
 		instance_destroy(obj_cam_zone_1_prototype_k9)
 		}
 		}
- 
+}
 
  
 
@@ -253,7 +253,7 @@ if  global.k9pos = 1 { //cam 1
 			instance_create_layer(obj_cam_zone_5_gwiber_k9.x,obj_cam_zone_5_gwiber_k9.y,"Instances",obj_cam_zone_5_gwiber) 
 		instance_destroy(obj_cam_zone_5_gwiber_k9)
 		}
-		}
+		
  
 }
 
@@ -291,7 +291,7 @@ if  global.k9pos = 1 { //cam 1
 		instance_destroy(obj_cam_zone_5_gwiber_k9)
 		}
 		}
- 
+   }
 
 // Zone 6 movement options
 if global.k9pos = 6 { //cam 6
@@ -333,7 +333,7 @@ if global.k9pos = 6 { //cam 6
 			instance_create_layer(obj_cam_zone_6_k9.x,obj_cam_zone_6_k9.y,"Instances",obj_cam_zone_6_lvl5) 
 		instance_destroy(obj_cam_zone_6_k9)
 		}
-	}
+	
  
 }
 	if forward and pickedadirection {
@@ -371,7 +371,7 @@ if global.k9pos = 6 { //cam 6
 		instance_destroy(obj_cam_zone_6_k9)
 		}
 	}
- 
+}
 
 	   
 		
@@ -480,6 +480,6 @@ if global.k9pos = 6 { //cam 6
 	   }
 	}
  
-}
+
    
-        show_debug_message(amcd_name + "Moved to Zone " + string(global.k9pos));
+        show_debug_message(amcd_name + "Moved to Zone " + string(global.k9lvl5pos))};

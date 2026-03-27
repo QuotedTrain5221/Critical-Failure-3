@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_scene_1_elevator",
-    "path":"sprites/spr_scene_1_elevator/spr_scene_1_elevator.yy",
+    "name":"spr_scene_1_A",
+    "path":"sprites/spr_scene_1_A/spr_scene_1_A.yy",
   },
   "spriteMaskId":null,
   "visible":true,
