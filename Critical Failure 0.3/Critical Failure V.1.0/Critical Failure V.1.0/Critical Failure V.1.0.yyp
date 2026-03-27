@@ -192,8 +192,8 @@
     {"$GMFolder":"","%Name":"Tutorial Level 1","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1.yy","name":"Tutorial Level 1","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scene A","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene A.yy","name":"Scene A","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scene B","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene B.yy","name":"Scene B","resourceType":"GMFolder","resourceVersion":"2.0",},
-    {"$GMFolder":"","%Name":"Scene 4","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene B/Scene 4.yy","name":"Scene 4","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scene 3","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene B/Scene 3.yy","name":"Scene 3","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"Scene 4","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene B/Scene 4.yy","name":"Scene 4","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scene C","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene C.yy","name":"Scene C","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scene D","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene D.yy","name":"Scene D","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Scene E","folderPath":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene E.yy","name":"Scene E","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -213,7 +213,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.3.217",
   },
   "name":"Critical Failure V.1.0",
   "resources":[
@@ -868,6 +868,7 @@
     {"id":{"name":"spr_scene_4_B_10","path":"sprites/spr_scene_4_B_10/spr_scene_4_B_10.yy",},},
     {"id":{"name":"spr_scene_4_B_11","path":"sprites/spr_scene_4_B_11/spr_scene_4_B_11.yy",},},
     {"id":{"name":"spr_scene_4_B_12","path":"sprites/spr_scene_4_B_12/spr_scene_4_B_12.yy",},},
+    {"id":{"name":"spr_scene_4_B_13","path":"sprites/spr_scene_4_B_13/spr_scene_4_B_13.yy",},},
     {"id":{"name":"spr_scene_4_B_2","path":"sprites/spr_scene_4_B_2/spr_scene_4_B_2.yy",},},
     {"id":{"name":"spr_scene_4_B_3","path":"sprites/spr_scene_4_B_3/spr_scene_4_B_3.yy",},},
     {"id":{"name":"spr_scene_4_B_4","path":"sprites/spr_scene_4_B_4/spr_scene_4_B_4.yy",},},

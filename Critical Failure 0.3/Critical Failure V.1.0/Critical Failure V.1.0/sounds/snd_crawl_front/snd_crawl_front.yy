@@ -10,7 +10,7 @@
   "compression":2,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":30.0,
+  "duration":7.0,
   "exportDir":"",
   "name":"snd_crawl_front",
   "parent":{

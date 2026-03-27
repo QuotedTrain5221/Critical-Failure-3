@@ -10,7 +10,7 @@
   "compression":1,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":2.922653,
+  "duration":30.0,
   "exportDir":"",
   "name":"snd_left_hallway",
   "parent":{
