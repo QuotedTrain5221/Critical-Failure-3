@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Scene C",
-    "path":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene C.yy",
+    "name":"Scene 7",
+    "path":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene C/Scene 7.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

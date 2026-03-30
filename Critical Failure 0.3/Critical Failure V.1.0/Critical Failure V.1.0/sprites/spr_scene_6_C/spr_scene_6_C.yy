@@ -23,6 +23,8 @@
   "height":225,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"beaac477-042e-43c5-879c-6f81bd301e5e","blendMode":0,"displayName":"Layer 8","isLocked":false,"name":"beaac477-042e-43c5-879c-6f81bd301e5e","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d9249011-db8a-495a-b178-dc034c693b10","blendMode":0,"displayName":"Layer 7","isLocked":false,"name":"d9249011-db8a-495a-b178-dc034c693b10","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"6ad451ce-6ed8-4cea-b80c-01aa4b689d47","blendMode":0,"displayName":"Layer 6","isLocked":false,"name":"6ad451ce-6ed8-4cea-b80c-01aa4b689d47","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"397fcaae-41ef-417e-a032-d7569154fde2","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"397fcaae-41ef-417e-a032-d7569154fde2","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"df3003a7-fd3e-4142-b035-98ab88ec985b","blendMode":0,"displayName":"Layer 5","isLocked":false,"name":"df3003a7-fd3e-4142-b035-98ab88ec985b","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
@@ -34,8 +36,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Scene C",
-    "path":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene C.yy",
+    "name":"Scene 6",
+    "path":"folders/Sprites/Tutorial Scenes/Tutorial Level 1/Scene C/Scene 6.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
